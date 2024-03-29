@@ -22,7 +22,7 @@ lazy_static! {
                 std::fs::write(&env, DEFAULT_GLOBALS).unwrap();
             }
 
-            DEFAULT_GLOBALS.to_string()
+            std::fs::read_to_string(&env).unwrap()
         };
 
         from_str(&data).unwrap()
