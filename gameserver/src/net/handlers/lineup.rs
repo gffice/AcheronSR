@@ -15,7 +15,8 @@ pub async fn on_get_all_lineup_data_cs_req(
                     plane_id: 10001,
                     name: String::from("Lineup 1"),
                     index: 0,
-                    avatar_list: globals::LINEUP
+                    avatar_list: globals
+                        .lineup
                         .iter()
                         .enumerate()
                         .map(|(idx, id)| LineupAvatar {
@@ -53,7 +54,8 @@ pub async fn on_get_cur_lineup_data_cs_req(
                     leader_slot: 0,
                     mp: 5,
                     mp_max: 5,
-                    avatar_list: globals::LINEUP
+                    avatar_list: globals
+                        .lineup
                         .iter()
                         .enumerate()
                         .map(|(idx, id)| LineupAvatar {

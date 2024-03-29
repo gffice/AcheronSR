@@ -14,7 +14,8 @@ pub async fn on_start_cocoon_stage_cs_req(
             stage_id: 201012311,
             logic_random_seed: 4444,
             battle_id: 1,
-            battle_avatar_list: globals::LINEUP
+            battle_avatar_list: globals
+                .lineup
                 .iter()
                 .enumerate()
                 .map(|(idx, id)| BattleAvatar {
