@@ -1,6 +1,5 @@
 use super::*;
-
-static BATTLE_LINEUP: [u32; 4] = [1309, 1308, 1307, 1315];
+use crate::game::globals;
 
 pub async fn on_start_cocoon_stage_cs_req(
     session: &mut PlayerSession,
@@ -15,7 +14,7 @@ pub async fn on_start_cocoon_stage_cs_req(
             stage_id: 201012311,
             logic_random_seed: 4444,
             battle_id: 1,
-            battle_avatar_list: BATTLE_LINEUP
+            battle_avatar_list: globals::LINEUP
                 .iter()
                 .enumerate()
                 .map(|(idx, id)| BattleAvatar {

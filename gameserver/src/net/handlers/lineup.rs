@@ -1,6 +1,5 @@
 use super::*;
-
-static STARTING_LINEUP: [u32; 4] = [1309, 1308, 1307, 1315];
+use crate::game::globals;
 
 pub async fn on_get_all_lineup_data_cs_req(
     session: &mut PlayerSession,
@@ -16,7 +15,7 @@ pub async fn on_get_all_lineup_data_cs_req(
                     plane_id: 10001,
                     name: String::from("Lineup 1"),
                     index: 0,
-                    avatar_list: STARTING_LINEUP
+                    avatar_list: globals::LINEUP
                         .iter()
                         .enumerate()
                         .map(|(idx, id)| LineupAvatar {
@@ -51,7 +50,7 @@ pub async fn on_get_cur_lineup_data_cs_req(
                     plane_id: 10001,
                     name: String::from("Lineup 1"),
                     index: 0,
-                    avatar_list: STARTING_LINEUP
+                    avatar_list: globals::LINEUP
                         .iter()
                         .enumerate()
                         .map(|(idx, id)| LineupAvatar {
