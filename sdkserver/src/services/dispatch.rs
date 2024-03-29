@@ -1,3 +1,5 @@
+use std::env;
+
 use prost::Message;
 use proto::{Dispatch, Gateserver, RegionInfo};
 
@@ -30,17 +32,11 @@ pub async fn query_gateway() -> String {
         retcode: 0,
         ip: String::from("127.0.0.1"),
         port: 23301,
-        asset_bundle_url: String::from(
-            "https://autopatchcn.bhsr.com/asb/BetaLive/output_6744505_89b2f5dc973e",
-        ),
-        lua_url: String::from(
-            "https://autopatchcn.bhsr.com/lua/BetaLive/output_6755976_3c46d7c46e2c",
-        ),
-        ex_resource_url: String::from(
-            "https://autopatchcn.bhsr.com/design_data/BetaLive/output_6759713_b4e0e740f0da",
-        ),
+        asset_bundle_url: env::var("ASSET_BUNDLE_URL").unwrap(),
+        ex_resource_url: env::var("EX_RESOURCE_URL").unwrap(),
+        lua_url: env::var("LUA_URL").unwrap(),
+        lua_version: env::var("LUA_VERSION").unwrap(),
         ifix_version: String::from("0"),
-        lua_version: String::from("6755976"),
         jblkncaoiao: true,
         hjdjakjkdbi: true,
         ldknmcpffim: true,
