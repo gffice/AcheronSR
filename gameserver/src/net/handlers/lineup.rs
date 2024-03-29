@@ -50,6 +50,9 @@ pub async fn on_get_cur_lineup_data_cs_req(
                     plane_id: 10001,
                     name: String::from("Lineup 1"),
                     index: 0,
+                    leader_slot: 0,
+                    mp: 5,
+                    mp_max: 5,
                     avatar_list: globals::LINEUP
                         .iter()
                         .enumerate()

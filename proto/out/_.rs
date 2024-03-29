@@ -8132,15 +8132,15 @@ pub struct LineupInfo {
     #[prost(bool, tag = "8")]
     pub is_virtual: bool,
     #[prost(uint32, tag = "7")]
-    pub hpammbapokf: u32,
+    pub leader_slot: u32,
     #[prost(uint32, repeated, tag = "10")]
     pub hkbiidjenib: ::prost::alloc::vec::Vec<u32>,
     #[prost(bool, tag = "12")]
     pub pojohohkppa: bool,
     #[prost(uint32, tag = "6")]
-    pub bpkggopoppf: u32,
+    pub mp_max: u32,
     #[prost(uint32, tag = "9")]
-    pub njjbfegnhjc: u32,
+    pub mp: u32,
 }
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
