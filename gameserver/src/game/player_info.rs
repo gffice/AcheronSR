@@ -5,12 +5,14 @@ use anyhow::Result;
 use proto::*;
 
 pub struct PlayerInfo {
+    pub uid: u32,
     pub lineup: LineupInfo,
 }
 
 impl PlayerInfo {
     pub fn new() -> Self {
         Self {
+            uid: 1337,
             lineup: default_lineup(),
         }
     }

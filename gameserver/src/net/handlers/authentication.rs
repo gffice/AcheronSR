@@ -13,7 +13,7 @@ pub async fn on_player_get_token_cs_req(
             PlayerGetTokenScRsp {
                 retcode: 0,
                 msg: String::from("OK"),
-                uid: 1337,
+                uid: session.player_uid(),
                 ..Default::default()
             },
         )

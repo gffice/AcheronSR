@@ -26,7 +26,7 @@ pub async fn on_get_cur_scene_info_cs_req(
                                     avatar_type: 3,
                                     base_avatar_id: 1309,
                                     map_layer: 2,
-                                    uid: 1337,
+                                    uid: session.player_uid(),
                                 }),
                                 motion: Some(MotionInfo {
                                     aomilajjmii: Some(Vector {

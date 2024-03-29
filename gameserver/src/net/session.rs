@@ -51,6 +51,10 @@ impl PlayerSession {
         self.client_socket.lock().await
     }
 
+    pub fn player_uid(&self) -> u32 {
+        self.player_info().uid
+    }
+
     pub fn player_info(&self) -> AtomicRef<PlayerInfo> {
         self.player_info.borrow()
     }
