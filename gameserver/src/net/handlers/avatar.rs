@@ -8,7 +8,7 @@ static UNLOCKED_AVATARS: [u32; 49] = [
 ];
 
 pub async fn on_get_avatar_data_cs_req(
-    session: &mut PlayerSession,
+    session: &PlayerSession,
     body: &GetAvatarDataCsReq,
 ) -> Result<()> {
     session

@@ -8,7 +8,7 @@ static TUTORIAL_IDS: [u32; 55] = [
 ];
 
 pub async fn on_get_tutorial_cs_req(
-    session: &mut PlayerSession,
+    session: &PlayerSession,
     _body: &GetTutorialCsReq,
 ) -> Result<()> {
     session
@@ -29,7 +29,7 @@ pub async fn on_get_tutorial_cs_req(
 }
 
 pub async fn on_get_tutorial_guide_cs_req(
-    session: &mut PlayerSession,
+    session: &PlayerSession,
     _body: &GetTutorialGuideCsReq,
 ) -> Result<()> {
     session
@@ -44,7 +44,7 @@ pub async fn on_get_tutorial_guide_cs_req(
 }
 
 pub async fn on_unlock_tutorial_guide_cs_req(
-    session: &mut PlayerSession,
+    session: &PlayerSession,
     body: &UnlockTutorialGuideCsReq,
 ) -> Result<()> {
     session

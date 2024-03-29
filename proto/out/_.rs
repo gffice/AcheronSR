@@ -9165,7 +9165,7 @@ pub struct VirtualLineupDestroyNotify {
 #[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
-pub struct Kcllnhmojig {
+pub struct LineupSlotInfo {
     #[prost(uint32, tag = "11")]
     pub slot: u32,
     #[prost(enumeration = "AvatarType", tag = "14")]
@@ -9182,13 +9182,13 @@ pub struct ReplaceLineupCsReq {
     #[prost(uint32, tag = "6")]
     pub djdbkfnekpf: u32,
     #[prost(uint32, tag = "12")]
-    pub hpammbapokf: u32,
+    pub leader_slot: u32,
     #[prost(bool, tag = "10")]
     pub is_virtual: bool,
     #[prost(uint32, tag = "2")]
     pub plane_id: u32,
     #[prost(message, repeated, tag = "5")]
-    pub jkifflmenfn: ::prost::alloc::vec::Vec<Kcllnhmojig>,
+    pub lineup_slots: ::prost::alloc::vec::Vec<LineupSlotInfo>,
     #[prost(enumeration = "ExtraLineupType", tag = "9")]
     pub extra_lineup_type: i32,
 }

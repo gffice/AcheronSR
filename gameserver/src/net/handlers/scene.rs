@@ -1,7 +1,7 @@
 use super::*;
 
 pub async fn on_get_cur_scene_info_cs_req(
-    session: &mut PlayerSession,
+    session: &PlayerSession,
     _body: &GetCurSceneInfoCsReq,
 ) -> Result<()> {
     session

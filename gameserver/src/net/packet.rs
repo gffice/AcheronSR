@@ -62,13 +62,13 @@ macro_rules! trait_handler {
         pub trait CommandHandler {
             $(
                 paste! {
-                    async fn [<on_$name:snake>](session: &mut PlayerSession, body: &$name) -> Result<()> {
+                    async fn [<on_$name:snake>](session: &PlayerSession, body: &$name) -> Result<()> {
                         [<on_$name:snake>](session, body).await
                     }
                 }
             )*
 
-            async fn on_message(session: &mut PlayerSession, cmd_type: u16, payload: Vec<u8>) -> Result<()> {
+            async fn on_message(session: &PlayerSession, cmd_type: u16, payload: Vec<u8>) -> Result<()> {
                 use ::prost::Message;
                 if PlayerSession::should_send_dummy_rsp(cmd_type) {
                     session.send_dummy_response(cmd_type).await?;
@@ -641,18 +641,18 @@ trait_handler! {
     // ExtraLineupDestroyNotify 763;
     // GetLineupAvatarDataCsReq 768;
     // SwitchLineupIndexScRsp 795;
-    // JoinLineupCsReq 702;
+    JoinLineupCsReq 702;
     // GetAllLineupDataScRsp 716;
     // SetLineupNameCsReq 742;
     // ChangeLineupLeaderScRsp 733;
     ChangeLineupLeaderCsReq 706;
-    // ReplaceLineupCsReq 785;
+    ReplaceLineupCsReq 785;
     // SwapLineupCsReq 786;
     // QuitLineupScRsp 743;
     // GetLineupAvatarDataScRsp 796;
     // ReplaceLineupScRsp 756;
     // GetStageLineupCsReq 734;
-    // QuitLineupCsReq 719;
+    QuitLineupCsReq 719;
     // SetLineupNameScRsp 737;
     // SwitchLineupIndexCsReq 759;
     GetCurLineupDataCsReq 762;

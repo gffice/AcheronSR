@@ -41,7 +41,7 @@ static FINISHED_MAIN_MISSIONS: [u32; 365] = [
 ];
 
 pub async fn on_get_mission_status_cs_req(
-    session: &mut PlayerSession,
+    session: &PlayerSession,
     body: &GetMissionStatusCsReq,
 ) -> Result<()> {
     let rsp = GetMissionStatusScRsp {

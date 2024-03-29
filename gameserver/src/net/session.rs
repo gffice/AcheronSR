@@ -1,26 +1,38 @@
 use anyhow::Result;
+use atomic_refcell::{AtomicRef, AtomicRefCell, AtomicRefMut};
 use prost::Message;
-use tokio::{io::AsyncWriteExt, net::TcpStream};
+use std::sync::Arc;
+use tokio::{
+    io::AsyncWriteExt,
+    net::TcpStream,
+    sync::{Mutex, MutexGuard},
+};
+
+use crate::game::PlayerInfo;
 
 use super::{packet::CommandHandler, NetPacket};
 
 pub struct PlayerSession {
-    pub(crate) client_socket: TcpStream,
+    client_socket: Arc<Mutex<TcpStream>>,
+    player_info: Arc<AtomicRefCell<PlayerInfo>>,
 }
 
 impl PlayerSession {
-    pub const fn new(client_socket: TcpStream) -> Self {
-        Self { client_socket }
+    pub fn new(client_socket: TcpStream) -> Self {
+        Self {
+            client_socket: Arc::new(Mutex::new(client_socket)),
+            player_info: Arc::new(AtomicRefCell::new(PlayerInfo::new())),
+        }
     }
 
     pub async fn run(&mut self) -> Result<()> {
         loop {
-            let net_packet = NetPacket::read(&mut self.client_socket).await?;
+            let net_packet = NetPacket::read(&mut *self.client_socket().await).await?;
             Self::on_message(self, net_packet.cmd_type, net_packet.body).await?;
         }
     }
 
-    pub async fn send(&mut self, cmd_type: u16, body: impl Message) -> Result<()> {
+    pub async fn send(&self, cmd_type: u16, body: impl Message) -> Result<()> {
         let mut buf = Vec::new();
         body.encode(&mut buf)?;
 
@@ -31,8 +43,20 @@ impl PlayerSession {
         }
         .into();
 
-        self.client_socket.write_all(&payload).await?;
+        self.client_socket().await.write_all(&payload).await?;
         Ok(())
+    }
+
+    pub async fn client_socket(&self) -> MutexGuard<'_, TcpStream> {
+        self.client_socket.lock().await
+    }
+
+    pub fn player_info(&self) -> AtomicRef<PlayerInfo> {
+        self.player_info.borrow()
+    }
+
+    pub fn player_info_mut(&self) -> AtomicRefMut<PlayerInfo> {
+        self.player_info.borrow_mut()
     }
 }
 

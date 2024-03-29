@@ -46,7 +46,7 @@ macro_rules! dummy {
                     }
                 }
 
-                pub async fn send_dummy_response(&mut self, req_id: u16) -> Result<()> {
+                pub async fn send_dummy_response(&self, req_id: u16) -> Result<()> {
                     let cmd_type = match req_id {
                         $(
                             x if x == [<Cmd $cmd CsReq>] as u16 => [<Cmd $cmd ScRsp>] as u16,
@@ -61,7 +61,7 @@ macro_rules! dummy {
                     }
                     .into();
 
-                    self.client_socket.write_all(&payload).await?;
+                    self.client_socket().await.write_all(&payload).await?;
 
                     Ok(())
                 }

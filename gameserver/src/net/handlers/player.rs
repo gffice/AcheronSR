@@ -3,7 +3,7 @@ use crate::util;
 use super::*;
 
 pub async fn on_get_basic_info_cs_req(
-    session: &mut PlayerSession,
+    session: &PlayerSession,
     _body: &GetBasicInfoCsReq,
 ) -> Result<()> {
     session
@@ -19,7 +19,7 @@ pub async fn on_get_basic_info_cs_req(
 }
 
 pub async fn on_get_hero_basic_type_info_cs_req(
-    session: &mut PlayerSession,
+    session: &PlayerSession,
     _body: &GetHeroBasicTypeInfoCsReq,
 ) -> Result<()> {
     session
@@ -40,7 +40,7 @@ pub async fn on_get_hero_basic_type_info_cs_req(
 }
 
 pub async fn on_player_heart_beat_cs_req(
-    session: &mut PlayerSession,
+    session: &PlayerSession,
     body: &PlayerHeartBeatCsReq,
 ) -> Result<()> {
     session

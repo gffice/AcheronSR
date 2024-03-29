@@ -4,7 +4,7 @@ use proto::*;
 use crate::{net::PlayerSession, util};
 
 pub async fn on_player_get_token_cs_req(
-    session: &mut PlayerSession,
+    session: &PlayerSession,
     _body: &PlayerGetTokenCsReq,
 ) -> Result<()> {
     session
@@ -21,7 +21,7 @@ pub async fn on_player_get_token_cs_req(
 }
 
 pub async fn on_player_login_cs_req(
-    session: &mut PlayerSession,
+    session: &PlayerSession,
     body: &PlayerLoginCsReq,
 ) -> Result<()> {
     session

@@ -2,9 +2,11 @@ use super::*;
 use crate::game::globals;
 
 pub async fn on_start_cocoon_stage_cs_req(
-    session: &mut PlayerSession,
+    session: &PlayerSession,
     body: &StartCocoonStageCsReq,
 ) -> Result<()> {
+    let player_info = session.player_info();
+
     let rsp = StartCocoonStageScRsp {
         retcode: 0,
         prop_entity_id: body.prop_entity_id,
@@ -14,13 +16,13 @@ pub async fn on_start_cocoon_stage_cs_req(
             stage_id: 201012311,
             logic_random_seed: 4444,
             battle_id: 1,
-            battle_avatar_list: globals
+            battle_avatar_list: player_info
                 .lineup
+                .avatar_list
                 .iter()
-                .enumerate()
-                .map(|(idx, id)| BattleAvatar {
-                    index: idx as u32,
-                    id: *id,
+                .map(|avatar| BattleAvatar {
+                    index: avatar.slot,
+                    id: avatar.id,
                     level: 80,
                     promotion: 6,
                     rank: 6,
@@ -55,7 +57,7 @@ pub async fn on_start_cocoon_stage_cs_req(
 }
 
 pub async fn on_pve_battle_result_cs_req(
-    session: &mut PlayerSession,
+    session: &PlayerSession,
     body: &PveBattleResultCsReq,
 ) -> Result<()> {
     session
