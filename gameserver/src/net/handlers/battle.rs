@@ -33,13 +33,20 @@ pub async fn on_start_cocoon_stage_cs_req(
                     ..Default::default()
                 })
                 .collect(),
-            monster_wave_list: vec![SceneMonsterWave {
-                monster_list: vec![SceneMonsterParam {
-                    monster_id: 3013010,
+            monster_wave_list: globals
+                .monster_wave_list
+                .iter()
+                .map(|monster_list| SceneMonsterWave {
+                    monster_list: monster_list
+                        .iter()
+                        .map(|id| SceneMonsterParam {
+                            monster_id: *id,
+                            ..Default::default()
+                        })
+                        .collect(),
                     ..Default::default()
-                }],
-                ..Default::default()
-            }],
+                })
+                .collect(),
             ..Default::default()
         }),
     };

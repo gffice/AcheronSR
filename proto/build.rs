@@ -5,6 +5,7 @@ pub fn main() {
 
         prost_build::Config::new()
             .out_dir("out/")
+            .type_attribute(".", "#[derive(serde::Serialize, serde::Deserialize)]")
             .compile_protos(&[proto_file], &["."])
             .unwrap();
     }

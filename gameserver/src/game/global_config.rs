@@ -32,4 +32,5 @@ lazy_static! {
 #[derive(Deserialize)]
 pub struct Globals {
     pub lineup: Vec<u32>,
+    pub monster_wave_list: Vec<Vec<u32>>,
 }

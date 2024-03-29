@@ -1,3 +1,4 @@
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct PlayerBasicInfo {
@@ -18,6 +19,7 @@ pub struct PlayerBasicInfo {
     #[prost(uint32, tag = "8")]
     pub world_level: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct AmountInfo {
@@ -26,6 +28,7 @@ pub struct AmountInfo {
     #[prost(uint32, tag = "2")]
     pub max_amount: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct BlackInfo {
@@ -38,6 +41,7 @@ pub struct BlackInfo {
     #[prost(uint32, tag = "4")]
     pub ban_type: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fgojknkcpip {
@@ -46,6 +50,7 @@ pub struct Fgojknkcpip {
     #[prost(uint32, tag = "2")]
     pub id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct VersionCount {
@@ -54,6 +59,7 @@ pub struct VersionCount {
     #[prost(uint32, tag = "2")]
     pub count: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct ClientDownloadData {
@@ -64,6 +70,7 @@ pub struct ClientDownloadData {
     #[prost(bytes = "vec", tag = "3")]
     pub data: ::prost::alloc::vec::Vec<u8>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fjecopmfeje {
@@ -72,6 +79,7 @@ pub struct Fjecopmfeje {
     #[prost(message, optional, tag = "2")]
     pub fbidffglaig: ::core::option::Option<ClientDownloadData>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct ClientUploadData {
@@ -80,12 +88,14 @@ pub struct ClientUploadData {
     #[prost(string, tag = "2")]
     pub value: ::prost::alloc::string::String,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct FeatureSwitchParam {
     #[prost(uint32, repeated, tag = "1")]
     pub param_list: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct FeatureSwitchInfo {
@@ -96,6 +106,7 @@ pub struct FeatureSwitchInfo {
     #[prost(bool, tag = "3")]
     pub is_all_closed: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Edcfbagkign {
@@ -114,6 +125,7 @@ pub struct Edcfbagkign {
     #[prost(string, tag = "7")]
     pub jkkjpiondan: ::prost::alloc::string::String,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mlppfodcabi {
@@ -138,6 +150,7 @@ pub struct Mlppfodcabi {
     #[prost(uint32, tag = "10")]
     pub gndmdolbkgn: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct PunkLordBattleAvatar {
@@ -146,6 +159,7 @@ pub struct PunkLordBattleAvatar {
     #[prost(uint32, tag = "2")]
     pub avatar_level: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct PunkLordBattleRecord {
@@ -168,12 +182,14 @@ pub struct PunkLordBattleRecord {
     #[prost(uint32, tag = "9")]
     pub final_hit_score: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gakcdpilpii {
     #[prost(message, repeated, tag = "1")]
     pub ahkiakoomhh: ::prost::alloc::vec::Vec<PunkLordBattleRecord>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Phmkohmiphm {
@@ -182,6 +198,7 @@ pub struct Phmkohmiphm {
     #[prost(uint32, tag = "2")]
     pub monster_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cldjmhdelhn {
@@ -204,6 +221,7 @@ pub struct Cldjmhdelhn {
     #[prost(bool, tag = "9")]
     pub lhgbpnnpaem: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct PunkLordBattleReplay {
@@ -212,6 +230,7 @@ pub struct PunkLordBattleReplay {
     #[prost(message, optional, tag = "2")]
     pub replay_info: ::core::option::Option<Mlppfodcabi>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct RegionInfo {
@@ -228,6 +247,7 @@ pub struct RegionInfo {
     #[prost(string, tag = "6")]
     pub msg: ::prost::alloc::string::String,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dispatch {
@@ -242,6 +262,7 @@ pub struct Dispatch {
     #[prost(string, tag = "5")]
     pub dalmchlfbbp: ::prost::alloc::string::String,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct BattleOp {
@@ -262,6 +283,7 @@ pub struct BattleOp {
     #[prost(string, tag = "8")]
     pub panakndfhkm: ::prost::alloc::string::String,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct BattleEquipment {
@@ -274,6 +296,7 @@ pub struct BattleEquipment {
     #[prost(uint32, tag = "4")]
     pub rank: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct BattleRelic {
@@ -294,6 +317,7 @@ pub struct BattleRelic {
     #[prost(uint32, tag = "8")]
     pub bggjjiglbco: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct AvatarSkillTree {
@@ -302,6 +326,7 @@ pub struct AvatarSkillTree {
     #[prost(uint32, tag = "2")]
     pub level: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct RelicAffix {
@@ -312,6 +337,7 @@ pub struct RelicAffix {
     #[prost(uint32, tag = "3")]
     pub step: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bcdgiinpgnb {
@@ -324,6 +350,7 @@ pub struct Bcdgiinpgnb {
     #[prost(uint32, tag = "4")]
     pub inhjgmgdcoa: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct BattleAvatar {
@@ -358,6 +385,7 @@ pub struct BattleAvatar {
     #[prost(uint32, tag = "17")]
     pub ikkheknckae: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fhklfbbnpmc {
@@ -370,6 +398,7 @@ pub struct Fhklfbbnpmc {
     #[prost(uint32, tag = "4")]
     pub onmmdmcacmb: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fjhocpiladl {
@@ -380,6 +409,7 @@ pub struct Fjhocpiladl {
     #[prost(uint32, tag = "3")]
     pub max_hp: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct BattleMonsterWave {
@@ -392,6 +422,7 @@ pub struct BattleMonsterWave {
     #[prost(uint32, tag = "4")]
     pub iilhbcalikm: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct BattleBuff {
@@ -408,6 +439,7 @@ pub struct BattleBuff {
     #[prost(map = "string, float", tag = "6")]
     pub dynamic_values: ::std::collections::HashMap<::prost::alloc::string::String, f32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jcnijimifil {
@@ -418,12 +450,14 @@ pub struct Jcnijimifil {
     #[prost(uint32, tag = "3")]
     pub hhoofhgffam: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pljkpichajp {
     #[prost(uint32, tag = "1")]
     pub impgomkanjm: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lcnenmpepcm {
@@ -432,6 +466,7 @@ pub struct Lcnenmpepcm {
     #[prost(uint32, tag = "2")]
     pub bhccbdiaoni: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Aopddpeehad {
@@ -440,6 +475,7 @@ pub struct Aopddpeehad {
     #[prost(uint32, tag = "2")]
     pub progress: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct BattleTarget {
@@ -450,12 +486,14 @@ pub struct BattleTarget {
     #[prost(uint32, tag = "3")]
     pub total_progress: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hbinjjdphdo {
     #[prost(message, repeated, tag = "1")]
     pub bgnpebhgelb: ::prost::alloc::vec::Vec<BattleTarget>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct BattleLineup {
@@ -476,6 +514,7 @@ pub struct BattleLineup {
     #[prost(message, optional, tag = "12")]
     pub evolve_build_battle_info: ::core::option::Option<EvolveBuildBattleInfo>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Oikpalfedbb {
@@ -492,6 +531,7 @@ pub struct Oikpalfedbb {
     #[prost(message, optional, tag = "6")]
     pub sp: ::core::option::Option<AmountInfo>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Plgkbdleacg {
@@ -502,6 +542,7 @@ pub struct Plgkbdleacg {
     #[prost(message, repeated, tag = "3")]
     pub buff_list: ::prost::alloc::vec::Vec<BattleBuff>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct ClientTurnSnapshot {
@@ -518,6 +559,7 @@ pub struct ClientTurnSnapshot {
     #[prost(uint32, tag = "6")]
     pub fdjamncolcp: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct GamecoreConfig {
@@ -536,6 +578,7 @@ pub struct GamecoreConfig {
     #[prost(uint32, tag = "7")]
     pub aoeigdihdpp: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct BattleBuffMsg {
@@ -548,6 +591,7 @@ pub struct BattleBuffMsg {
     #[prost(uint32, repeated, tag = "4")]
     pub buff_flag_list: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Flgkjjennbe {
@@ -556,6 +600,7 @@ pub struct Flgkjjennbe {
     #[prost(uint32, tag = "2")]
     pub ahmomoopkda: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cognokjcpcl {
@@ -569,6 +614,7 @@ pub struct Cognokjcpcl {
     #[prost(bytes = "vec", tag = "3")]
     pub cjghlbmoekb: ::prost::alloc::vec::Vec<u8>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Iljcopanbem {
@@ -591,6 +637,7 @@ pub struct Iljcopanbem {
     #[prost(message, optional, tag = "9")]
     pub dajmnolmeni: ::core::option::Option<Cognokjcpcl>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct BattleReplay {
@@ -633,6 +680,7 @@ pub struct BattleReplay {
     #[prost(message, optional, tag = "100")]
     pub mlefdnlpnhb: ::core::option::Option<Iljcopanbem>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct BattleReplayStringHash {
@@ -641,6 +689,7 @@ pub struct BattleReplayStringHash {
     #[prost(string, tag = "2")]
     pub value: ::prost::alloc::string::String,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct AvatarProperty {
@@ -659,6 +708,7 @@ pub struct AvatarProperty {
     #[prost(double, tag = "7")]
     pub max_sp: f64,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct EquipmentProperty {
@@ -671,6 +721,7 @@ pub struct EquipmentProperty {
     #[prost(uint32, tag = "4")]
     pub level: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct AttackDamageProperty {
@@ -679,6 +730,7 @@ pub struct AttackDamageProperty {
     #[prost(double, tag = "2")]
     pub damage: f64,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct SkillUseProperty {
@@ -701,6 +753,7 @@ pub struct SkillUseProperty {
     #[prost(uint32, tag = "9")]
     pub lieeojhcdlm: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hfdpiocjmlh {
@@ -713,6 +766,7 @@ pub struct Hfdpiocjmlh {
     #[prost(double, tag = "4")]
     pub damage: f64,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct SpAddSource {
@@ -721,6 +775,7 @@ pub struct SpAddSource {
     #[prost(uint32, tag = "2")]
     pub sp_add: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cbkfeoojjhg {
@@ -731,6 +786,7 @@ pub struct Cbkfeoojjhg {
     #[prost(double, tag = "3")]
     pub total_damage: f64,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct AvatarBattleInfo {
@@ -821,6 +877,7 @@ pub struct AvatarBattleInfo {
     #[prost(uint32, tag = "43")]
     pub gclnpdjmlip: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct MonsterProperty {
@@ -839,6 +896,7 @@ pub struct MonsterProperty {
     #[prost(double, tag = "7")]
     pub kddegibaeba: f64,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Khncccpcbji {
@@ -851,6 +909,7 @@ pub struct Khncccpcbji {
     #[prost(uint32, tag = "4")]
     pub break_times: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct MonsterBattleInfo {
@@ -917,12 +976,14 @@ pub struct MonsterBattleInfo {
     #[prost(enumeration = "Febapkbodjg", tag = "31")]
     pub okcabhbjlld: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Agpocmnmmdi {
     #[prost(message, optional, tag = "2")]
     pub sp: ::core::option::Option<AmountInfo>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Npjnkmmjfdf {
@@ -933,6 +994,7 @@ pub struct Npjnkmmjfdf {
     #[prost(message, repeated, tag = "3")]
     pub ddbhhogcjbd: ::prost::alloc::vec::Vec<Hfdpiocjmlh>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bngedbddclf {
@@ -941,6 +1003,7 @@ pub struct Bngedbddclf {
     #[prost(uint32, tag = "2")]
     pub jfjcjmpbhgk: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dokopglkkhi {
@@ -963,6 +1026,7 @@ pub struct Dokopglkkhi {
     #[prost(uint32, tag = "9")]
     pub wave: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dkibhfpoinl {
@@ -971,6 +1035,7 @@ pub struct Dkibhfpoinl {
     #[prost(int32, tag = "2")]
     pub pbhhmlcdahe: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Oglnjniachp {
@@ -983,6 +1048,7 @@ pub struct Oglnjniachp {
     #[prost(uint32, tag = "4")]
     pub caimbfndbkg: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jephonmekhd {
@@ -993,6 +1059,7 @@ pub struct Jephonmekhd {
     #[prost(uint32, tag = "3")]
     pub jnfbeoilkbo: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nbfdglmhcip {
@@ -1003,6 +1070,7 @@ pub struct Nbfdglmhcip {
     #[prost(int32, tag = "3")]
     pub daobfafhkge: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Melplahkang {
@@ -1013,6 +1081,7 @@ pub struct Melplahkang {
     #[prost(message, optional, tag = "3")]
     pub okfhdgandph: ::core::option::Option<Nbfdglmhcip>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hkgmbfknoki {
@@ -1021,6 +1090,7 @@ pub struct Hkgmbfknoki {
     #[prost(int32, tag = "2")]
     pub ajhfilfnglk: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct EvolveBuildGearDamageInfo {
@@ -1031,12 +1101,14 @@ pub struct EvolveBuildGearDamageInfo {
     #[prost(double, tag = "3")]
     pub hp_damage: f64,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ilodiljfpoc {
     #[prost(uint32, repeated, tag = "1")]
     pub dgiclahgoib: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jfcmfnbkocn {
@@ -1051,6 +1123,7 @@ pub struct Jfcmfnbkocn {
     #[prost(float, tag = "5")]
     pub caimbfndbkg: f32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Iehogoajdia {
@@ -1059,6 +1132,7 @@ pub struct Iehogoajdia {
     #[prost(message, repeated, tag = "2")]
     pub keddpjfikap: ::prost::alloc::vec::Vec<Jfcmfnbkocn>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct EvolveBuildBattleInfo {
@@ -1111,6 +1185,7 @@ pub struct EvolveBuildBattleInfo {
     #[prost(message, optional, tag = "24")]
     pub stat_log_info: ::core::option::Option<Iehogoajdia>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jjilcmbdnll {
@@ -1135,6 +1210,7 @@ pub struct Jjilcmbdnll {
     #[prost(uint32, repeated, tag = "10")]
     pub ncjhfbojegc: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Djihhdalbgk {
@@ -1155,6 +1231,7 @@ pub struct Djihhdalbgk {
     #[prost(message, repeated, tag = "8")]
     pub cdjclgfloem: ::prost::alloc::vec::Vec<Jjilcmbdnll>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct BattleStatistics {
@@ -1209,6 +1286,7 @@ pub struct BattleStatistics {
     #[prost(message, optional, tag = "31")]
     pub ednofebkpbg: ::core::option::Option<Djihhdalbgk>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hkfcdgjgipf {
@@ -1217,6 +1295,7 @@ pub struct Hkfcdgjgipf {
     #[prost(uint32, tag = "2")]
     pub keibhaofceh: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ekopdgaflda {
@@ -1227,6 +1306,7 @@ pub struct Ekopdgaflda {
     #[prost(message, optional, tag = "3")]
     pub sp: ::core::option::Option<AmountInfo>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct HeroPath {
@@ -1237,6 +1317,7 @@ pub struct HeroPath {
     #[prost(uint32, tag = "3")]
     pub exp: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct BattleResult {
@@ -1255,6 +1336,7 @@ pub struct BattleResult {
     #[prost(uint32, tag = "7")]
     pub kkhfoggmkdf: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct CharacterSnapshot {
@@ -1263,6 +1345,7 @@ pub struct CharacterSnapshot {
     #[prost(uint64, repeated, tag = "2")]
     pub properties: ::prost::alloc::vec::Vec<u64>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct AnimEventSnapshot {
@@ -1271,6 +1354,7 @@ pub struct AnimEventSnapshot {
     #[prost(uint32, tag = "2")]
     pub count: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct LoginActivityData {
@@ -1281,9 +1365,11 @@ pub struct LoginActivityData {
     #[prost(uint32, tag = "14")]
     pub id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct GetLoginActivityCsReq {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct GetLoginActivityScRsp {
@@ -1292,6 +1378,7 @@ pub struct GetLoginActivityScRsp {
     #[prost(message, repeated, tag = "15")]
     pub login_activity_list: ::prost::alloc::vec::Vec<LoginActivityData>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct TakeLoginActivityRewardCsReq {
@@ -1300,6 +1387,7 @@ pub struct TakeLoginActivityRewardCsReq {
     #[prost(uint32, tag = "6")]
     pub id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct TakeLoginActivityRewardScRsp {
@@ -1312,6 +1400,7 @@ pub struct TakeLoginActivityRewardScRsp {
     #[prost(uint32, tag = "14")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ooljpplljnk {
@@ -1324,9 +1413,11 @@ pub struct Ooljpplljnk {
     #[prost(int64, tag = "13")]
     pub begin_time: i64,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Phkdfagiohm {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kopffhkkgce {
@@ -1335,6 +1426,7 @@ pub struct Kopffhkkgce {
     #[prost(message, repeated, tag = "8")]
     pub ehknfiakneo: ::prost::alloc::vec::Vec<Ooljpplljnk>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kpgpnachigg {
@@ -1343,9 +1435,11 @@ pub struct Kpgpnachigg {
     #[prost(bool, tag = "8")]
     pub kiijmkkfmkj: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Eioklnolmen {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cfnlopbedoe {
@@ -1356,18 +1450,21 @@ pub struct Cfnlopbedoe {
     #[prost(message, repeated, tag = "11")]
     pub cmcpgnpabnd: ::prost::alloc::vec::Vec<Kpgpnachigg>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fmjonijegjj {
     #[prost(message, optional, tag = "5")]
     pub iahpnhgledm: ::core::option::Option<Kpgpnachigg>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gcholemknio {
     #[prost(uint32, tag = "4")]
     pub stage_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ogilhfefifi {
@@ -1376,12 +1473,14 @@ pub struct Ogilhfefifi {
     #[prost(uint32, tag = "12")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mkgdbemaidb {
     #[prost(uint32, tag = "10")]
     pub stage_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Flflajblejg {
@@ -1392,12 +1491,14 @@ pub struct Flflajblejg {
     #[prost(uint32, tag = "2")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lnjockahhpi {
     #[prost(uint32, tag = "13")]
     pub stage_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jkkomcadgac {
@@ -1406,12 +1507,14 @@ pub struct Jkkomcadgac {
     #[prost(uint32, tag = "14")]
     pub stage_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ajgmmgeajml {
     #[prost(uint32, tag = "11")]
     pub stage_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Abdegagcoob {
@@ -1420,6 +1523,7 @@ pub struct Abdegagcoob {
     #[prost(uint32, tag = "3")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mdhlbjepofa {
@@ -1428,6 +1532,7 @@ pub struct Mdhlbjepofa {
     #[prost(enumeration = "TrialActivityStatus", tag = "6")]
     pub status: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Docaoinpkng {
@@ -1440,6 +1545,7 @@ pub struct Docaoinpkng {
     #[prost(bool, tag = "2")]
     pub fmlakgholdl: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cobgpbgfjpp {
@@ -1450,12 +1556,14 @@ pub struct Cobgpbgfjpp {
     #[prost(int64, tag = "7")]
     pub begin_time: i64,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cghkhlbgach {
     #[prost(uint32, repeated, tag = "5")]
     pub nhnhoodcgie: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Oimjojicbdm {
@@ -1466,12 +1574,14 @@ pub struct Oimjojicbdm {
     #[prost(uint32, tag = "6")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Phnlmjeacpo {
     #[prost(uint32, tag = "11")]
     pub nikfggjacec: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Knamebkcden {
@@ -1480,12 +1590,14 @@ pub struct Knamebkcden {
     #[prost(uint32, tag = "5")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ibhlmefeldd {
     #[prost(uint32, tag = "14")]
     pub nikfggjacec: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Phdbkopflnk {
@@ -1496,12 +1608,14 @@ pub struct Phdbkopflnk {
     #[prost(uint32, tag = "14")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct EnterAdventureCsReq {
     #[prost(uint32, tag = "8")]
     pub map_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct EnterAdventureScRsp {
@@ -1510,6 +1624,7 @@ pub struct EnterAdventureScRsp {
     #[prost(uint32, tag = "4")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mahhgiaocpo {
@@ -1520,12 +1635,14 @@ pub struct Mahhgiaocpo {
     #[prost(uint32, tag = "4")]
     pub gacha_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fjonchnkjao {
     #[prost(uint32, repeated, tag = "6")]
     pub jmclekmoilm: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Aldgghiagci {
@@ -1534,12 +1651,14 @@ pub struct Aldgghiagci {
     #[prost(uint32, tag = "8")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Aombpieacbi {
     #[prost(uint32, tag = "8")]
     pub bbjfcfijjpo: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Idecbefiilm {
@@ -1548,15 +1667,18 @@ pub struct Idecbefiilm {
     #[prost(uint32, tag = "13")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Oedijfpighe {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pdponpianej {
     #[prost(uint32, tag = "2")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Llpodkjkjck {
@@ -1571,6 +1693,7 @@ pub struct Llpodkjkjck {
     #[prost(uint32, tag = "7")]
     pub skill_index: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lpfijmhjddp {
@@ -1581,6 +1704,7 @@ pub struct Lpfijmhjddp {
     #[prost(uint32, tag = "14")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Enilfkokghg {
@@ -1589,6 +1713,7 @@ pub struct Enilfkokghg {
     #[prost(uint32, tag = "9")]
     pub meekkgnihle: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gammaahfadc {
@@ -1597,6 +1722,7 @@ pub struct Gammaahfadc {
     #[prost(message, optional, tag = "15")]
     pub battle_info: ::core::option::Option<Bihglhmefjo>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mikpamgnhod {
@@ -1605,6 +1731,7 @@ pub struct Mikpamgnhod {
     #[prost(uint32, tag = "14")]
     pub slot: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fhmeohkhkdh {
@@ -1621,6 +1748,7 @@ pub struct Fhmeohkhkdh {
     #[prost(message, repeated, tag = "5")]
     pub nkgcfjgbela: ::prost::alloc::vec::Vec<Mikpamgnhod>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bfjhdmkmlcg {
@@ -1629,6 +1757,7 @@ pub struct Bfjhdmkmlcg {
     #[prost(uint32, repeated, tag = "15")]
     pub efanoijolef: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kdooecbniab {
@@ -1639,9 +1768,11 @@ pub struct Kdooecbniab {
     #[prost(uint32, tag = "4")]
     pub keodhdbjeja: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Iecejcpdfge {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Iiempapiibd {
@@ -1664,12 +1795,14 @@ pub struct Iiempapiibd {
     #[prost(message, repeated, tag = "13")]
     pub apcbohediba: ::prost::alloc::vec::Vec<Kdooecbniab>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fgbfmblmijn {
     #[prost(message, optional, tag = "6")]
     pub lineup: ::core::option::Option<Bfjhdmkmlcg>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cgmjklcpclg {
@@ -1678,6 +1811,7 @@ pub struct Cgmjklcpclg {
     #[prost(message, optional, tag = "10")]
     pub lineup: ::core::option::Option<Bfjhdmkmlcg>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pcdpaehbhll {
@@ -1688,6 +1822,7 @@ pub struct Pcdpaehbhll {
     #[prost(uint32, tag = "4")]
     pub slot: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ionddmgddoh {
@@ -1698,6 +1833,7 @@ pub struct Ionddmgddoh {
     #[prost(message, optional, tag = "6")]
     pub copmokfakcn: ::core::option::Option<Kdooecbniab>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mhoipbgmfag {
@@ -1706,6 +1842,7 @@ pub struct Mhoipbgmfag {
     #[prost(uint32, tag = "14")]
     pub slot: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lfoiciboolj {
@@ -1716,6 +1853,7 @@ pub struct Lfoiciboolj {
     #[prost(uint32, tag = "9")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gbonoehanoi {
@@ -1726,6 +1864,7 @@ pub struct Gbonoehanoi {
     #[prost(uint32, tag = "12")]
     pub dgaafomjaic: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Iccnlebpofa {
@@ -1736,12 +1875,14 @@ pub struct Iccnlebpofa {
     #[prost(message, optional, tag = "5")]
     pub amhjhnabmhg: ::core::option::Option<Fhmeohkhkdh>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Iipiomdficb {
     #[prost(uint32, tag = "4")]
     pub fgbmdjjdkel: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Blhmfmkjgni {
@@ -1750,12 +1891,14 @@ pub struct Blhmfmkjgni {
     #[prost(uint32, tag = "9")]
     pub fgbmdjjdkel: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nfbkooibilo {
     #[prost(uint32, tag = "3")]
     pub event_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fljmccgpcfh {
@@ -1764,12 +1907,14 @@ pub struct Fljmccgpcfh {
     #[prost(uint32, tag = "11")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hhoakklggai {
     #[prost(message, optional, tag = "7")]
     pub lineup: ::core::option::Option<Bfjhdmkmlcg>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gkfjnnfpmol {
@@ -1780,9 +1925,11 @@ pub struct Gkfjnnfpmol {
     #[prost(message, optional, tag = "3")]
     pub amhjhnabmhg: ::core::option::Option<Fhmeohkhkdh>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dnfgnamifof {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kmdfndlaldd {
@@ -1795,18 +1942,21 @@ pub struct Kmdfndlaldd {
     #[prost(uint32, tag = "8")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Aegdpkanflf {
     #[prost(uint32, tag = "15")]
     pub meekkgnihle: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Aaebmcliahk {
     #[prost(uint32, tag = "2")]
     pub cbcjmabjjbi: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cgafijelnni {
@@ -1815,9 +1965,11 @@ pub struct Cgafijelnni {
     #[prost(uint32, tag = "4")]
     pub num: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Epflijoamno {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Iimafmkbpph {
@@ -1826,18 +1978,21 @@ pub struct Iimafmkbpph {
     #[prost(uint32, tag = "5")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Aeadenfjaon {
     #[prost(uint32, tag = "2")]
     pub mdgjnegijec: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ogcgolliado {
     #[prost(uint32, tag = "7")]
     pub meekkgnihle: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nimfbcmdfoh {
@@ -1848,9 +2003,11 @@ pub struct Nimfbcmdfoh {
     #[prost(uint32, tag = "12")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jfgffilahen {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jjbmfiahaop {
@@ -1859,6 +2016,7 @@ pub struct Jjbmfiahaop {
     #[prost(uint32, tag = "12")]
     pub epiijjhecfm: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mcbcabepekp {
@@ -1867,6 +2025,7 @@ pub struct Mcbcabepekp {
     #[prost(uint32, tag = "3")]
     pub klihmdbpcnc: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jkdbepahkcj {
@@ -1879,6 +2038,7 @@ pub struct Jkdbepahkcj {
     #[prost(message, repeated, tag = "6")]
     pub bjllhdgcapp: ::prost::alloc::vec::Vec<Bdnpddoddbf>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cnapbdadenp {
@@ -1907,6 +2067,7 @@ pub struct Cnapbdadenp {
     #[prost(uint32, tag = "12")]
     pub jgaomnekgdk: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dflbpnciafo {
@@ -1915,6 +2076,7 @@ pub struct Dflbpnciafo {
     #[prost(uint32, tag = "7")]
     pub egmpjngaikb: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mpjconkgdin {
@@ -1923,6 +2085,7 @@ pub struct Mpjconkgdin {
     #[prost(uint32, tag = "1")]
     pub ciojdeodepl: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct AlleyPlacingShip {
@@ -1931,6 +2094,7 @@ pub struct AlleyPlacingShip {
     #[prost(uint32, tag = "6")]
     pub ship_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bjdognchfbk {
@@ -1953,6 +2117,7 @@ pub struct Bjdognchfbk {
     #[prost(uint32, tag = "5")]
     pub egfmhkcjeki: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jkoeodldlon {
@@ -1973,6 +2138,7 @@ pub struct Jkoeodldlon {
     #[prost(uint32, tag = "10")]
     pub dgollhpioeh: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Coapedijklf {
@@ -1989,18 +2155,21 @@ pub struct Coapedijklf {
     #[prost(uint32, repeated, tag = "14")]
     pub ieplhlajkmk: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bdkcgdekbeo {
     #[prost(message, optional, tag = "10")]
     pub ajfnjdegdje: ::core::option::Option<Coapedijklf>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Opmdlgbjnjc {
     #[prost(uint32, tag = "4")]
     pub pbkilallilk: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Afaocelkgmn {
@@ -2019,6 +2188,7 @@ pub struct Afaocelkgmn {
     #[prost(uint32, repeated, tag = "11")]
     pub clffoknioee: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bdnpddoddbf {
@@ -2029,6 +2199,7 @@ pub struct Bdnpddoddbf {
     #[prost(uint32, tag = "2")]
     pub map_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct LogisticsScore {
@@ -2047,6 +2218,7 @@ pub struct LogisticsScore {
     #[prost(uint32, tag = "3")]
     pub cur_score: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fnhejnkmmob {
@@ -2055,12 +2227,14 @@ pub struct Fnhejnkmmob {
     #[prost(message, repeated, tag = "10")]
     pub ahofblglbnc: ::prost::alloc::vec::Vec<Bdnpddoddbf>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lohaaiccngj {
     #[prost(message, repeated, tag = "3")]
     pub gnpgpcfcbjn: ::prost::alloc::vec::Vec<LogisticsScore>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kkjnbaakhlc {
@@ -2073,6 +2247,7 @@ pub struct Kkjnbaakhlc {
     #[prost(bool, tag = "5")]
     pub nlldmkephep: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nokcldfpklk {
@@ -2083,12 +2258,14 @@ pub struct Nokcldfpklk {
     #[prost(enumeration = "Mahbbafefag", tag = "9")]
     pub state: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dgkhmdjldog {
     #[prost(uint32, tag = "7")]
     pub event_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dmjfhbkadfg {
@@ -2097,6 +2274,7 @@ pub struct Dmjfhbkadfg {
     #[prost(uint32, tag = "13")]
     pub event_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nonhdokkcfg {
@@ -2105,18 +2283,21 @@ pub struct Nonhdokkcfg {
     #[prost(message, optional, tag = "4")]
     pub hgleibdnapo: ::core::option::Option<Nokcldfpklk>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Aibpkkcohdm {
     #[prost(uint32, tag = "10")]
     pub dahdcgcphlc: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ekojcimhmap {
     #[prost(uint32, tag = "9")]
     pub level: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Idilfalngec {
@@ -2127,9 +2308,11 @@ pub struct Idilfalngec {
     #[prost(uint32, tag = "8")]
     pub level: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mofckdbnkpl {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ndfijlmklan {
@@ -2138,18 +2321,21 @@ pub struct Ndfijlmklan {
     #[prost(uint32, tag = "5")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ofeibdefeai {
     #[prost(uint32, tag = "5")]
     pub jgaomnekgdk: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bhjlndcbdmg {
     #[prost(message, repeated, tag = "2")]
     pub ahofblglbnc: ::prost::alloc::vec::Vec<Bdnpddoddbf>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ngnfmmcmpak {
@@ -2158,12 +2344,14 @@ pub struct Ngnfmmcmpak {
     #[prost(message, repeated, tag = "1")]
     pub ahofblglbnc: ::prost::alloc::vec::Vec<Bdnpddoddbf>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mopkealiaji {
     #[prost(message, optional, tag = "3")]
     pub nbnghhbddak: ::core::option::Option<Jkdbepahkcj>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cijnpdehick {
@@ -2174,15 +2362,18 @@ pub struct Cijnpdehick {
     #[prost(uint32, tag = "5")]
     pub lpijcebcmpl: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fgkhjdfnaee {
     #[prost(message, optional, tag = "15")]
     pub imijkbagpoo: ::core::option::Option<Cijnpdehick>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Eeghepbfjlm {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ihpeeopfgab {
@@ -2191,15 +2382,18 @@ pub struct Ihpeeopfgab {
     #[prost(uint32, tag = "9")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fohpiioicfp {
     #[prost(map = "uint32, uint32", tag = "11")]
     pub gefocnockgm: ::std::collections::HashMap<u32, u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lianhfnpkle {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lehegkffdgc {
@@ -2208,12 +2402,14 @@ pub struct Lehegkffdgc {
     #[prost(uint32, tag = "11")]
     pub nibfpieeejm: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cafhmflmhia {
     #[prost(uint32, tag = "12")]
     pub event_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cgcdhfojflm {
@@ -2222,15 +2418,18 @@ pub struct Cgcdhfojflm {
     #[prost(uint32, tag = "15")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ngieegemooh {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cpaihcginkm {
     #[prost(uint32, tag = "8")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jmcjpecijnp {
@@ -2239,6 +2438,7 @@ pub struct Jmcjpecijnp {
     #[prost(uint32, tag = "11")]
     pub cfpfaipjaib: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Oaiogfodhlc {
@@ -2247,6 +2447,7 @@ pub struct Oaiogfodhlc {
     #[prost(uint32, tag = "10")]
     pub monster_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct ArchiveData {
@@ -2261,9 +2462,11 @@ pub struct ArchiveData {
     #[prost(message, repeated, tag = "10")]
     pub relic_list: ::prost::alloc::vec::Vec<Jmcjpecijnp>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct GetArchiveDataCsReq {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct GetArchiveDataScRsp {
@@ -2272,9 +2475,11 @@ pub struct GetArchiveDataScRsp {
     #[prost(message, optional, tag = "14")]
     pub archive_data: ::core::option::Option<ArchiveData>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct GetUpdatedArchiveDataCsReq {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct GetUpdatedArchiveDataScRsp {
@@ -2283,6 +2488,7 @@ pub struct GetUpdatedArchiveDataScRsp {
     #[prost(uint32, tag = "8")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct GetAvatarDataCsReq {
@@ -2291,6 +2497,7 @@ pub struct GetAvatarDataCsReq {
     #[prost(uint32, repeated, tag = "3")]
     pub base_avatar_id_list: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct EquipRelic {
@@ -2299,6 +2506,7 @@ pub struct EquipRelic {
     #[prost(uint32, tag = "11")]
     pub llepdadmfdo: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Avatar {
@@ -2327,6 +2535,7 @@ pub struct Avatar {
     #[prost(uint32, repeated, tag = "8")]
     pub jdfamcdflje: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct GetAvatarDataScRsp {
@@ -2339,6 +2548,7 @@ pub struct GetAvatarDataScRsp {
     #[prost(message, repeated, tag = "8")]
     pub avatar_list: ::prost::alloc::vec::Vec<Avatar>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct AvatarExpUpCsReq {
@@ -2347,6 +2557,7 @@ pub struct AvatarExpUpCsReq {
     #[prost(uint32, tag = "5")]
     pub base_avatar_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct AvatarExpUpScRsp {
@@ -2355,6 +2566,7 @@ pub struct AvatarExpUpScRsp {
     #[prost(uint32, tag = "10")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct UnlockSkilltreeCsReq {
@@ -2365,6 +2577,7 @@ pub struct UnlockSkilltreeCsReq {
     #[prost(uint32, tag = "7")]
     pub point_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct UnlockSkilltreeScRsp {
@@ -2377,6 +2590,7 @@ pub struct UnlockSkilltreeScRsp {
     #[prost(uint32, tag = "1")]
     pub base_avatar_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct PromoteAvatarCsReq {
@@ -2385,12 +2599,14 @@ pub struct PromoteAvatarCsReq {
     #[prost(message, repeated, tag = "13")]
     pub item_list: ::prost::alloc::vec::Vec<ItemCost>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct PromoteAvatarScRsp {
     #[prost(uint32, tag = "13")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Copkgioejac {
@@ -2401,12 +2617,14 @@ pub struct Copkgioejac {
     #[prost(uint32, tag = "4")]
     pub base_avatar_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dmffnmijahi {
     #[prost(uint32, tag = "5")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Aafgmacgenl {
@@ -2415,12 +2633,14 @@ pub struct Aafgmacgenl {
     #[prost(uint32, tag = "14")]
     pub imhlbinfhlh: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Blkahddkngl {
     #[prost(uint32, tag = "4")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Acjmadmojdf {
@@ -2433,6 +2653,7 @@ pub struct Acjmadmojdf {
     #[prost(bool, tag = "12")]
     pub is_new: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ogkjcmdbknc {
@@ -2443,12 +2664,14 @@ pub struct Ogkjcmdbknc {
     #[prost(message, optional, tag = "4")]
     pub cost_data: ::core::option::Option<ItemCostData>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kdpfkfkgfjl {
     #[prost(uint32, tag = "10")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gfdmhpknpbg {
@@ -2457,6 +2680,7 @@ pub struct Gfdmhpknpbg {
     #[prost(uint32, tag = "5")]
     pub llepdadmfdo: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Oakankcfbec {
@@ -2467,12 +2691,14 @@ pub struct Oakankcfbec {
     #[prost(uint32, tag = "6")]
     pub base_avatar_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Iigbcffpcog {
     #[prost(uint32, tag = "13")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cnpajjnhfpa {
@@ -2483,12 +2709,14 @@ pub struct Cnpajjnhfpa {
     #[prost(uint32, repeated, tag = "6")]
     pub imkiddhlpfe: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hhjoejdhdfo {
     #[prost(uint32, tag = "12")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gefmffkphjh {
@@ -2497,6 +2725,7 @@ pub struct Gefmffkphjh {
     #[prost(uint32, tag = "8")]
     pub base_avatar_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mojmhlbnlol {
@@ -2505,6 +2734,7 @@ pub struct Mojmhlbnlol {
     #[prost(message, optional, tag = "5")]
     pub mpkghigdoaj: ::core::option::Option<ItemList>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jegcjanlbba {
@@ -2513,30 +2743,35 @@ pub struct Jegcjanlbba {
     #[prost(uint32, tag = "9")]
     pub ncjjikokipl: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mkfohmedgdj {
     #[prost(uint32, tag = "6")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ibgpkieheaf {
     #[prost(uint32, tag = "15")]
     pub ckondfhadld: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hpemkhdenga {
     #[prost(uint32, tag = "10")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Licecebfgmn {
     #[prost(uint32, tag = "5")]
     pub ncjjikokipl: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kmlnejjiiog {
@@ -2545,6 +2780,7 @@ pub struct Kmlnejjiiog {
     #[prost(uint32, tag = "9")]
     pub ckondfhadld: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gphjkfgciik {
@@ -2555,6 +2791,7 @@ pub struct Gphjkfgciik {
     #[prost(uint32, tag = "7")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct PveBattleResultCsReq {
@@ -2589,6 +2826,7 @@ pub struct PveBattleResultCsReq {
     #[prost(string, tag = "1")]
     pub labdpnkbaii: ::prost::alloc::string::String,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct PveBattleResultScRsp {
@@ -2625,18 +2863,22 @@ pub struct PveBattleResultScRsp {
     #[prost(message, optional, tag = "588")]
     pub niecmfdjnhh: ::core::option::Option<ItemList>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct QuitBattleCsReq {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct QuitBattleScRsp {
     #[prost(uint32, tag = "2")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct GetCurBattleInfoCsReq {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct GetCurBattleInfoScRsp {
@@ -2651,12 +2893,14 @@ pub struct GetCurBattleInfoScRsp {
     #[prost(message, optional, tag = "7")]
     pub battle_info: ::core::option::Option<SceneBattleInfo>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct SyncClientResVersionCsReq {
     #[prost(uint32, tag = "11")]
     pub res_version: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct SyncClientResVersionScRsp {
@@ -2665,12 +2909,15 @@ pub struct SyncClientResVersionScRsp {
     #[prost(uint32, tag = "14")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bcjeogcgfdh {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fdopelbealb {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ciaincoclgf {
@@ -2679,18 +2926,22 @@ pub struct Ciaincoclgf {
     #[prost(uint32, tag = "6")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Facmphjefba {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Idhkcnkapal {
     #[prost(bool, tag = "6")]
     pub hgnofcljbmb: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fbnokfehlpn {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ndcpidkjoph {
@@ -2701,6 +2952,7 @@ pub struct Ndcpidkjoph {
     #[prost(uint32, tag = "11")]
     pub cjpclddiddl: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ihkkeamggim {
@@ -2711,12 +2963,14 @@ pub struct Ihkkeamggim {
     #[prost(uint32, tag = "1")]
     pub cjpclddiddl: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Onfccfldjfe {
     #[prost(uint32, tag = "10")]
     pub id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ijajblgiioh {
@@ -2727,6 +2981,7 @@ pub struct Ijajblgiioh {
     #[prost(uint32, tag = "11")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mkkhkdaookp {
@@ -2757,6 +3012,7 @@ pub struct Mkkhkdaookp {
     #[prost(uint64, tag = "3")]
     pub hekdfoanipl: u64,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Oiklamipjdo {
@@ -2767,6 +3023,7 @@ pub struct Oiklamipjdo {
     #[prost(uint32, tag = "11")]
     pub level: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pkjgcmkochp {
@@ -2775,18 +3032,21 @@ pub struct Pkjgcmkochp {
     #[prost(uint32, tag = "1")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ifggimhheig {
     #[prost(uint32, tag = "10")]
     pub jaldbbgpfne: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mdjacnpamjk {
     #[prost(uint32, tag = "14")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct OptionalReward {
@@ -2795,12 +3055,14 @@ pub struct OptionalReward {
     #[prost(uint32, tag = "5")]
     pub level: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Addbgahdfnl {
     #[prost(message, repeated, tag = "9")]
     pub anhonmhniik: ::prost::alloc::vec::Vec<OptionalReward>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gdhbnfpfaog {
@@ -2809,6 +3071,7 @@ pub struct Gdhbnfpfaog {
     #[prost(uint32, tag = "10")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dnlffphplbe {
@@ -2817,6 +3080,7 @@ pub struct Dnlffphplbe {
     #[prost(uint32, tag = "11")]
     pub ckondfhadld: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jfakjilflci {
@@ -2841,9 +3105,11 @@ pub struct Jfakjilflci {
     #[prost(uint32, tag = "7")]
     pub ihmpmdicmkk: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lkcbeobecca {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Napjhgnjjaa {
@@ -2852,6 +3118,7 @@ pub struct Napjhgnjjaa {
     #[prost(message, repeated, tag = "9")]
     pub aaohdgdimml: ::prost::alloc::vec::Vec<Jfakjilflci>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Eeimjhfdkgn {
@@ -2860,6 +3127,7 @@ pub struct Eeimjhfdkgn {
     #[prost(enumeration = "AvatarType", tag = "12")]
     pub avatar_type: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mncbmaefmkl {
@@ -2870,6 +3138,7 @@ pub struct Mncbmaefmkl {
     #[prost(uint32, repeated, tag = "2")]
     pub avatar_list: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dfnjcodmjfk {
@@ -2878,6 +3147,7 @@ pub struct Dfnjcodmjfk {
     #[prost(uint32, tag = "8")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Megfjkbahdb {
@@ -2886,6 +3156,7 @@ pub struct Megfjkbahdb {
     #[prost(uint32, tag = "5")]
     pub meekkgnihle: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mkcglbfcbkb {
@@ -2894,6 +3165,7 @@ pub struct Mkcglbfcbkb {
     #[prost(message, optional, tag = "11")]
     pub pakaglmionh: ::core::option::Option<Jfakjilflci>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Phhfmcfnnhg {
@@ -2902,6 +3174,7 @@ pub struct Phhfmcfnnhg {
     #[prost(message, repeated, tag = "6")]
     pub iccpdpcbeeb: ::prost::alloc::vec::Vec<Eeimjhfdkgn>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ldkeinfcdhj {
@@ -2910,6 +3183,7 @@ pub struct Ldkeinfcdhj {
     #[prost(uint32, tag = "11")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dgmebfgdhkg {
@@ -2918,6 +3192,7 @@ pub struct Dgmebfgdhkg {
     #[prost(uint32, tag = "1")]
     pub jpljapikpip: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dpanlomknlg {
@@ -2926,12 +3201,14 @@ pub struct Dpanlomknlg {
     #[prost(message, optional, tag = "6")]
     pub pakaglmionh: ::core::option::Option<Jfakjilflci>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dmgomlablop {
     #[prost(uint32, tag = "9")]
     pub meekkgnihle: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nehadhkjoil {
@@ -2942,6 +3219,7 @@ pub struct Nehadhkjoil {
     #[prost(uint32, tag = "8")]
     pub meekkgnihle: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Llelfcejpka {
@@ -2950,6 +3228,7 @@ pub struct Llelfcejpka {
     #[prost(bool, tag = "9")]
     pub menmpielgpl: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jlhmfhmllnf {
@@ -2958,6 +3237,7 @@ pub struct Jlhmfhmllnf {
     #[prost(uint32, tag = "4")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dbbdfdmppjn {
@@ -2970,12 +3250,14 @@ pub struct Dbbdfdmppjn {
     #[prost(bool, tag = "7")]
     pub bccnneknbdm: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Elmflnfemek {
     #[prost(message, optional, tag = "4")]
     pub pakaglmionh: ::core::option::Option<Jfakjilflci>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ikffpjkogkb {
@@ -2992,6 +3274,7 @@ pub struct Ikffpjkogkb {
     #[prost(uint32, tag = "5")]
     pub gehgegofddm: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fllecngjkki {
@@ -3000,6 +3283,7 @@ pub struct Fllecngjkki {
     #[prost(uint64, tag = "11")]
     pub eddnghbbgoc: u64,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mefmlgocbjf {
@@ -3008,9 +3292,11 @@ pub struct Mefmlgocbjf {
     #[prost(uint32, tag = "12")]
     pub obofaekinfk: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cdckpbebldb {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cbhjhmjgpaf {
@@ -3025,6 +3311,7 @@ pub struct Cbhjhmjgpaf {
     #[prost(message, repeated, tag = "13")]
     pub efbnhaahogm: ::prost::alloc::vec::Vec<Mefmlgocbjf>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hdldgepfmgl {
@@ -3033,12 +3320,14 @@ pub struct Hdldgepfmgl {
     #[prost(uint32, tag = "8")]
     pub akeomnpojce: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Donknppomjc {
     #[prost(message, optional, tag = "14")]
     pub ggiahbjhkge: ::core::option::Option<Hdldgepfmgl>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jmfdlcddfhj {
@@ -3047,6 +3336,7 @@ pub struct Jmfdlcddfhj {
     #[prost(uint32, tag = "6")]
     pub meekkgnihle: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ldanlmnnigh {
@@ -3059,15 +3349,18 @@ pub struct Ldanlmnnigh {
     #[prost(uint32, tag = "10")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gbemnllhiaj {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ilmjncopfeo {
     #[prost(uint32, tag = "10")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Khanlfobond {
@@ -3090,6 +3383,7 @@ pub struct Khanlfobond {
     #[prost(uint32, tag = "10")]
     pub kgjkhjgnmmb: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Djakmmlenpd {
@@ -3098,18 +3392,21 @@ pub struct Djakmmlenpd {
     #[prost(uint32, tag = "12")]
     pub monster_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Oaeahlgaajm {
     #[prost(uint32, repeated, tag = "1")]
     pub buff_list: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bkighgalpnp {
     #[prost(message, optional, tag = "5")]
     pub jbamgoljjbe: ::core::option::Option<Oaeahlgaajm>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kjnmpbligpn {
@@ -3132,9 +3429,11 @@ pub struct Kjnmpbligpn {
     #[prost(uint32, tag = "2")]
     pub fpadcobiddj: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gihleecfbjg {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lflkcjjlplo {
@@ -3143,18 +3442,21 @@ pub struct Lflkcjjlplo {
     #[prost(message, optional, tag = "11")]
     pub ofljdjolifn: ::core::option::Option<Kjnmpbligpn>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nipmbkfaoaa {
     #[prost(enumeration = "ExtraLineupType", tag = "3")]
     pub extra_lineup_type: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jhbmjnmdglb {
     #[prost(uint32, tag = "6")]
     pub group_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dfadkngphga {
@@ -3165,6 +3467,7 @@ pub struct Dfadkngphga {
     #[prost(message, repeated, tag = "7")]
     pub lddjaokappo: ::prost::alloc::vec::Vec<Ngbdgfkebom>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ngbdgfkebom {
@@ -3173,6 +3476,7 @@ pub struct Ngbdgfkebom {
     #[prost(message, optional, tag = "15")]
     pub reward: ::core::option::Option<ItemList>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nfpadiblelk {
@@ -3181,6 +3485,7 @@ pub struct Nfpadiblelk {
     #[prost(message, optional, tag = "4")]
     pub pmjjmnipcnf: ::core::option::Option<Ombfkkcddbi>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cgonejnkeeh {
@@ -3189,6 +3494,7 @@ pub struct Cgonejnkeeh {
     #[prost(uint32, tag = "13")]
     pub gehgegofddm: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ombfkkcddbi {
@@ -3201,6 +3507,7 @@ pub struct Ombfkkcddbi {
     #[prost(message, repeated, tag = "3")]
     pub lineup_list: ::prost::alloc::vec::Vec<Alnhjbdnhob>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fjpmngbooac {
@@ -3217,12 +3524,14 @@ pub struct Fjpmngbooac {
     #[prost(uint32, tag = "14")]
     pub level: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Alnhjbdnhob {
     #[prost(message, repeated, tag = "8")]
     pub avatar_list: ::prost::alloc::vec::Vec<Eejihdkknng>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Eejihdkknng {
@@ -3235,12 +3544,14 @@ pub struct Eejihdkknng {
     #[prost(uint32, tag = "1")]
     pub index: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hnfpiffojjm {
     #[prost(uint32, tag = "6")]
     pub group_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ldoohgcnkkm {
@@ -3253,6 +3564,7 @@ pub struct Ldoohgcnkkm {
     #[prost(message, optional, tag = "8")]
     pub ilpoicglogc: ::core::option::Option<Cgonejnkeeh>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bgfjcbbfiek {
@@ -3267,6 +3579,7 @@ pub struct Bgfjcbbfiek {
     #[prost(string, tag = "2")]
     pub moiplammfad: ::prost::alloc::string::String,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jhickbdnnii {
@@ -3275,6 +3588,7 @@ pub struct Jhickbdnnii {
     #[prost(uint64, tag = "4")]
     pub end_time: u64,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bpifmdladdn {
@@ -3289,6 +3603,7 @@ pub struct Bpifmdladdn {
     #[prost(string, tag = "15")]
     pub fbelgjfhbkh: ::prost::alloc::string::String,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kifdjbodlcc {
@@ -3305,12 +3620,14 @@ pub struct Kifdjbodlcc {
     #[prost(enumeration = "ChatType", tag = "6")]
     pub pofomobijdg: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pnbahcnagja {
     #[prost(uint32, repeated, tag = "6")]
     pub dhjbofmdiaf: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Komknbijgpi {
@@ -3319,6 +3636,7 @@ pub struct Komknbijgpi {
     #[prost(uint32, tag = "9")]
     pub oligkfnjkma: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ooibcglpnac {
@@ -3331,6 +3649,7 @@ pub struct Ooibcglpnac {
     #[prost(uint32, tag = "4")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mnilhfgngda {
@@ -3339,9 +3658,11 @@ pub struct Mnilhfgngda {
     #[prost(uint32, tag = "8")]
     pub fjbkleaflam: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mdjgcdjindh {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fkcnlijbjla {
@@ -3350,9 +3671,11 @@ pub struct Fkcnlijbjla {
     #[prost(uint32, tag = "12")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Okomaeoiefd {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kpajkoihebk {
@@ -3361,6 +3684,7 @@ pub struct Kpajkoihebk {
     #[prost(uint32, tag = "4")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ibkmdebncfi {
@@ -3369,6 +3693,7 @@ pub struct Ibkmdebncfi {
     #[prost(uint32, tag = "15")]
     pub kjdhmhgjdmc: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ielhaccclbn {
@@ -3379,12 +3704,14 @@ pub struct Ielhaccclbn {
     #[prost(uint32, tag = "12")]
     pub kjdhmhgjdmc: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bdiiohojbii {
     #[prost(uint32, repeated, tag = "2")]
     pub ekeiiineffb: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mdneebdmanh {
@@ -3393,9 +3720,11 @@ pub struct Mdneebdmanh {
     #[prost(uint32, tag = "6")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lghfcpjnpji {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ecplljckfcg {
@@ -3404,12 +3733,14 @@ pub struct Ecplljckfcg {
     #[prost(uint32, repeated, tag = "11")]
     pub dhjbofmdiaf: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Akfgfndnpcm {
     #[prost(message, optional, tag = "11")]
     pub nghlebnllpd: ::core::option::Option<ItemCostData>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nldkfhipphm {
@@ -3418,6 +3749,7 @@ pub struct Nldkfhipphm {
     #[prost(message, optional, tag = "7")]
     pub lineup: ::core::option::Option<LineupInfo>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cgnjmipibld {
@@ -3426,12 +3758,14 @@ pub struct Cgnjmipibld {
     #[prost(uint32, tag = "2")]
     pub id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kdolhdnkooc {
     #[prost(message, repeated, tag = "13")]
     pub hiogkbeciob: ::prost::alloc::vec::Vec<Cgnjmipibld>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ehkfanbfigf {
@@ -3470,12 +3804,14 @@ pub struct Ehkfanbfigf {
     #[prost(int32, tag = "700")]
     pub gcomnnlicel: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ionmogilkfj {
     #[prost(uint32, tag = "15")]
     pub pdjboniohii: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Emdmljakhpg {
@@ -3486,12 +3822,14 @@ pub struct Emdmljakhpg {
     #[prost(message, optional, tag = "10")]
     pub jfmkjgdlgjg: ::core::option::Option<Ehkfanbfigf>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jnggjhncmhb {
     #[prost(uint32, tag = "14")]
     pub pkbdlfomfkh: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Eibmmjmhlml {
@@ -3500,6 +3838,7 @@ pub struct Eibmmjmhlml {
     #[prost(uint32, tag = "12")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cpamojendkc {
@@ -3508,6 +3847,7 @@ pub struct Cpamojendkc {
     #[prost(uint32, tag = "11")]
     pub olpbfkcodap: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Imiljgcjggm {
@@ -3518,6 +3858,7 @@ pub struct Imiljgcjggm {
     #[prost(message, repeated, tag = "6")]
     pub olfnmeknaph: ::prost::alloc::vec::Vec<Cpamojendkc>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nlgoaohkhpa {
@@ -3526,6 +3867,7 @@ pub struct Nlgoaohkhpa {
     #[prost(uint32, repeated, tag = "9")]
     pub mdldmaccagm: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Phlnbcbdhbo {
@@ -3534,6 +3876,7 @@ pub struct Phlnbcbdhbo {
     #[prost(message, optional, tag = "6")]
     pub ckdehakhado: ::core::option::Option<Imiljgcjggm>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pidojfmlodb {
@@ -3544,6 +3887,7 @@ pub struct Pidojfmlodb {
     #[prost(message, optional, tag = "12")]
     pub lmjmkfajcec: ::core::option::Option<Phlnbcbdhbo>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fegohpmjhio {
@@ -3572,6 +3916,7 @@ pub struct Fegohpmjhio {
     #[prost(uint32, repeated, tag = "8")]
     pub oolnibpfjnb: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fkmhheofflm {
@@ -3586,6 +3931,7 @@ pub struct Fkmhheofflm {
     #[prost(uint32, tag = "12")]
     pub pinjcjjibnj: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bmmijpokamd {
@@ -3594,6 +3940,7 @@ pub struct Bmmijpokamd {
     #[prost(uint32, tag = "12")]
     pub pkbdlfomfkh: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Confadlhpln {
@@ -3602,6 +3949,7 @@ pub struct Confadlhpln {
     #[prost(uint32, tag = "7")]
     pub ekieijdggia: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ojoeldllopk {
@@ -3620,6 +3968,7 @@ pub struct Ojoeldllopk {
     #[prost(enumeration = "Finaeombomp", tag = "8")]
     pub lldencmihoc: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Beebagafccj {
@@ -3642,6 +3991,7 @@ pub struct Beebagafccj {
     #[prost(uint32, tag = "10")]
     pub ebjhhhhfiak: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ocmalkobfel {
@@ -3650,12 +4000,14 @@ pub struct Ocmalkobfel {
     #[prost(uint32, tag = "2")]
     pub mpkacbpnmpn: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pcpjkddddbf {
     #[prost(message, repeated, tag = "13")]
     pub lobghgfemep: ::prost::alloc::vec::Vec<Ocmalkobfel>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fefaifljmhg {
@@ -3670,6 +4022,7 @@ pub struct Fefaifljmhg {
     #[prost(uint32, repeated, tag = "1")]
     pub pipmchkoncg: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kmjlmkhpagj {
@@ -3678,6 +4031,7 @@ pub struct Kmjlmkhpagj {
     #[prost(uint32, tag = "6")]
     pub ckondfhadld: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Aadggenggll {
@@ -3686,6 +4040,7 @@ pub struct Aadggenggll {
     #[prost(message, optional, tag = "3")]
     pub onpfehocppn: ::core::option::Option<Akfgfndnpcm>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Clnflhfjmhb {
@@ -3698,18 +4053,21 @@ pub struct Clnflhfjmhb {
     #[prost(uint32, tag = "10")]
     pub jneefffoigf: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Oajdeacgcbj {
     #[prost(int32, tag = "6")]
     pub gfemjdkppne: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jeokmeginbm {
     #[prost(uint32, repeated, tag = "4")]
     pub eodnkkeeoga: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fhnndcjemjg {
@@ -3744,6 +4102,7 @@ pub struct Fhnndcjemjg {
     #[prost(message, optional, tag = "11")]
     pub cfkepbadeco: ::core::option::Option<Hahmakeodgg>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nbmanpfgbgh {
@@ -3762,6 +4121,7 @@ pub struct Nbmanpfgbgh {
     #[prost(message, optional, tag = "15")]
     pub hgpklojihdi: ::core::option::Option<Iehnikilajp>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Peehmmledmp {
@@ -3770,6 +4130,7 @@ pub struct Peehmmledmp {
     #[prost(message, repeated, tag = "14")]
     pub jnimlohdmlo: ::prost::alloc::vec::Vec<Mmgmnbonana>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Beimelkbjip {
@@ -3786,6 +4147,7 @@ pub struct Beimelkbjip {
     #[prost(message, optional, tag = "5")]
     pub fndbnajbnnc: ::core::option::Option<Bjdgcdijloe>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nlbojmdefii {
@@ -3828,6 +4190,7 @@ pub struct Nlbojmdefii {
     #[prost(uint32, tag = "7")]
     pub dpmciakidpa: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Agiabikdghi {
@@ -3836,6 +4199,7 @@ pub struct Agiabikdghi {
     #[prost(message, repeated, tag = "1")]
     pub dkpdnfafhpi: ::prost::alloc::vec::Vec<Fegohpmjhio>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bglbagnedbn {
@@ -3844,6 +4208,7 @@ pub struct Bglbagnedbn {
     #[prost(uint32, tag = "9")]
     pub mppokeidaha: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nmomemmfjnf {
@@ -3852,9 +4217,11 @@ pub struct Nmomemmfjnf {
     #[prost(uint32, tag = "15")]
     pub agijapkklnn: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Efbcaklfame {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Apemkpacgef {
@@ -3871,6 +4238,7 @@ pub struct Apemkpacgef {
     #[prost(message, optional, tag = "1")]
     pub napnbdcoafp: ::core::option::Option<Fhnndcjemjg>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kjngodjmmok {
@@ -3879,6 +4247,7 @@ pub struct Kjngodjmmok {
     #[prost(uint32, tag = "10")]
     pub pkbdlfomfkh: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lanodioeilp {
@@ -3893,12 +4262,14 @@ pub struct Lanodioeilp {
     #[prost(message, optional, tag = "15")]
     pub jjbghclhjml: ::core::option::Option<Nldkfhipphm>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lbefcoklfkk {
     #[prost(uint32, tag = "9")]
     pub id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Afdcgepneig {
@@ -3913,9 +4284,11 @@ pub struct Afdcgepneig {
     #[prost(message, optional, tag = "2")]
     pub napnbdcoafp: ::core::option::Option<Fhnndcjemjg>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Oigagdbedba {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Oechmjoiicm {
@@ -3930,9 +4303,11 @@ pub struct Oechmjoiicm {
     #[prost(message, optional, tag = "3")]
     pub eafohbgekig: ::core::option::Option<Beimelkbjip>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cchoffgoacd {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bckoglppicg {
@@ -3949,6 +4324,7 @@ pub struct Bckoglppicg {
     #[prost(message, optional, tag = "15")]
     pub dhbfppkhghf: ::core::option::Option<Fefaifljmhg>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kafgfhlmjga {
@@ -3967,6 +4343,7 @@ pub struct Kafgfhlmjga {
     #[prost(uint32, tag = "10")]
     pub milhldhlpeh: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mjngjjddjla {
@@ -3985,9 +4362,11 @@ pub struct Mjngjjddjla {
     #[prost(message, optional, tag = "8")]
     pub lineup: ::core::option::Option<LineupInfo>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hbcbmcekakg {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ejphbaiappl {
@@ -3996,12 +4375,14 @@ pub struct Ejphbaiappl {
     #[prost(uint32, tag = "8")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Eegljffkhnh {
     #[prost(message, optional, tag = "6")]
     pub napnbdcoafp: ::core::option::Option<Ocmalkobfel>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hfjmcpjmjbd {
@@ -4010,6 +4391,7 @@ pub struct Hfjmcpjmjbd {
     #[prost(uint32, tag = "11")]
     pub iaeonkohpbh: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Elnahemlidf {
@@ -4022,9 +4404,11 @@ pub struct Elnahemlidf {
     #[prost(message, optional, tag = "11")]
     pub lkdpifpcpco: ::core::option::Option<Mhfcaolcahc>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hajhkhjfppm {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ilpdgaopfgc {
@@ -4033,12 +4417,14 @@ pub struct Ilpdgaopfgc {
     #[prost(uint32, tag = "15")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Joihblbmfgl {
     #[prost(uint32, tag = "9")]
     pub ndbnlpmckna: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Glgckadgemg {
@@ -4049,6 +4435,7 @@ pub struct Glgckadgemg {
     #[prost(uint32, tag = "5")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kkdbcpiaala {
@@ -4063,9 +4450,11 @@ pub struct Kkdbcpiaala {
     #[prost(message, optional, tag = "1")]
     pub pgjhbdmdfhf: ::core::option::Option<Nlbojmdefii>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ddaloncjihi {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ipjncnokbcf {
@@ -4074,12 +4463,14 @@ pub struct Ipjncnokbcf {
     #[prost(message, optional, tag = "9")]
     pub fpfclcfjpee: ::core::option::Option<Njeacjmcbgl>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jbbpkbfepih {
     #[prost(uint32, tag = "9")]
     pub giibaepcgan: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ocgkdflndcp {
@@ -4092,6 +4483,7 @@ pub struct Ocgkdflndcp {
     #[prost(uint32, tag = "4")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bigljhgnpni {
@@ -4100,6 +4492,7 @@ pub struct Bigljhgnpni {
     #[prost(uint32, tag = "10")]
     pub prop_entity_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Enmgdiiijha {
@@ -4110,6 +4503,7 @@ pub struct Enmgdiiijha {
     #[prost(uint32, repeated, tag = "11")]
     pub base_avatar_id_list: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Babmcbadkoj {
@@ -4118,6 +4512,7 @@ pub struct Babmcbadkoj {
     #[prost(uint32, tag = "11")]
     pub jmknpgakkhb: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Djknkkccomm {
@@ -4128,24 +4523,28 @@ pub struct Djknkkccomm {
     #[prost(uint32, tag = "8")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ihhdahiaijp {
     #[prost(message, optional, tag = "10")]
     pub onpfehocppn: ::core::option::Option<Akfgfndnpcm>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cpoebkjecbp {
     #[prost(message, optional, tag = "12")]
     pub fnaeboidadn: ::core::option::Option<Dgnnoddkkfa>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Acageokchob {
     #[prost(message, optional, tag = "13")]
     pub jfmkjgdlgjg: ::core::option::Option<Ehkfanbfigf>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hgnpppadonl {
@@ -4154,6 +4553,7 @@ pub struct Hgnpppadonl {
     #[prost(enumeration = "Leieahhhhmi", tag = "3")]
     pub jdgielljojd: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Flaacjnlmjc {
@@ -4162,12 +4562,14 @@ pub struct Flaacjnlmjc {
     #[prost(uint32, tag = "10")]
     pub jageglcnmjj: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mhieehbhobc {
     #[prost(message, optional, tag = "14")]
     pub cdhgaemnmhb: ::core::option::Option<Fkmhheofflm>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bfogiogkjdd {
@@ -4176,15 +4578,18 @@ pub struct Bfogiogkjdd {
     #[prost(int32, tag = "1")]
     pub hncgpmcbnlh: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hgfgfpaedka {
     #[prost(int32, tag = "5")]
     pub pgegoknlgde: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ffkckoceinb {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct ChessRogueSkipTeachingLevelScRsp {
@@ -4193,18 +4598,21 @@ pub struct ChessRogueSkipTeachingLevelScRsp {
     #[prost(message, optional, tag = "9")]
     pub skip_reward_list: ::core::option::Option<ItemList>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gginfajfbjk {
     #[prost(uint32, repeated, tag = "14")]
     pub nenkkbjejfl: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dnbdofjhaeb {
     #[prost(uint32, tag = "9")]
     pub prop_entity_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Oopdnmfnicm {
@@ -4219,12 +4627,14 @@ pub struct Oopdnmfnicm {
     #[prost(message, optional, tag = "12")]
     pub mdgjahafkgj: ::core::option::Option<Fhnndcjemjg>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lieohidphnk {
     #[prost(uint32, tag = "6")]
     pub pdjboniohii: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fbcinjkkdfm {
@@ -4233,12 +4643,14 @@ pub struct Fbcinjkkdfm {
     #[prost(message, optional, tag = "4")]
     pub jfmkjgdlgjg: ::core::option::Option<Ehkfanbfigf>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nlpjadkojbf {
     #[prost(uint32, tag = "5")]
     pub pdjboniohii: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mcgbnebgbah {
@@ -4247,6 +4659,7 @@ pub struct Mcgbnebgbah {
     #[prost(message, optional, tag = "14")]
     pub jfmkjgdlgjg: ::core::option::Option<Ehkfanbfigf>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Npeiaidekic {
@@ -4255,6 +4668,7 @@ pub struct Npeiaidekic {
     #[prost(uint32, tag = "1")]
     pub amlfmjednpm: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bfkecjidkjm {
@@ -4267,9 +4681,11 @@ pub struct Bfkecjidkjm {
     #[prost(uint32, tag = "15")]
     pub kglcegiaefo: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cciddcknoeb {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hnplabkokij {
@@ -4280,9 +4696,11 @@ pub struct Hnplabkokij {
     #[prost(message, optional, tag = "3")]
     pub hcbpknjbbgo: ::core::option::Option<ItemList>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bjbimbifmhe {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pbmomenpell {
@@ -4305,12 +4723,14 @@ pub struct Pbmomenpell {
     #[prost(uint32, tag = "3")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ckfdbgejcgc {
     #[prost(message, optional, tag = "11")]
     pub khpdleamfpn: ::core::option::Option<Beebagafccj>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fmmjpgnggch {
@@ -4321,6 +4741,7 @@ pub struct Fmmjpgnggch {
     #[prost(uint32, tag = "2")]
     pub ojgdffddhan: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Codlhohjmag {
@@ -4333,6 +4754,7 @@ pub struct Codlhohjmag {
     #[prost(message, repeated, tag = "3")]
     pub dkpdnfafhpi: ::prost::alloc::vec::Vec<Fegohpmjhio>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Begmdeoalen {
@@ -4341,9 +4763,11 @@ pub struct Begmdeoalen {
     #[prost(uint32, tag = "7")]
     pub hmjhgpaeebn: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Iokedapjchk {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Elbbjpbcdbg {
@@ -4354,6 +4778,7 @@ pub struct Elbbjpbcdbg {
     #[prost(message, repeated, tag = "13")]
     pub opbkdoccobp: ::prost::alloc::vec::Vec<Nmomemmfjnf>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Eifeodkkdlf {
@@ -4366,6 +4791,7 @@ pub struct Eifeodkkdlf {
     #[prost(uint32, tag = "10")]
     pub plafdnapiac: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dfhfkbiepml {
@@ -4380,6 +4806,7 @@ pub struct Dfhfkbiepml {
     #[prost(uint32, tag = "8")]
     pub ombaohdohaf: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hjimlegohbm {
@@ -4390,6 +4817,7 @@ pub struct Hjimlegohbm {
     #[prost(uint32, tag = "12")]
     pub bilkfnalgla: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cfehmaklijp {
@@ -4404,15 +4832,18 @@ pub struct Cfehmaklijp {
     #[prost(uint32, tag = "8")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hpndbbaalge {
     #[prost(int32, tag = "9")]
     pub jepagkihefk: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ompnpabpodj {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nenjehjkolm {
@@ -4421,12 +4852,14 @@ pub struct Nenjehjkolm {
     #[prost(uint32, tag = "6")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Inkipahiigj {
     #[prost(uint32, tag = "1")]
     pub klhedpmgpjj: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Onopommgjcp {
@@ -4437,6 +4870,7 @@ pub struct Onopommgjcp {
     #[prost(uint32, tag = "8")]
     pub klhedpmgpjj: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Icmepenlmke {
@@ -4445,12 +4879,14 @@ pub struct Icmepenlmke {
     #[prost(uint32, tag = "14")]
     pub mppokeidaha: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jbblnlddedl {
     #[prost(message, optional, tag = "8")]
     pub pdepkbbpgem: ::core::option::Option<Oajdeacgcbj>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Plbbhodfhob {
@@ -4459,15 +4895,18 @@ pub struct Plbbhodfhob {
     #[prost(enumeration = "Dojieelhjlp", tag = "5")]
     pub status: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ahnkdodapgf {
     #[prost(uint32, tag = "5")]
     pub plafdnapiac: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nkhnfljkmdo {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ienebekiefe {
@@ -4478,6 +4917,7 @@ pub struct Ienebekiefe {
     #[prost(uint32, tag = "12")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Opfnnmfjdko {
@@ -4488,6 +4928,7 @@ pub struct Opfnnmfjdko {
     #[prost(uint32, tag = "14")]
     pub plafdnapiac: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mnpanokijgm {
@@ -4500,6 +4941,7 @@ pub struct Mnpanokijgm {
     #[prost(uint32, tag = "5")]
     pub ombaohdohaf: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Obdjmclecof {
@@ -4508,6 +4950,7 @@ pub struct Obdjmclecof {
     #[prost(uint32, tag = "11")]
     pub ombaohdohaf: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Piafkoelgpc {
@@ -4518,18 +4961,21 @@ pub struct Piafkoelgpc {
     #[prost(uint32, tag = "9")]
     pub ombaohdohaf: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bcbblacopdm {
     #[prost(uint32, tag = "10")]
     pub plafdnapiac: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dhdlfdbnnjo {
     #[prost(message, repeated, tag = "8")]
     pub enodijllmof: ::prost::alloc::vec::Vec<Plbbhodfhob>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lcgionaidjn {
@@ -4550,6 +4996,7 @@ pub struct Lcgionaidjn {
     #[prost(uint32, tag = "6")]
     pub plafdnapiac: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kedcnahgdbd {
@@ -4558,6 +5005,7 @@ pub struct Kedcnahgdbd {
     #[prost(uint32, tag = "8")]
     pub ifehhfhihpo: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pifedfgbmfj {
@@ -4570,6 +5018,7 @@ pub struct Pifedfgbmfj {
     #[prost(uint32, tag = "1")]
     pub njfgaabmpip: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bjdgcdijloe {
@@ -4582,12 +5031,14 @@ pub struct Bjdgcdijloe {
     #[prost(message, repeated, tag = "11")]
     pub gjakcpheefj: ::prost::alloc::vec::Vec<Pifedfgbmfj>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gepglobcikm {
     #[prost(uint32, tag = "2")]
     pub bnhhdjkdebi: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Iehnikilajp {
@@ -4596,18 +5047,21 @@ pub struct Iehnikilajp {
     #[prost(uint32, tag = "11")]
     pub bnhhdjkdebi: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kkneodnnmhm {
     #[prost(uint32, repeated, tag = "4")]
     pub dfgjpmnoija: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pifhepjagod {
     #[prost(message, optional, tag = "5")]
     pub fndbnajbnnc: ::core::option::Option<Pifedfgbmfj>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cmdkoojbcmo {
@@ -4616,21 +5070,25 @@ pub struct Cmdkoojbcmo {
     #[prost(message, optional, tag = "14")]
     pub fndbnajbnnc: ::core::option::Option<Pifedfgbmfj>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kndpfbphmgl {
     #[prost(message, optional, tag = "2")]
     pub omffcdjccec: ::core::option::Option<Bjdgcdijloe>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Enepmddookf {
     #[prost(uint32, tag = "5")]
     pub iaopeakjlhb: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ojlknlpplln {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fkifdedbhlm {
@@ -4641,12 +5099,14 @@ pub struct Fkifdedbhlm {
     #[prost(uint32, tag = "2")]
     pub bnhhdjkdebi: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Haghnfmnamn {
     #[prost(uint32, tag = "7")]
     pub nhmachllchm: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ojfhmpegilp {
@@ -4657,9 +5117,11 @@ pub struct Ojfhmpegilp {
     #[prost(message, optional, tag = "14")]
     pub hgpklojihdi: ::core::option::Option<Jccemojomaf>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bobmjkkfllo {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Oigfjobbeem {
@@ -4670,6 +5132,7 @@ pub struct Oigfjobbeem {
     #[prost(uint32, repeated, tag = "15")]
     pub dhacblhbhaa: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lhcbalailkk {
@@ -4690,12 +5153,14 @@ pub struct Lhcbalailkk {
     #[prost(uint32, tag = "13")]
     pub progress: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Aeleecnidpe {
     #[prost(uint32, tag = "6")]
     pub gblgdppifpe: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fgogcaeoncb {
@@ -4704,12 +5169,14 @@ pub struct Fgogcaeoncb {
     #[prost(uint32, tag = "15")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pbamffehppl {
     #[prost(uint32, tag = "7")]
     pub nhmachllchm: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Aobmgmkkjml {
@@ -4718,6 +5185,7 @@ pub struct Aobmgmkkjml {
     #[prost(uint32, tag = "14")]
     pub nhmachllchm: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Idnpjbokbcl {
@@ -4726,6 +5194,7 @@ pub struct Idnpjbokbcl {
     #[prost(uint32, repeated, tag = "8")]
     pub bncalipcfha: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Boaeodkkjkl {
@@ -4734,12 +5203,15 @@ pub struct Boaeodkkjkl {
     #[prost(uint32, tag = "5")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bcfebmiiigb {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Liddhipfbad {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lciodnbhoma {
@@ -4750,6 +5222,7 @@ pub struct Lciodnbhoma {
     #[prost(uint32, repeated, tag = "13")]
     pub jgdnpajcced: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Heplbmgcaae {
@@ -4758,24 +5231,28 @@ pub struct Heplbmgcaae {
     #[prost(message, repeated, tag = "1")]
     pub kcbgibpmhij: ::prost::alloc::vec::Vec<Lciodnbhoma>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gjeodnbchbe {
     #[prost(message, optional, tag = "9")]
     pub hcanpepdidg: ::core::option::Option<Heplbmgcaae>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mejcnamehef {
     #[prost(message, optional, tag = "1")]
     pub hcanpepdidg: ::core::option::Option<Heplbmgcaae>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Clbocnlnkpb {
     #[prost(message, optional, tag = "2")]
     pub hcanpepdidg: ::core::option::Option<Heplbmgcaae>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Acpmnokcmoc {
@@ -4786,18 +5263,21 @@ pub struct Acpmnokcmoc {
     #[prost(message, optional, tag = "4")]
     pub hcanpepdidg: ::core::option::Option<Heplbmgcaae>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lfilnepgamh {
     #[prost(message, optional, tag = "5")]
     pub hcanpepdidg: ::core::option::Option<Heplbmgcaae>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mkkedjjecon {
     #[prost(bool, tag = "14")]
     pub lkiefakbooa: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Amhhlokmohd {
@@ -4820,6 +5300,7 @@ pub struct Amhhlokmohd {
     #[prost(bool, tag = "4")]
     pub ejjejjdkagm: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Iipjjhgalcf {
@@ -4830,6 +5311,7 @@ pub struct Iipjjhgalcf {
     #[prost(int32, tag = "6")]
     pub bfghfkhhlbk: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kidmjffnijp {
@@ -4840,12 +5322,14 @@ pub struct Kidmjffnijp {
     #[prost(uint32, tag = "3")]
     pub jfghjfckgcd: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lianbhcnaam {
     #[prost(message, repeated, tag = "2")]
     pub buff_list: ::prost::alloc::vec::Vec<Kidmjffnijp>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pankjpbkbik {
@@ -4874,15 +5358,18 @@ pub struct Pankjpbkbik {
     #[prost(uint32, tag = "2")]
     pub beimioebepi: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Eodkfcieled {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lpaiebcdajm {
     #[prost(message, optional, tag = "8")]
     pub hcanpepdidg: ::core::option::Option<Heplbmgcaae>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Aghejikmbkp {
@@ -4891,12 +5378,14 @@ pub struct Aghejikmbkp {
     #[prost(bool, tag = "2")]
     pub bccnneknbdm: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gjkpkigndlh {
     #[prost(uint32, repeated, tag = "6")]
     pub avatar_id_list: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dhgfmcbnclg {
@@ -4905,6 +5394,7 @@ pub struct Dhgfmcbnclg {
     #[prost(uint32, tag = "11")]
     pub gacha_random: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fhhfjllmckj {
@@ -4913,9 +5403,11 @@ pub struct Fhhfjllmckj {
     #[prost(uint32, tag = "8")]
     pub ahgbnlbmcog: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fgjfdjiajcg {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ckcgpnplbgb {
@@ -4940,6 +5432,7 @@ pub struct Ckcgpnplbgb {
     #[prost(uint32, tag = "10")]
     pub hjbghgeignb: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ghkppjbkffi {
@@ -4956,6 +5449,7 @@ pub struct Ghkppjbkffi {
     #[prost(message, optional, tag = "11")]
     pub reward: ::core::option::Option<ItemList>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Heioppjkkdl {
@@ -4972,6 +5466,7 @@ pub struct Heioppjkkdl {
     #[prost(uint32, tag = "6")]
     pub oabjnfmpjkg: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mleedpcgjop {
@@ -4980,12 +5475,14 @@ pub struct Mleedpcgjop {
     #[prost(bool, tag = "2")]
     pub albpndfhdpm: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lkkcicjmfbg {
     #[prost(uint32, tag = "6")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kkkbpghkpik {
@@ -4994,6 +5491,7 @@ pub struct Kkkbpghkpik {
     #[prost(uint32, tag = "2")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dnfgipipbod {
@@ -5004,6 +5502,7 @@ pub struct Dnfgipipbod {
     #[prost(uint32, tag = "9")]
     pub kmjapkepige: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Foekpdeijph {
@@ -5020,6 +5519,7 @@ pub struct Foekpdeijph {
     #[prost(message, optional, tag = "1571")]
     pub jjeppbkgfmm: ::core::option::Option<Iipjjhgalcf>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ificiimlokp {
@@ -5028,6 +5528,7 @@ pub struct Ificiimlokp {
     #[prost(bool, tag = "6")]
     pub kmndgjjcdpe: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ekjjdahbjgo {
@@ -5036,6 +5537,7 @@ pub struct Ekjjdahbjgo {
     #[prost(uint32, tag = "13")]
     pub kdgkdipnoim: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Item {
@@ -5054,12 +5556,14 @@ pub struct Item {
     #[prost(uint32, tag = "6")]
     pub item_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct ItemList {
     #[prost(message, repeated, tag = "4")]
     pub item_list: ::prost::alloc::vec::Vec<Item>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct PileItem {
@@ -5068,6 +5572,7 @@ pub struct PileItem {
     #[prost(uint32, tag = "8")]
     pub item_num: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct ItemCost {
@@ -5076,6 +5581,7 @@ pub struct ItemCost {
 }
 /// Nested message and enum types in `ItemCost`.
 pub mod item_cost {
+    #[derive(serde::Serialize, serde::Deserialize)]
     #[allow(clippy::derive_partial_eq_without_eq)]
     #[derive(Clone, PartialEq, ::prost::Oneof)]
     pub enum Item {
@@ -5087,12 +5593,14 @@ pub mod item_cost {
         RelicUniqueId(u32),
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct ItemCostData {
     #[prost(message, repeated, tag = "14")]
     pub item_list: ::prost::alloc::vec::Vec<ItemCost>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Feojnpdiboe {
@@ -5101,6 +5609,7 @@ pub struct Feojnpdiboe {
     #[prost(uint32, tag = "8")]
     pub gifbaoolifn: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ecjgcpeneac {
@@ -5115,6 +5624,7 @@ pub struct Ecjgcpeneac {
     #[prost(uint32, tag = "9")]
     pub level: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nggildmhjni {
@@ -5129,6 +5639,7 @@ pub struct Nggildmhjni {
     #[prost(uint32, tag = "8")]
     pub main_affix_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lagpefhbbgh {
@@ -5139,12 +5650,14 @@ pub struct Lagpefhbbgh {
     #[prost(message, optional, tag = "7")]
     pub dbecbhfhphk: ::core::option::Option<Nggildmhjni>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ilknlohcbja {
     #[prost(message, repeated, tag = "14")]
     pub item_list: ::prost::alloc::vec::Vec<Lagpefhbbgh>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Vector {
@@ -5155,6 +5668,7 @@ pub struct Vector {
     #[prost(sint32, tag = "2")]
     pub baimdminomk: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct MotionInfo {
@@ -5163,6 +5677,7 @@ pub struct MotionInfo {
     #[prost(message, optional, tag = "12")]
     pub aomilajjmii: ::core::option::Option<Vector>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ojmhcnlolph {
@@ -5175,6 +5690,7 @@ pub struct Ojmhcnlolph {
     #[prost(float, tag = "10")]
     pub bagloppgnpb: f32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Holldlkceof {
@@ -5187,6 +5703,7 @@ pub struct Holldlkceof {
     #[prost(uint32, tag = "15")]
     pub gcabmpeeflm: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct SceneMonsterParam {
@@ -5197,6 +5714,7 @@ pub struct SceneMonsterParam {
     #[prost(uint32, tag = "12")]
     pub monster_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct SceneMonsterWave {
@@ -5211,6 +5729,7 @@ pub struct SceneMonsterWave {
     #[prost(uint32, tag = "9")]
     pub iilhbcalikm: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct SceneBattleInfo {
@@ -5243,6 +5762,7 @@ pub struct SceneBattleInfo {
     #[prost(map = "uint32, message", tag = "1433")]
     pub ichnbmifjdi: ::std::collections::HashMap<u32, Hbinjjdphdo>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bihglhmefjo {
@@ -5261,6 +5781,7 @@ pub struct Bihglhmefjo {
     #[prost(message, repeated, tag = "10")]
     pub monster_wave_list: ::prost::alloc::vec::Vec<SceneMonsterWave>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Focolkgmoki {
@@ -5273,12 +5794,14 @@ pub struct Focolkgmoki {
     #[prost(uint32, tag = "1")]
     pub pebckggmpje: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Chgngnmjhkm {
     #[prost(uint32, tag = "5")]
     pub level: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kemlbjmhfkk {
@@ -5289,9 +5812,11 @@ pub struct Kemlbjmhfkk {
     #[prost(uint32, tag = "14")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Iakmbjdkjdd {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Clkbniiafee {
@@ -5304,6 +5829,7 @@ pub struct Clkbniiafee {
     #[prost(message, repeated, tag = "12")]
     pub jpddaafinke: ::prost::alloc::vec::Vec<Focolkgmoki>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gflkljmebfh {
@@ -5314,9 +5840,11 @@ pub struct Gflkljmebfh {
     #[prost(uint32, repeated, tag = "1")]
     pub mlpdapdfdmi: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Albgjlodeea {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jcffmbfeijp {
@@ -5327,6 +5855,7 @@ pub struct Jcffmbfeijp {
     #[prost(uint32, repeated, tag = "7")]
     pub flgpoajfdib: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct DrinkMakerGuest {
@@ -5337,6 +5866,7 @@ pub struct DrinkMakerGuest {
     #[prost(uint32, tag = "8")]
     pub guest_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cncpilhchja {
@@ -5351,6 +5881,7 @@ pub struct Cncpilhchja {
     #[prost(uint32, tag = "7")]
     pub egfdpinnfbb: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mchdoelancd {
@@ -5359,9 +5890,11 @@ pub struct Mchdoelancd {
     #[prost(bool, tag = "12")]
     pub bfknlcpgdeh: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lmojgkbebok {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gpkobmnnlhf {
@@ -5386,6 +5919,7 @@ pub struct Gpkobmnnlhf {
     #[prost(uint32, tag = "3")]
     pub hfdpgmnengp: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fgkmalebkei {
@@ -5394,6 +5928,7 @@ pub struct Fgkmalebkei {
     #[prost(message, optional, tag = "6")]
     pub kppfceifpdn: ::core::option::Option<Cncpilhchja>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct MakeDrinkScRsp {
@@ -5404,9 +5939,11 @@ pub struct MakeDrinkScRsp {
     #[prost(uint32, tag = "3")]
     pub next_chat_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bpkdmfmbakb {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct EndDrinkMakerSequenceScRsp {
@@ -5427,6 +5964,7 @@ pub struct EndDrinkMakerSequenceScRsp {
     #[prost(message, repeated, tag = "12")]
     pub request_list: ::prost::alloc::vec::Vec<Mchdoelancd>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Phdkebjkmbh {
@@ -5437,6 +5975,7 @@ pub struct Phdkebjkmbh {
     #[prost(message, optional, tag = "4")]
     pub kppfceifpdn: ::core::option::Option<Cncpilhchja>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct MakeMissionDrinkScRsp {
@@ -5449,12 +5988,14 @@ pub struct MakeMissionDrinkScRsp {
     #[prost(bool, tag = "6")]
     pub is_save: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ndcmdcpafbb {
     #[prost(uint32, tag = "15")]
     pub bbbabgifidf: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lplpbdldlch {
@@ -5463,6 +6004,7 @@ pub struct Lplpbdldlch {
     #[prost(message, optional, tag = "15")]
     pub kppfceifpdn: ::core::option::Option<Cncpilhchja>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ijclfafalla {
@@ -5475,12 +6017,14 @@ pub struct Ijclfafalla {
     #[prost(bool, tag = "13")]
     pub bfknlcpgdeh: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Njlcohpnmal {
     #[prost(uint32, tag = "14")]
     pub dflmmmmoolj: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct EvolveBuildAvatar {
@@ -5491,6 +6035,7 @@ pub struct EvolveBuildAvatar {
     #[prost(double, tag = "10")]
     pub damage: f64,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct EvolveBuildLevelInfo {
@@ -5507,6 +6052,7 @@ pub struct EvolveBuildLevelInfo {
     #[prost(message, optional, tag = "12")]
     pub battle_info: ::core::option::Option<EvolveBuildBattleInfo>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Iogkfcflcog {
@@ -5517,6 +6063,7 @@ pub struct Iogkfcflcog {
     #[prost(uint32, tag = "5")]
     pub oplphfmanjk: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kbkapegdgai {
@@ -5525,6 +6072,7 @@ pub struct Kbkapegdgai {
     #[prost(uint32, tag = "7")]
     pub level: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Afbcjdipheo {
@@ -5537,6 +6085,7 @@ pub struct Afbcjdipheo {
     #[prost(uint32, tag = "13")]
     pub pfdeammddij: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Eofegbbmljg {
@@ -5561,9 +6110,11 @@ pub struct Eofegbbmljg {
     #[prost(uint32, repeated, tag = "7")]
     pub haakbfokfde: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Epmppioldmk {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pfgbnbieiip {
@@ -5574,6 +6125,7 @@ pub struct Pfgbnbieiip {
     #[prost(message, optional, tag = "11")]
     pub haaegbncmed: ::core::option::Option<Eofegbbmljg>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mdlffjkjfbe {
@@ -5584,6 +6136,7 @@ pub struct Mdlffjkjfbe {
     #[prost(message, optional, tag = "8")]
     pub mngnjfhmmib: ::core::option::Option<Nbfdglmhcip>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ihofogghphf {
@@ -5594,12 +6147,14 @@ pub struct Ihofogghphf {
     #[prost(message, optional, tag = "4")]
     pub khpdleamfpn: ::core::option::Option<EvolveBuildLevelInfo>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jcbckdanfem {
     #[prost(uint32, tag = "1")]
     pub pfdeammddij: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ejbpjedddno {
@@ -5610,9 +6165,11 @@ pub struct Ejbpjedddno {
     #[prost(message, optional, tag = "11")]
     pub khpdleamfpn: ::core::option::Option<EvolveBuildLevelInfo>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nfffpdkfbla {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hhmknobhcjo {
@@ -5621,9 +6178,11 @@ pub struct Hhmknobhcjo {
     #[prost(uint32, tag = "8")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jhjgfehfkgj {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cjjfnefdeaa {
@@ -5632,6 +6191,7 @@ pub struct Cjjfnefdeaa {
     #[prost(uint32, tag = "15")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct EvolveBuildFinishScNotify {
@@ -5654,12 +6214,14 @@ pub struct EvolveBuildFinishScNotify {
     #[prost(uint32, tag = "12")]
     pub level_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mplkgckdpbp {
     #[prost(uint32, tag = "5")]
     pub pfdeammddij: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hjbhmaojdip {
@@ -5670,6 +6232,7 @@ pub struct Hjbhmaojdip {
     #[prost(uint32, tag = "13")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Makpinmicia {
@@ -5678,6 +6241,7 @@ pub struct Makpinmicia {
     #[prost(uint32, tag = "13")]
     pub level: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jlkhmlamabm {
@@ -5688,6 +6252,7 @@ pub struct Jlkhmlamabm {
     #[prost(uint32, tag = "12")]
     pub level: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Megladjblec {
@@ -5696,6 +6261,7 @@ pub struct Megladjblec {
     #[prost(uint32, tag = "5")]
     pub level: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lgnenpanpaj {
@@ -5706,12 +6272,14 @@ pub struct Lgnenpanpaj {
     #[prost(uint32, tag = "9")]
     pub deimomobeol: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cphndcbhdfa {
     #[prost(uint32, tag = "6")]
     pub plndcbnfnpl: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ikloamindel {
@@ -5722,9 +6290,11 @@ pub struct Ikloamindel {
     #[prost(message, optional, tag = "12")]
     pub reward: ::core::option::Option<ItemList>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cnngogcnphe {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nnojcicmpli {
@@ -5735,12 +6305,14 @@ pub struct Nnojcicmpli {
     #[prost(message, repeated, tag = "1")]
     pub gmncbmphbpo: ::prost::alloc::vec::Vec<Kbkapegdgai>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mbbkonkiaic {
     #[prost(uint32, tag = "14")]
     pub kdgkdipnoim: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Padinpaobbo {
@@ -5749,6 +6321,7 @@ pub struct Padinpaobbo {
     #[prost(bool, tag = "15")]
     pub ggjhinoneap: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Expedition {
@@ -5761,6 +6334,7 @@ pub struct Expedition {
     #[prost(uint32, repeated, tag = "9")]
     pub avatar_id_list: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hmfffjpjcog {
@@ -5777,9 +6351,11 @@ pub struct Hmfffjpjcog {
     #[prost(int64, tag = "5")]
     pub accept_time: i64,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct GetExpeditionDataCsReq {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct GetExpeditionDataScRsp {
@@ -5798,12 +6374,14 @@ pub struct GetExpeditionDataScRsp {
     #[prost(uint32, repeated, tag = "2")]
     pub opmkfngggan: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct AcceptExpeditionCsReq {
     #[prost(message, optional, tag = "6")]
     pub expedition: ::core::option::Option<Expedition>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct AcceptExpeditionScRsp {
@@ -5812,12 +6390,14 @@ pub struct AcceptExpeditionScRsp {
     #[prost(message, optional, tag = "2")]
     pub expedition: ::core::option::Option<Expedition>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pcapchfijcn {
     #[prost(message, repeated, tag = "5")]
     pub obdgnjbidaf: ::prost::alloc::vec::Vec<Expedition>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Okgcaoikfoo {
@@ -5826,12 +6406,14 @@ pub struct Okgcaoikfoo {
     #[prost(message, repeated, tag = "15")]
     pub oengpdkppgf: ::prost::alloc::vec::Vec<Expedition>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct CancelExpeditionCsReq {
     #[prost(uint32, tag = "5")]
     pub expedition_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct CancelExpeditionScRsp {
@@ -5840,12 +6422,14 @@ pub struct CancelExpeditionScRsp {
     #[prost(uint32, tag = "2")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct TakeExpeditionRewardCsReq {
     #[prost(uint32, tag = "2")]
     pub expedition_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct TakeExpeditionRewardScRsp {
@@ -5858,12 +6442,14 @@ pub struct TakeExpeditionRewardScRsp {
     #[prost(uint32, tag = "5")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cadkmfebbei {
     #[prost(uint32, repeated, tag = "12")]
     pub hfpaoefkadc: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jllpnehjeih {
@@ -5880,6 +6466,7 @@ pub struct Jllpnehjeih {
     #[prost(message, repeated, tag = "11")]
     pub oikbjdmmgeo: ::prost::alloc::vec::Vec<ItemList>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gljkfpediod {
@@ -5894,12 +6481,14 @@ pub struct Gljkfpediod {
     #[prost(message, repeated, tag = "9")]
     pub expedtion_list: ::prost::alloc::vec::Vec<Expedition>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jcbidbmmiec {
     #[prost(message, optional, tag = "14")]
     pub ahaajkkmfpj: ::core::option::Option<Hmfffjpjcog>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ejpahopggij {
@@ -5908,12 +6497,14 @@ pub struct Ejpahopggij {
     #[prost(uint32, tag = "15")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dmgifjkmnkl {
     #[prost(uint32, tag = "11")]
     pub fgoabdhambi: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lilobaoeoac {
@@ -5922,12 +6513,14 @@ pub struct Lilobaoeoac {
     #[prost(uint32, tag = "12")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Khjcnfdmkie {
     #[prost(uint32, tag = "5")]
     pub fgoabdhambi: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dbhppimkiom {
@@ -5942,6 +6535,7 @@ pub struct Dbhppimkiom {
     #[prost(message, optional, tag = "1")]
     pub reward: ::core::option::Option<ItemList>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lgbffdanakp {
@@ -5950,6 +6544,7 @@ pub struct Lgbffdanakp {
     #[prost(uint32, repeated, tag = "13")]
     pub buff_list: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fkicjbjecla {
@@ -5968,12 +6563,14 @@ pub struct Fkicjbjecla {
     #[prost(uint32, repeated, tag = "9")]
     pub hcbejjnnbpj: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kkdloiadlke {
     #[prost(uint32, tag = "9")]
     pub ipkkglmmanh: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fmpealenepm {
@@ -5982,12 +6579,14 @@ pub struct Fmpealenepm {
     #[prost(uint32, tag = "13")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nnafdnejcnj {
     #[prost(message, optional, tag = "2")]
     pub jfgeclaegll: ::core::option::Option<Fkicjbjecla>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ieompjkdigl {
@@ -5996,6 +6595,7 @@ pub struct Ieompjkdigl {
     #[prost(enumeration = "AvatarType", tag = "1")]
     pub avatar_type: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Knonoplheie {
@@ -6008,6 +6608,7 @@ pub struct Knonoplheie {
     #[prost(uint32, tag = "14")]
     pub ipkkglmmanh: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Onpmchlmomg {
@@ -6020,6 +6621,7 @@ pub struct Onpmchlmomg {
     #[prost(uint32, tag = "1")]
     pub battle_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lcfpdjpalmm {
@@ -6030,6 +6632,7 @@ pub struct Lcfpdjpalmm {
     #[prost(uint32, tag = "2")]
     pub gbifdllkika: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fjkebdncchm {
@@ -6040,9 +6643,11 @@ pub struct Fjkebdncchm {
     #[prost(enumeration = "Mhomligaiji", tag = "10")]
     pub eifnhdodjjf: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cdjpoclpdlg {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ccelpkdiiam {
@@ -6051,6 +6656,7 @@ pub struct Ccelpkdiiam {
     #[prost(message, repeated, tag = "15")]
     pub ngamilkpkef: ::prost::alloc::vec::Vec<Fjkebdncchm>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jpmhaaalljl {
@@ -6063,6 +6669,7 @@ pub struct Jpmhaaalljl {
     #[prost(enumeration = "Mhomligaiji", tag = "4")]
     pub gfaoglkehhj: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Knadkjijmjj {
@@ -6075,6 +6682,7 @@ pub struct Knadkjijmjj {
     #[prost(uint32, tag = "15")]
     pub fbagdajjgfa: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jjbgfjolnod {
@@ -6085,6 +6693,7 @@ pub struct Jjbgfjolnod {
     #[prost(uint32, tag = "6")]
     pub id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct FightActivityGroup {
@@ -6097,9 +6706,11 @@ pub struct FightActivityGroup {
     #[prost(uint32, tag = "6")]
     pub endless_max_wave: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jnniniaoceh {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pmabahbohkg {
@@ -6114,6 +6725,7 @@ pub struct Pmabahbohkg {
     #[prost(uint32, tag = "14")]
     pub world_level: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Phkjhkbeipl {
@@ -6122,6 +6734,7 @@ pub struct Phkjhkbeipl {
     #[prost(map = "uint32, uint32", tag = "6")]
     pub lbcmloaacha: ::std::collections::HashMap<u32, u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nagaiealjgf {
@@ -6130,6 +6743,7 @@ pub struct Nagaiealjgf {
     #[prost(enumeration = "AvatarType", tag = "11")]
     pub avatar_type: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fkdgepkoipo {
@@ -6144,6 +6758,7 @@ pub struct Fkdgepkoipo {
     #[prost(uint32, tag = "13")]
     pub cjdmdpdnibf: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jjnabjejgap {
@@ -6156,6 +6771,7 @@ pub struct Jjnabjejgap {
     #[prost(message, optional, tag = "15")]
     pub battle_info: ::core::option::Option<SceneBattleInfo>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lmknclohjkm {
@@ -6164,6 +6780,7 @@ pub struct Lmknclohjkm {
     #[prost(uint32, tag = "4")]
     pub cjdmdpdnibf: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bdcgfcpoego {
@@ -6176,6 +6793,7 @@ pub struct Bdcgfcpoego {
     #[prost(uint32, tag = "12")]
     pub group_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct AssistSimpleInfo {
@@ -6188,6 +6806,7 @@ pub struct AssistSimpleInfo {
     #[prost(uint32, tag = "8")]
     pub level: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Alcoeanikil {
@@ -6200,6 +6819,7 @@ pub struct Alcoeanikil {
     #[prost(uint32, tag = "13")]
     pub modapigjnnj: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hcdpijbnijp {
@@ -6230,6 +6850,7 @@ pub struct Hcdpijbnijp {
     #[prost(message, repeated, tag = "7")]
     pub plmbeaaegak: ::prost::alloc::vec::Vec<AssistSimpleInfo>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cfmjkgdcljm {
@@ -6244,6 +6865,7 @@ pub struct Cfmjkgdcljm {
     #[prost(uint32, tag = "13")]
     pub exp: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fiicppilmha {
@@ -6260,6 +6882,7 @@ pub struct Fiicppilmha {
     #[prost(message, repeated, tag = "14")]
     pub sub_affix_list: ::prost::alloc::vec::Vec<RelicAffix>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct DisplayAvatarDetailInfo {
@@ -6284,6 +6907,7 @@ pub struct DisplayAvatarDetailInfo {
     #[prost(uint32, tag = "10")]
     pub exp: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pmgmanjbjok {
@@ -6298,6 +6922,7 @@ pub struct Pmgmanjbjok {
     #[prost(uint32, tag = "15")]
     pub klleonmnldi: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fgfhnfkfjah {
@@ -6320,6 +6945,7 @@ pub struct Fgfhnfkfjah {
     #[prost(uint32, tag = "3")]
     pub gdhmmfelcdh: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pkofndohdip {
@@ -6336,6 +6962,7 @@ pub struct Pkofndohdip {
     #[prost(enumeration = "Ijicnomkdkc", tag = "5")]
     pub nenfhjdadja: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fkplcibblhf {
@@ -6374,6 +7001,7 @@ pub struct Fkplcibblhf {
     #[prost(string, tag = "4")]
     pub nickname: ::prost::alloc::string::String,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Leldmbjfheh {
@@ -6388,6 +7016,7 @@ pub struct Leldmbjfheh {
     #[prost(bool, tag = "9")]
     pub gjdiplfecfa: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Djeahggegfg {
@@ -6396,6 +7025,7 @@ pub struct Djeahggegfg {
     #[prost(message, optional, tag = "7")]
     pub kmclngophda: ::core::option::Option<Hcdpijbnijp>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Eecfddbbomi {
@@ -6404,6 +7034,7 @@ pub struct Eecfddbbomi {
     #[prost(bool, tag = "4")]
     pub apdgnbhebif: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gimicolccfe {
@@ -6412,6 +7043,7 @@ pub struct Gimicolccfe {
     #[prost(message, optional, tag = "15")]
     pub kmclngophda: ::core::option::Option<Hcdpijbnijp>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kmmkhkplacb {
@@ -6432,6 +7064,7 @@ pub struct Kmmkhkplacb {
     #[prost(enumeration = "PlatformType", tag = "15")]
     pub mbdjcknimop: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ipgaakjmndb {
@@ -6450,6 +7083,7 @@ pub struct Ipgaakjmndb {
     #[prost(message, optional, tag = "14")]
     pub kmclngophda: ::core::option::Option<Hcdpijbnijp>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Egnkjnongnf {
@@ -6462,6 +7096,7 @@ pub struct Egnkjnongnf {
     #[prost(message, optional, tag = "1935")]
     pub ilpoicglogc: ::core::option::Option<Cgonejnkeeh>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ackhamoibom {
@@ -6470,24 +7105,28 @@ pub struct Ackhamoibom {
     #[prost(uint32, tag = "3")]
     pub map_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pghmmbpamdh {
     #[prost(message, optional, tag = "1722")]
     pub copooimhhkn: ::core::option::Option<Ackhamoibom>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lcphkmanjbp {
     #[prost(uint32, tag = "9")]
     pub jlekocjhldk: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jimggnmafcf {
     #[prost(uint32, tag = "13")]
     pub meekkgnihle: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dghhkmhalkn {
@@ -6506,9 +7145,11 @@ pub struct Dghhkmhalkn {
     #[prost(uint32, tag = "1647")]
     pub cfknmjlabhg: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nhfajfplkep {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pbfkjlnnnim {
@@ -6519,12 +7160,14 @@ pub struct Pbfkjlnnnim {
     #[prost(uint32, tag = "15")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mkohepaockm {
     #[prost(uint32, tag = "14")]
     pub uid: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ekediceldll {
@@ -6533,9 +7176,11 @@ pub struct Ekediceldll {
     #[prost(uint32, tag = "15")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Iagineehecc {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lkeklefbiga {
@@ -6546,6 +7191,7 @@ pub struct Lkeklefbiga {
     #[prost(message, repeated, tag = "4")]
     pub phoaiflodlh: ::prost::alloc::vec::Vec<Djeahggegfg>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kaiacgkmfmd {
@@ -6554,6 +7200,7 @@ pub struct Kaiacgkmfmd {
     #[prost(uint32, tag = "7")]
     pub uid: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jpigibchdpl {
@@ -6562,12 +7209,14 @@ pub struct Jpigibchdpl {
     #[prost(uint32, tag = "6")]
     pub uid: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Iajkokcdkfb {
     #[prost(message, optional, tag = "12")]
     pub abfcjklbneb: ::core::option::Option<Djeahggegfg>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lhhgibhbpld {
@@ -6576,6 +7225,7 @@ pub struct Lhhgibhbpld {
     #[prost(uint32, tag = "13")]
     pub uid: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pggeijcemjg {
@@ -6588,6 +7238,7 @@ pub struct Pggeijcemjg {
     #[prost(message, optional, tag = "9")]
     pub ggapfljfiic: ::core::option::Option<Leldmbjfheh>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hkkoenefpml {
@@ -6598,6 +7249,7 @@ pub struct Hkkoenefpml {
     #[prost(bool, tag = "9")]
     pub ojpjjpbbhac: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bphaejeckep {
@@ -6606,6 +7258,7 @@ pub struct Bphaejeckep {
     #[prost(uint32, tag = "3")]
     pub uid: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hlhakckjjce {
@@ -6614,18 +7267,21 @@ pub struct Hlhakckjjce {
     #[prost(uint32, tag = "4")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ogdcmopplhc {
     #[prost(uint32, tag = "10")]
     pub uid: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mfmihkdnlla {
     #[prost(uint32, tag = "7")]
     pub uid: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ncjmpajhedi {
@@ -6634,18 +7290,21 @@ pub struct Ncjmpajhedi {
     #[prost(uint32, tag = "3")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gafgaoheile {
     #[prost(uint32, tag = "12")]
     pub uid: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Epcnicchome {
     #[prost(bool, tag = "15")]
     pub gjpkpgkggeo: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lbfnokpajbn {
@@ -6654,6 +7313,7 @@ pub struct Lbfnokpajbn {
     #[prost(uint32, tag = "2")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fikepbhhcfp {
@@ -6662,6 +7322,7 @@ pub struct Fikepbhhcfp {
     #[prost(string, tag = "14")]
     pub hiljemhhhnk: ::prost::alloc::string::String,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ceiblkjgdnh {
@@ -6672,6 +7333,7 @@ pub struct Ceiblkjgdnh {
     #[prost(string, tag = "13")]
     pub hiljemhhhnk: ::prost::alloc::string::String,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nnjncmenmni {
@@ -6682,18 +7344,21 @@ pub struct Nnjncmenmni {
     #[prost(string, tag = "9")]
     pub gbaadbhmpbn: ::prost::alloc::string::String,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mhjjmjjfjii {
     #[prost(uint32, tag = "5")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jodblffbapp {
     #[prost(uint32, tag = "12")]
     pub uid: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dgpmcnceogo {
@@ -6702,6 +7367,7 @@ pub struct Dgpmcnceogo {
     #[prost(uint32, tag = "1")]
     pub uid: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Abcjhaangck {
@@ -6710,6 +7376,7 @@ pub struct Abcjhaangck {
     #[prost(bool, tag = "5")]
     pub gjpkpgkggeo: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kbkdmpbemea {
@@ -6720,6 +7387,7 @@ pub struct Kbkdmpbemea {
     #[prost(message, repeated, tag = "14")]
     pub mifgjdnhlai: ::prost::alloc::vec::Vec<Hcdpijbnijp>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kkjffppnlka {
@@ -6728,6 +7396,7 @@ pub struct Kkjffppnlka {
     #[prost(bool, tag = "11")]
     pub ifnggbcjmjb: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dmhpmbogjco {
@@ -6736,6 +7405,7 @@ pub struct Dmhpmbogjco {
     #[prost(message, repeated, tag = "2")]
     pub bimojojomfc: ::prost::alloc::vec::Vec<Gimicolccfe>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Flppccanpib {
@@ -6744,6 +7414,7 @@ pub struct Flppccanpib {
     #[prost(uint32, tag = "10")]
     pub uid: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Medpekoinhf {
@@ -6754,9 +7425,11 @@ pub struct Medpekoinhf {
     #[prost(uint32, tag = "6")]
     pub ckondfhadld: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hocnfcfafdl {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ondaafcogmh {
@@ -6765,9 +7438,11 @@ pub struct Ondaafcogmh {
     #[prost(uint32, tag = "15")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gdddeffbkgi {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lccpaknaoja {
@@ -6782,15 +7457,18 @@ pub struct Lccpaknaoja {
     #[prost(uint32, repeated, tag = "9")]
     pub hfpkfgilnpl: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gbfnoiflloi {
     #[prost(uint32, tag = "4")]
     pub acoeppdaahd: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fbpbglmekin {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Piofaddfomj {
@@ -6801,12 +7479,14 @@ pub struct Piofaddfomj {
     #[prost(message, optional, tag = "8")]
     pub reward: ::core::option::Option<ItemList>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hojgnacgiek {
     #[prost(message, optional, tag = "11")]
     pub jkgibnfbgol: ::core::option::Option<Gimicolccfe>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Eompkfkmjla {
@@ -6815,6 +7495,7 @@ pub struct Eompkfkmjla {
     #[prost(string, repeated, tag = "14")]
     pub fpkjigmbkij: ::prost::alloc::vec::Vec<::prost::alloc::string::String>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hfjhmlmhedn {
@@ -6823,9 +7504,11 @@ pub struct Hfjhmlmhedn {
     #[prost(uint32, tag = "8")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ggpjadkiagb {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Defdbbngida {
@@ -6840,12 +7523,14 @@ pub struct Defdbbngida {
     #[prost(uint32, tag = "8")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Akllnhlcjbn {
     #[prost(bool, tag = "4")]
     pub moaffkjljlm: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Oogemmcicom {
@@ -6854,6 +7539,7 @@ pub struct Oogemmcicom {
     #[prost(uint32, tag = "5")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bfamkbgmjkb {
@@ -6862,6 +7548,7 @@ pub struct Bfamkbgmjkb {
     #[prost(bool, tag = "6")]
     pub ffaddfjeeee: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jdmpjlaeoac {
@@ -6872,6 +7559,7 @@ pub struct Jdmpjlaeoac {
     #[prost(uint32, tag = "2")]
     pub uid: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dhlolcdolce {
@@ -6886,6 +7574,7 @@ pub struct Dhlolcdolce {
     #[prost(uint32, repeated, tag = "9")]
     pub fmgdhkanjmo: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hbckejbdgcn {
@@ -6896,12 +7585,14 @@ pub struct Hbckejbdgcn {
     #[prost(uint32, tag = "10")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Iabjdikhccb {
     #[prost(uint32, tag = "2")]
     pub meekkgnihle: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jodjaiaknpe {
@@ -6912,6 +7603,7 @@ pub struct Jodjaiaknpe {
     #[prost(bool, tag = "11")]
     pub eblmmmbeola: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Foghglmpiod {
@@ -6920,6 +7612,7 @@ pub struct Foghglmpiod {
     #[prost(uint32, tag = "10")]
     pub uid: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Noehjljhbil {
@@ -6932,6 +7625,7 @@ pub struct Noehjljhbil {
     #[prost(message, repeated, tag = "14")]
     pub oclkehdgack: ::prost::alloc::vec::Vec<DisplayAvatarDetailInfo>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mddjbhjihif {
@@ -6942,6 +7636,7 @@ pub struct Mddjbhjihif {
     #[prost(uint32, tag = "14")]
     pub group_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kfnfapoiejl {
@@ -6954,12 +7649,14 @@ pub struct Kfnfapoiejl {
     #[prost(message, optional, tag = "223")]
     pub mhhmfjkljcm: ::core::option::Option<Pghmmbpamdh>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ddmiblfkkgf {
     #[prost(uint32, tag = "2")]
     pub uid: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Njafenfmgkk {
@@ -6970,9 +7667,11 @@ pub struct Njafenfmgkk {
     #[prost(uint32, tag = "10")]
     pub uid: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct GetGachaInfoCsReq {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct GachaCeilingAvatar {
@@ -6981,6 +7680,7 @@ pub struct GachaCeilingAvatar {
     #[prost(uint32, tag = "9")]
     pub avatar_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bpbpjaelpdk {
@@ -6991,6 +7691,7 @@ pub struct Bpbpjaelpdk {
     #[prost(uint32, tag = "4")]
     pub pbennaoiedj: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct GachaInfo {
@@ -7015,6 +7716,7 @@ pub struct GachaInfo {
     #[prost(uint32, repeated, tag = "13")]
     pub imckncmmnkp: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct GetGachaInfoScRsp {
@@ -7031,6 +7733,7 @@ pub struct GetGachaInfoScRsp {
     #[prost(uint32, tag = "8")]
     pub gacha_random: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct DoGachaCsReq {
@@ -7043,6 +7746,7 @@ pub struct DoGachaCsReq {
     #[prost(uint32, tag = "4")]
     pub gacha_random: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct GachaItem {
@@ -7055,6 +7759,7 @@ pub struct GachaItem {
     #[prost(message, optional, tag = "9")]
     pub oopkehibdfd: ::core::option::Option<ItemList>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct DoGachaScRsp {
@@ -7077,12 +7782,14 @@ pub struct DoGachaScRsp {
     #[prost(uint32, tag = "7")]
     pub aghoimajfei: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Knmcocnneee {
     #[prost(uint32, tag = "2")]
     pub akfbahnpbcf: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hdnppkaijjo {
@@ -7093,6 +7800,7 @@ pub struct Hdnppkaijjo {
     #[prost(uint32, tag = "13")]
     pub akfbahnpbcf: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Oaonhmfknhc {
@@ -7101,6 +7809,7 @@ pub struct Oaonhmfknhc {
     #[prost(uint32, tag = "5")]
     pub ckondfhadld: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lfcplkpkjdp {
@@ -7115,6 +7824,7 @@ pub struct Lfcplkpkjdp {
     #[prost(uint32, tag = "15")]
     pub akfbahnpbcf: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gnhmdhcfafl {
@@ -7123,6 +7833,7 @@ pub struct Gnhmdhcfafl {
     #[prost(bool, tag = "3")]
     pub jbhnkghdoea: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Iipbnjmnfhl {
@@ -7137,6 +7848,7 @@ pub struct Iipbnjmnfhl {
     #[prost(uint32, tag = "15")]
     pub gblgdppifpe: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bpgmbajhnha {
@@ -7145,9 +7857,11 @@ pub struct Bpgmbajhnha {
     #[prost(uint32, tag = "13")]
     pub foodlcbgekp: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jpjhfjbdlkn {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fodobjclcoa {
@@ -7162,6 +7876,7 @@ pub struct Fodobjclcoa {
     #[prost(message, repeated, tag = "14")]
     pub dpnnglkchcf: ::prost::alloc::vec::Vec<Bpgmbajhnha>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lbhfgcfkjmi {
@@ -7172,6 +7887,7 @@ pub struct Lbhfgcfkjmi {
     #[prost(uint32, tag = "8")]
     pub gblgdppifpe: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Klmojfjbajd {
@@ -7182,6 +7898,7 @@ pub struct Klmojfjbajd {
     #[prost(uint32, tag = "7")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lbamdjjiiaa {
@@ -7192,6 +7909,7 @@ pub struct Lbamdjjiiaa {
     #[prost(message, optional, tag = "7")]
     pub item_list: ::core::option::Option<ItemList>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jpbojhnlgei {
@@ -7200,6 +7918,7 @@ pub struct Jpbojhnlgei {
     #[prost(uint32, tag = "6")]
     pub gblgdppifpe: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Meadblihlbo {
@@ -7210,6 +7929,7 @@ pub struct Meadblihlbo {
     #[prost(uint32, tag = "10")]
     pub bpdkopmkjmm: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mklpcceajme {
@@ -7222,6 +7942,7 @@ pub struct Mklpcceajme {
     #[prost(message, optional, tag = "10")]
     pub mpkghigdoaj: ::core::option::Option<ItemList>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lkgcbijijhm {
@@ -7234,12 +7955,14 @@ pub struct Lkgcbijijhm {
     #[prost(message, repeated, tag = "4")]
     pub dpnnglkchcf: ::prost::alloc::vec::Vec<Bpgmbajhnha>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bgeobppjcel {
     #[prost(message, optional, tag = "14")]
     pub japcgimljka: ::core::option::Option<Bpgmbajhnha>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Accbdleegkp {
@@ -7248,6 +7971,7 @@ pub struct Accbdleegkp {
     #[prost(message, optional, tag = "3")]
     pub japcgimljka: ::core::option::Option<Bpgmbajhnha>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lkikjeioeih {
@@ -7256,6 +7980,7 @@ pub struct Lkikjeioeih {
     #[prost(uint32, tag = "10")]
     pub dpdkinhmfno: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pfephlpeoea {
@@ -7266,6 +7991,7 @@ pub struct Pfephlpeoea {
     #[prost(uint32, tag = "12")]
     pub inpelkijhpa: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct HeliobusChallengeLineup {
@@ -7276,9 +8002,11 @@ pub struct HeliobusChallengeLineup {
     #[prost(uint32, repeated, tag = "7")]
     pub avatar_id_list: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kfdgbbplndo {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hjhjhigdbpo {
@@ -7303,6 +8031,7 @@ pub struct Hjhjhigdbpo {
     #[prost(uint32, tag = "3")]
     pub bgiiepjmjbb: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lddlljefmea {
@@ -7313,6 +8042,7 @@ pub struct Lddlljefmea {
     #[prost(uint32, tag = "9")]
     pub lmnnmagcigf: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nlmkkkklpcb {
@@ -7333,12 +8063,14 @@ pub struct Nlmkkkklpcb {
     #[prost(message, repeated, tag = "13")]
     pub llkioealggn: ::prost::alloc::vec::Vec<Lddlljefmea>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Acdkoblagno {
     #[prost(uint32, tag = "3")]
     pub fahbgmkjfhj: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lfmnkkonicd {
@@ -7347,6 +8079,7 @@ pub struct Lfmnkkonicd {
     #[prost(uint32, tag = "14")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lpkaimbaehk {
@@ -7357,6 +8090,7 @@ pub struct Lpkaimbaehk {
     #[prost(uint32, tag = "5")]
     pub fahbgmkjfhj: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fkmlflaidhb {
@@ -7365,12 +8099,14 @@ pub struct Fkmlflaidhb {
     #[prost(uint32, tag = "10")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hccoahjipij {
     #[prost(uint32, tag = "14")]
     pub fahbgmkjfhj: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Eklbljpjljj {
@@ -7381,6 +8117,7 @@ pub struct Eklbljpjljj {
     #[prost(uint32, tag = "6")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jbgoemokcon {
@@ -7391,6 +8128,7 @@ pub struct Jbgoemokcon {
     #[prost(uint32, tag = "2")]
     pub ehijmlfmpph: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gpogkpmnlom {
@@ -7399,12 +8137,14 @@ pub struct Gpogkpmnlom {
     #[prost(message, optional, tag = "3")]
     pub goglcamfnjk: ::core::option::Option<Nlmkkkklpcb>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fhaoallfkdk {
     #[prost(message, repeated, tag = "4")]
     pub bnlmonoiamn: ::prost::alloc::vec::Vec<Nlmkkkklpcb>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pcdhiclomff {
@@ -7417,9 +8157,11 @@ pub struct Pcdhiclomff {
     #[prost(uint32, tag = "1")]
     pub phase: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ldhhkdkkfej {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ohakkadbhml {
@@ -7428,6 +8170,7 @@ pub struct Ohakkadbhml {
     #[prost(uint32, tag = "14")]
     pub level: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Eknabbgopkc {
@@ -7436,6 +8179,7 @@ pub struct Eknabbgopkc {
     #[prost(uint32, tag = "3")]
     pub dpdkinhmfno: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pbffeakcoke {
@@ -7446,6 +8190,7 @@ pub struct Pbffeakcoke {
     #[prost(uint32, tag = "7")]
     pub event_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cpbegbmcbli {
@@ -7456,12 +8201,14 @@ pub struct Cpbegbmcbli {
     #[prost(uint32, tag = "2")]
     pub event_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Icagmhaopme {
     #[prost(uint32, tag = "7")]
     pub skill_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Omkgmpikbbi {
@@ -7470,18 +8217,21 @@ pub struct Omkgmpikbbi {
     #[prost(uint32, tag = "9")]
     pub skill_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ckeppnbmkok {
     #[prost(message, optional, tag = "6")]
     pub pakaglmionh: ::core::option::Option<Pfephlpeoea>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hofmdagekid {
     #[prost(message, optional, tag = "6")]
     pub lineup: ::core::option::Option<HeliobusChallengeLineup>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hjbllaolfen {
@@ -7498,15 +8248,18 @@ pub struct Hjbllaolfen {
     #[prost(uint32, repeated, tag = "1")]
     pub avatar_list: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Meogdnjdhlm {
     #[prost(uint32, tag = "3")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct GetBagCsReq {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Equipment {
@@ -7529,6 +8282,7 @@ pub struct Equipment {
     #[prost(uint32, tag = "2")]
     pub tid: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Relic {
@@ -7553,6 +8307,7 @@ pub struct Relic {
     #[prost(message, repeated, tag = "12")]
     pub sub_affix_list: ::prost::alloc::vec::Vec<RelicAffix>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Afpohdndlni {
@@ -7563,6 +8318,7 @@ pub struct Afpohdndlni {
     #[prost(uint64, tag = "5")]
     pub moklccnpbic: u64,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct WaitDelResource {
@@ -7571,6 +8327,7 @@ pub struct WaitDelResource {
     #[prost(uint32, tag = "11")]
     pub num: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fnmjhmiefjg {
@@ -7581,6 +8338,7 @@ pub struct Fnmjhmiefjg {
     #[prost(uint32, tag = "3")]
     pub tid: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct GetBagScRsp {
@@ -7611,6 +8369,7 @@ pub struct GetBagScRsp {
     #[prost(message, repeated, tag = "14")]
     pub oladbjnpdkp: ::prost::alloc::vec::Vec<Fnmjhmiefjg>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct PromoteEquipmentCsReq {
@@ -7619,12 +8378,14 @@ pub struct PromoteEquipmentCsReq {
     #[prost(uint32, tag = "6")]
     pub equipment_unique_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct PromoteEquipmentScRsp {
     #[prost(uint32, tag = "5")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct LockEquipmentCsReq {
@@ -7633,12 +8394,14 @@ pub struct LockEquipmentCsReq {
     #[prost(uint32, repeated, tag = "13")]
     pub equipment_unique_id_list: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct LockEquipmentScRsp {
     #[prost(uint32, tag = "10")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct UseItemCsReq {
@@ -7655,6 +8418,7 @@ pub struct UseItemCsReq {
     #[prost(enumeration = "AvatarType", tag = "9")]
     pub eddhnohbgfo: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct UseItemScRsp {
@@ -7671,6 +8435,7 @@ pub struct UseItemScRsp {
     #[prost(uint32, tag = "13")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hcabgmecbhg {
@@ -7679,12 +8444,14 @@ pub struct Hcabgmecbhg {
     #[prost(uint32, tag = "3")]
     pub equipment_unique_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fnjfiedeemi {
     #[prost(uint32, tag = "4")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct ExpUpEquipmentCsReq {
@@ -7693,6 +8460,7 @@ pub struct ExpUpEquipmentCsReq {
     #[prost(message, optional, tag = "2")]
     pub cost_data: ::core::option::Option<ItemCostData>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct ExpUpEquipmentScRsp {
@@ -7701,6 +8469,7 @@ pub struct ExpUpEquipmentScRsp {
     #[prost(message, repeated, tag = "15")]
     pub return_item_list: ::prost::alloc::vec::Vec<PileItem>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gphhgbcheff {
@@ -7711,6 +8480,7 @@ pub struct Gphhgbcheff {
     #[prost(uint32, tag = "1")]
     pub eohobbhejfj: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kgggpcdjfnh {
@@ -7723,6 +8493,7 @@ pub struct Kgggpcdjfnh {
     #[prost(uint32, tag = "8")]
     pub eohobbhejfj: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hpopfaeklcb {
@@ -7737,6 +8508,7 @@ pub struct Hpopfaeklcb {
     #[prost(message, optional, tag = "13")]
     pub jimininpocf: ::core::option::Option<ItemCostData>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Momjhjlgcbb {
@@ -7747,6 +8519,7 @@ pub struct Momjhjlgcbb {
     #[prost(message, optional, tag = "1")]
     pub return_item_list: ::core::option::Option<ItemList>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ibnlloghheg {
@@ -7755,6 +8528,7 @@ pub struct Ibnlloghheg {
     #[prost(uint32, tag = "5")]
     pub llepdadmfdo: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Eglljcijohe {
@@ -7763,6 +8537,7 @@ pub struct Eglljcijohe {
     #[prost(message, repeated, tag = "12")]
     pub return_item_list: ::prost::alloc::vec::Vec<PileItem>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jdofjkdapab {
@@ -7771,6 +8546,7 @@ pub struct Jdofjkdapab {
     #[prost(bool, tag = "9")]
     pub is_lock: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Odohmdemdcf {
@@ -7779,6 +8555,7 @@ pub struct Odohmdemdcf {
     #[prost(uint32, tag = "15")]
     pub llepdadmfdo: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kimeanlecfm {
@@ -7787,6 +8564,7 @@ pub struct Kimeanlecfm {
     #[prost(bool, tag = "4")]
     pub kmogkhoklkf: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Oonnnkonnhd {
@@ -7795,6 +8573,7 @@ pub struct Oonnnkonnhd {
     #[prost(uint32, tag = "4")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Makjgdcnnkl {
@@ -7803,6 +8582,7 @@ pub struct Makjgdcnnkl {
     #[prost(bool, tag = "3")]
     pub aeobdfpciil: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gkmmljfeghl {
@@ -7811,6 +8591,7 @@ pub struct Gkmmljfeghl {
     #[prost(message, optional, tag = "4")]
     pub return_item_list: ::core::option::Option<ItemList>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct RechargeSuccNotify {
@@ -7823,12 +8604,14 @@ pub struct RechargeSuccNotify {
     #[prost(string, tag = "4")]
     pub channel_order_no: ::prost::alloc::string::String,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Idomnajkbbf {
     #[prost(uint32, tag = "11")]
     pub num: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct ExchangeHcoinScRsp {
@@ -7837,18 +8620,21 @@ pub struct ExchangeHcoinScRsp {
     #[prost(uint32, tag = "12")]
     pub num: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lieahokdpld {
     #[prost(uint32, tag = "2")]
     pub gmemceibfek: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cdinchmmhah {
     #[prost(uint32, repeated, tag = "10")]
     pub iehgchcjijh: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ccelnlfmlcp {
@@ -7857,6 +8643,7 @@ pub struct Ccelnlfmlcp {
     #[prost(message, repeated, tag = "13")]
     pub hodalnhhjhh: ::prost::alloc::vec::Vec<Fnmjhmiefjg>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Inaeabkaelf {
@@ -7865,18 +8652,21 @@ pub struct Inaeabkaelf {
     #[prost(uint32, tag = "14")]
     pub ohleaabagkf: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cgdfilneajj {
     #[prost(message, repeated, tag = "15")]
     pub bohpdcejdmm: ::prost::alloc::vec::Vec<Inaeabkaelf>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hbcclgnbmpb {
     #[prost(message, optional, tag = "14")]
     pub lbafippmlam: ::core::option::Option<Inaeabkaelf>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kcjnflgppff {
@@ -7887,6 +8677,7 @@ pub struct Kcjnflgppff {
     #[prost(uint32, tag = "9")]
     pub bmnpahoebpb: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Eflongdjkdk {
@@ -7895,9 +8686,11 @@ pub struct Eflongdjkdk {
     #[prost(uint32, tag = "1")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ighgjogagkb {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Njmaiklmocp {
@@ -7906,6 +8699,7 @@ pub struct Njmaiklmocp {
     #[prost(uint32, tag = "10")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jaoohfcooka {
@@ -7914,6 +8708,7 @@ pub struct Jaoohfcooka {
     #[prost(bool, tag = "9")]
     pub coahclkddlp: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jiddkogigmh {
@@ -7924,12 +8719,14 @@ pub struct Jiddkogigmh {
     #[prost(uint32, tag = "15")]
     pub gifbaoolifn: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Afoalpkcinh {
     #[prost(uint32, tag = "10")]
     pub gifbaoolifn: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Acgpnfcdgoo {
@@ -7938,6 +8735,7 @@ pub struct Acgpnfcdgoo {
     #[prost(uint32, repeated, tag = "10")]
     pub fpnjmledocb: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bhggelafged {
@@ -7946,6 +8744,7 @@ pub struct Bhggelafged {
     #[prost(bool, tag = "6")]
     pub acjodjlopcj: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pajgemeidka {
@@ -7956,6 +8755,7 @@ pub struct Pajgemeidka {
     #[prost(bool, tag = "2")]
     pub acjodjlopcj: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fhhkjcdpmah {
@@ -7964,6 +8764,7 @@ pub struct Fhhkjcdpmah {
     #[prost(message, repeated, tag = "12")]
     pub oenplhaeobj: ::prost::alloc::vec::Vec<PileItem>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Blfoadapdgf {
@@ -7974,6 +8775,7 @@ pub struct Blfoadapdgf {
     #[prost(uint32, tag = "2")]
     pub ihglddomppd: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ggkfccnodga {
@@ -7982,12 +8784,14 @@ pub struct Ggkfccnodga {
     #[prost(uint32, tag = "2")]
     pub coileebpaei: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bgihgmbdjdi {
     #[prost(uint32, tag = "8")]
     pub ckondfhadld: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hdadpfboico {
@@ -8010,6 +8814,7 @@ pub struct Hdadpfboico {
     #[prost(message, repeated, tag = "2")]
     pub cchkiblbgan: ::prost::alloc::vec::Vec<Ggkfccnodga>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hehaonbniao {
@@ -8020,9 +8825,11 @@ pub struct Hehaonbniao {
     #[prost(bool, tag = "3")]
     pub bbhkfblnbln: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ojcmmhldapi {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jbefcllcddd {
@@ -8033,12 +8840,14 @@ pub struct Jbefcllcddd {
     #[prost(message, repeated, tag = "11")]
     pub efnoehpidpi: ::prost::alloc::vec::Vec<Hehaonbniao>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Idhfbambohb {
     #[prost(uint32, tag = "8")]
     pub gleoplcnhjd: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ohjepiddifg {
@@ -8049,12 +8858,14 @@ pub struct Ohjepiddifg {
     #[prost(uint32, tag = "15")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dapedkjioih {
     #[prost(uint32, repeated, tag = "3")]
     pub eaefpimipgf: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dbjiocpmnmb {
@@ -8065,12 +8876,14 @@ pub struct Dbjiocpmnmb {
     #[prost(message, repeated, tag = "3")]
     pub efnoehpidpi: ::prost::alloc::vec::Vec<Hehaonbniao>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ebnpbigeioc {
     #[prost(uint32, tag = "10")]
     pub kmmddbiolpf: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hgnlfebpmga {
@@ -8079,9 +8892,11 @@ pub struct Hgnlfebpmga {
     #[prost(uint32, tag = "10")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct GetStageLineupCsReq {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct StageLineup {
@@ -8090,6 +8905,7 @@ pub struct StageLineup {
     #[prost(uint32, tag = "15")]
     pub lineup_index: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct GetStageLineupScRsp {
@@ -8098,6 +8914,7 @@ pub struct GetStageLineupScRsp {
     #[prost(message, repeated, tag = "10")]
     pub stage_lineup_list: ::prost::alloc::vec::Vec<StageLineup>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct LineupAvatar {
@@ -8114,6 +8931,7 @@ pub struct LineupAvatar {
     #[prost(uint32, tag = "6")]
     pub hp: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct LineupInfo {
@@ -8142,9 +8960,11 @@ pub struct LineupInfo {
     #[prost(uint32, tag = "9")]
     pub mp: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct GetCurLineupDataCsReq {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct GetCurLineupDataScRsp {
@@ -8153,6 +8973,7 @@ pub struct GetCurLineupDataScRsp {
     #[prost(message, optional, tag = "7")]
     pub lineup: ::core::option::Option<LineupInfo>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct JoinLineupCsReq {
@@ -8171,12 +8992,14 @@ pub struct JoinLineupCsReq {
     #[prost(enumeration = "AvatarType", tag = "15")]
     pub avatar_type: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct JoinLineupScRsp {
     #[prost(uint32, tag = "4")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct QuitLineupCsReq {
@@ -8193,6 +9016,7 @@ pub struct QuitLineupCsReq {
     #[prost(uint32, tag = "6")]
     pub plane_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct QuitLineupScRsp {
@@ -8207,6 +9031,7 @@ pub struct QuitLineupScRsp {
     #[prost(bool, tag = "7")]
     pub is_virtual: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct SwapLineupCsReq {
@@ -8223,12 +9048,14 @@ pub struct SwapLineupCsReq {
     #[prost(enumeration = "ExtraLineupType", tag = "7")]
     pub extra_lineup_type: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct SwapLineupScRsp {
     #[prost(uint32, tag = "15")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct SyncLineupNotify {
@@ -8237,9 +9064,11 @@ pub struct SyncLineupNotify {
     #[prost(enumeration = "SyncLineupReason", repeated, tag = "9")]
     pub reason_list: ::prost::alloc::vec::Vec<i32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct GetLineupAvatarDataCsReq {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct LineupAvatarData {
@@ -8250,6 +9079,7 @@ pub struct LineupAvatarData {
     #[prost(enumeration = "AvatarType", tag = "3")]
     pub avatar_type: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct GetLineupAvatarDataScRsp {
@@ -8258,12 +9088,14 @@ pub struct GetLineupAvatarDataScRsp {
     #[prost(uint32, tag = "13")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct ChangeLineupLeaderCsReq {
     #[prost(uint32, tag = "14")]
     pub slot: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct ChangeLineupLeaderScRsp {
@@ -8272,12 +9104,14 @@ pub struct ChangeLineupLeaderScRsp {
     #[prost(uint32, tag = "14")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct SwitchLineupIndexCsReq {
     #[prost(uint32, tag = "10")]
     pub index: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct SwitchLineupIndexScRsp {
@@ -8286,6 +9120,7 @@ pub struct SwitchLineupIndexScRsp {
     #[prost(uint32, tag = "14")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct SetLineupNameCsReq {
@@ -8294,6 +9129,7 @@ pub struct SetLineupNameCsReq {
     #[prost(uint32, tag = "10")]
     pub index: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct SetLineupNameScRsp {
@@ -8304,9 +9140,11 @@ pub struct SetLineupNameScRsp {
     #[prost(uint32, tag = "7")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct GetAllLineupDataCsReq {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct GetAllLineupDataScRsp {
@@ -8317,12 +9155,14 @@ pub struct GetAllLineupDataScRsp {
     #[prost(uint32, tag = "8")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct VirtualLineupDestroyNotify {
     #[prost(uint32, tag = "9")]
     pub plane_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kcllnhmojig {
@@ -8333,6 +9173,7 @@ pub struct Kcllnhmojig {
     #[prost(uint32, tag = "15")]
     pub id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct ReplaceLineupCsReq {
@@ -8351,18 +9192,21 @@ pub struct ReplaceLineupCsReq {
     #[prost(enumeration = "ExtraLineupType", tag = "9")]
     pub extra_lineup_type: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct ReplaceLineupScRsp {
     #[prost(uint32, tag = "10")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct ExtraLineupDestroyNotify {
     #[prost(enumeration = "ExtraLineupType", tag = "10")]
     pub extra_lineup_type: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct GetMailCsReq {
@@ -8371,6 +9215,7 @@ pub struct GetMailCsReq {
     #[prost(uint32, tag = "12")]
     pub gfjfanhpppf: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct ClientMail {
@@ -8397,6 +9242,7 @@ pub struct ClientMail {
     #[prost(uint32, tag = "4")]
     pub id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct GetMailScRsp {
@@ -8413,12 +9259,14 @@ pub struct GetMailScRsp {
     #[prost(uint32, tag = "6")]
     pub total_num: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct MarkReadMailCsReq {
     #[prost(uint32, tag = "1")]
     pub id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct MarkReadMailScRsp {
@@ -8427,12 +9275,14 @@ pub struct MarkReadMailScRsp {
     #[prost(uint32, tag = "1")]
     pub id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct DelMailCsReq {
     #[prost(uint32, repeated, tag = "9")]
     pub id_list: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct DelMailScRsp {
@@ -8441,6 +9291,7 @@ pub struct DelMailScRsp {
     #[prost(uint32, tag = "12")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct TakeMailAttachmentCsReq {
@@ -8449,6 +9300,7 @@ pub struct TakeMailAttachmentCsReq {
     #[prost(uint32, tag = "6")]
     pub jpghfnpcdjg: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct ClientMailAttachmentItem {
@@ -8457,6 +9309,7 @@ pub struct ClientMailAttachmentItem {
     #[prost(uint32, tag = "7")]
     pub gifbaoolifn: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct TakeMailAttachmentScRsp {
@@ -8469,12 +9322,14 @@ pub struct TakeMailAttachmentScRsp {
     #[prost(message, optional, tag = "12")]
     pub attachment: ::core::option::Option<ItemList>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct NewMailScNotify {
     #[prost(uint32, repeated, tag = "8")]
     pub mail_id_list: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pdbkknjfbaj {
@@ -8493,6 +9348,7 @@ pub struct Pdbkknjfbaj {
     #[prost(message, optional, tag = "11")]
     pub hppgfdfjgbc: ::core::option::Option<Nhppanlmeok>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nhppanlmeok {
@@ -8501,6 +9357,7 @@ pub struct Nhppanlmeok {
     #[prost(uint32, tag = "7")]
     pub jfegjkndbcb: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ocnlbagjonp {
@@ -8509,6 +9366,7 @@ pub struct Ocnlbagjonp {
     #[prost(message, optional, tag = "10")]
     pub iofaedafamn: ::core::option::Option<Ojmhcnlolph>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pjjebjmooke {
@@ -8519,6 +9377,7 @@ pub struct Pjjebjmooke {
     #[prost(uint32, tag = "13")]
     pub biaihclgkgm: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gbhbdimfidi {
@@ -8535,6 +9394,7 @@ pub struct Gbhbdimfidi {
     #[prost(uint32, tag = "14")]
     pub oeipegeoedk: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gnidcekmkei {
@@ -8543,12 +9403,14 @@ pub struct Gnidcekmkei {
     #[prost(uint32, tag = "14")]
     pub pokieplfcok: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mcobbdmaglb {
     #[prost(message, optional, tag = "7")]
     pub anecejkebdg: ::core::option::Option<Gnidcekmkei>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bdfjhdppnpj {
@@ -8559,6 +9421,7 @@ pub struct Bdfjhdppnpj {
     #[prost(message, optional, tag = "11")]
     pub anecejkebdg: ::core::option::Option<Gnidcekmkei>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ahoojlhgaic {
@@ -8569,12 +9432,14 @@ pub struct Ahoojlhgaic {
     #[prost(float, tag = "8")]
     pub fjdbheejolb: f32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ekpkhofijmk {
     #[prost(message, optional, tag = "11")]
     pub nikgidpmolm: ::core::option::Option<Ahoojlhgaic>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jebdliallnh {
@@ -8585,6 +9450,7 @@ pub struct Jebdliallnh {
     #[prost(uint32, tag = "5")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Klejilbfipp {
@@ -8597,6 +9463,7 @@ pub struct Klejilbfipp {
     #[prost(uint32, tag = "7")]
     pub pokieplfcok: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Joekaoibdla {
@@ -8607,12 +9474,14 @@ pub struct Joekaoibdla {
     #[prost(message, optional, tag = "10")]
     pub motion: ::core::option::Option<MotionInfo>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fkbfijijelg {
     #[prost(message, optional, tag = "6")]
     pub motion: ::core::option::Option<MotionInfo>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ecalaojmhai {
@@ -8623,9 +9492,11 @@ pub struct Ecalaojmhai {
     #[prost(uint32, tag = "9")]
     pub oeipegeoedk: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nnbmmdinfhd {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jbgacnadebh {
@@ -8646,6 +9517,7 @@ pub struct Jbgacnadebh {
     #[prost(uint32, tag = "10")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Onajnoohmjm {
@@ -8654,6 +9526,7 @@ pub struct Onajnoohmjm {
     #[prost(message, optional, tag = "10")]
     pub motion: ::core::option::Option<MotionInfo>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lnonpmppgmb {
@@ -8664,15 +9537,18 @@ pub struct Lnonpmppgmb {
     #[prost(uint32, tag = "1")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gkdcdgliflh {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Knmgbiobged {
     #[prost(message, optional, tag = "11")]
     pub hppgfdfjgbc: ::core::option::Option<Nhppanlmeok>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Iggpahjdflk {
@@ -8691,12 +9567,14 @@ pub struct Iggpahjdflk {
     #[prost(int32, tag = "7")]
     pub biaihclgkgm: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mknnmicpmkn {
     #[prost(message, optional, tag = "7")]
     pub nikgidpmolm: ::core::option::Option<Ahoojlhgaic>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jhcpkpgaolm {
@@ -8707,18 +9585,21 @@ pub struct Jhcpkpgaolm {
     #[prost(uint32, tag = "8")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lfflmedeojd {
     #[prost(message, repeated, tag = "4")]
     pub lddblbfobil: ::prost::alloc::vec::Vec<Ahoojlhgaic>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dckiigmaaae {
     #[prost(uint32, repeated, tag = "5")]
     pub fpcgomegfjk: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ilkpmcfkmei {
@@ -8727,6 +9608,7 @@ pub struct Ilkpmcfkmei {
     #[prost(uint32, tag = "3")]
     pub pedckponiel: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Iokekdaoimh {
@@ -8741,6 +9623,7 @@ pub struct Iokekdaoimh {
     #[prost(message, repeated, tag = "8")]
     pub item_list: ::prost::alloc::vec::Vec<Ilkpmcfkmei>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Chkpiopjamj {
@@ -8755,6 +9638,7 @@ pub struct Chkpiopjamj {
     #[prost(uint32, tag = "5")]
     pub dnpllhmookk: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nhledihcjii {
@@ -8763,9 +9647,11 @@ pub struct Nhledihcjii {
     #[prost(uint32, tag = "10")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bpocjopjjeo {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lbhpaemhadp {
@@ -8774,6 +9660,7 @@ pub struct Lbhpaemhadp {
     #[prost(uint32, tag = "12")]
     pub egeneneoadj: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ejfkpkmjajd {
@@ -8784,6 +9671,7 @@ pub struct Ejfkpkmjajd {
     #[prost(enumeration = "MessageGroupStatus", tag = "5")]
     pub hjmdblcnlgj: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jinhdpbcpgb {
@@ -8792,6 +9680,7 @@ pub struct Jinhdpbcpgb {
     #[prost(enumeration = "MessageSectionStatus", tag = "3")]
     pub pkpbbjbnefi: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dihdmjhbbjf {
@@ -8800,6 +9689,7 @@ pub struct Dihdmjhbbjf {
     #[prost(uint32, tag = "9")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Caekhafdegh {
@@ -8808,6 +9698,7 @@ pub struct Caekhafdegh {
     #[prost(uint32, tag = "2")]
     pub pedckponiel: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Iafjegpapfi {
@@ -8818,12 +9709,14 @@ pub struct Iafjegpapfi {
     #[prost(uint32, tag = "8")]
     pub gifbaoolifn: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bppkhpdlmkp {
     #[prost(uint32, tag = "15")]
     pub section_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Djlbhkbllak {
@@ -8834,6 +9727,7 @@ pub struct Djlbhkbllak {
     #[prost(uint32, tag = "13")]
     pub section_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bidpjonolpo {
@@ -8842,6 +9736,7 @@ pub struct Bidpjonolpo {
     #[prost(message, repeated, tag = "4")]
     pub item_list: ::prost::alloc::vec::Vec<Ilkpmcfkmei>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bjjiifmcooo {
@@ -8854,12 +9749,14 @@ pub struct Bjjiifmcooo {
     #[prost(message, repeated, tag = "4")]
     pub item_list: ::prost::alloc::vec::Vec<Ilkpmcfkmei>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fmfdafkdpnd {
     #[prost(uint32, tag = "9")]
     pub blhhkgjpiea: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bcnogmmamlo {
@@ -8868,6 +9765,7 @@ pub struct Bcnogmmamlo {
     #[prost(uint32, tag = "10")]
     pub jgmilencfcp: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kahhodkeklh {
@@ -8878,9 +9776,11 @@ pub struct Kahhodkeklh {
     #[prost(message, optional, tag = "4")]
     pub bdakbkllbcd: ::core::option::Option<Bcnogmmamlo>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nnhekmdcdha {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fakpcejamdj {
@@ -8889,15 +9789,18 @@ pub struct Fakpcejamdj {
     #[prost(uint32, tag = "9")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Acenboljfhd {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cadmcjnaadj {
     #[prost(uint32, tag = "15")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fipgdjhgaec {
@@ -8908,18 +9811,21 @@ pub struct Fipgdjhgaec {
     #[prost(uint32, tag = "8")]
     pub ipnhjoomhdm: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cjgblgfabdg {
     #[prost(message, repeated, tag = "15")]
     pub khbkjnaopmd: ::prost::alloc::vec::Vec<Fipgdjhgaec>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mdmkbcpidih {
     #[prost(uint32, tag = "8")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Aadkgmkkbae {
@@ -8930,24 +9836,28 @@ pub struct Aadkgmkkbae {
     #[prost(string, repeated, tag = "9")]
     pub dboohampkcn: ::prost::alloc::vec::Vec<::prost::alloc::string::String>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ndnlimajfip {
     #[prost(uint32, tag = "4")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kdccnlcafmn {
     #[prost(string, tag = "1")]
     pub bhhbmelelhp: ::prost::alloc::string::String,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ioknepcceib {
     #[prost(uint32, tag = "8")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Heophagcblo {
@@ -8960,9 +9870,11 @@ pub struct Heophagcblo {
     #[prost(uint32, tag = "9")]
     pub level: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gkankmjangm {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fdldbekpoln {
@@ -8971,12 +9883,14 @@ pub struct Fdldbekpoln {
     #[prost(message, repeated, tag = "15")]
     pub ndjcgkekcnl: ::prost::alloc::vec::Vec<Heophagcblo>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Okkhphekige {
     #[prost(message, optional, tag = "11")]
     pub agoagbdclfd: ::core::option::Option<Heophagcblo>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pdnkgpcjkii {
@@ -8985,12 +9899,14 @@ pub struct Pdnkgpcjkii {
     #[prost(message, optional, tag = "9")]
     pub agoagbdclfd: ::core::option::Option<Heophagcblo>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Igocjbeekjp {
     #[prost(uint32, tag = "10")]
     pub gbjdobijaoi: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ddlcmokabnh {
@@ -8999,6 +9915,7 @@ pub struct Ddlcmokabnh {
     #[prost(uint32, tag = "14")]
     pub gbjdobijaoi: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Blomkhdnjbo {
@@ -9009,9 +9926,11 @@ pub struct Blomkhdnjbo {
     #[prost(uint32, tag = "10")]
     pub level: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kaipaaomock {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ajholhbplkj {
@@ -9020,6 +9939,7 @@ pub struct Ajholhbplkj {
     #[prost(uint32, tag = "11")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fdiijgmepjm {
@@ -9032,6 +9952,7 @@ pub struct Fdiijgmepjm {
     #[prost(uint32, tag = "12")]
     pub aonhopialmi: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Iinhkekjbch {
@@ -9040,9 +9961,11 @@ pub struct Iinhkekjbch {
     #[prost(message, optional, tag = "15")]
     pub edmgmdjhpfe: ::core::option::Option<Blomkhdnjbo>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct GetMissionDataCsReq {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pkaoeeeaakk {
@@ -9053,6 +9976,7 @@ pub struct Pkaoeeeaakk {
     #[prost(uint32, tag = "10")]
     pub jnfbeoilkbo: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mission {
@@ -9063,6 +9987,7 @@ pub struct Mission {
     #[prost(enumeration = "MissionStatus", tag = "10")]
     pub status: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ahjmiklboek {
@@ -9071,12 +9996,14 @@ pub struct Ahjmiklboek {
     #[prost(uint32, tag = "1")]
     pub impheidipgc: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cdjaoblihbo {
     #[prost(message, repeated, tag = "9")]
     pub miadakiaoln: ::prost::alloc::vec::Vec<Ahjmiklboek>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ebeeijpilmi {
@@ -9087,6 +10014,7 @@ pub struct Ebeeijpilmi {
     #[prost(uint32, tag = "2")]
     pub id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jbelmplppka {
@@ -9095,6 +10023,7 @@ pub struct Jbelmplppka {
     #[prost(message, optional, tag = "1346")]
     pub miadakiaoln: ::core::option::Option<Cdjaoblihbo>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct GetMissionDataScRsp {
@@ -9107,12 +10036,14 @@ pub struct GetMissionDataScRsp {
     #[prost(uint32, tag = "2")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mjnfdncbabj {
     #[prost(uint32, tag = "12")]
     pub gacnpdemljk: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Efngadjmcmm {
@@ -9121,6 +10052,7 @@ pub struct Efngadjmcmm {
     #[prost(uint32, tag = "1")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fffnomcjpgh {
@@ -9131,6 +10063,7 @@ pub struct Fffnomcjpgh {
     #[prost(string, tag = "5")]
     pub libhcieliio: ::prost::alloc::string::String,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ignklehnkig {
@@ -9143,6 +10076,7 @@ pub struct Ignklehnkig {
     #[prost(uint32, tag = "11")]
     pub fjigcihmieb: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kljaghgnnee {
@@ -9153,6 +10087,7 @@ pub struct Kljaghgnnee {
     #[prost(uint32, tag = "10")]
     pub gacnpdemljk: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hoajkipfkfn {
@@ -9161,12 +10096,14 @@ pub struct Hoajkipfkfn {
     #[prost(message, optional, tag = "3")]
     pub reward: ::core::option::Option<ItemList>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fpaahgfflkl {
     #[prost(string, tag = "8")]
     pub mlmldhkbplm: ::prost::alloc::string::String,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ahpmoincmgc {
@@ -9175,6 +10112,7 @@ pub struct Ahpmoincmgc {
     #[prost(uint32, tag = "3")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hnpnfdmabfj {
@@ -9183,6 +10121,7 @@ pub struct Hnpnfdmabfj {
     #[prost(bool, tag = "8")]
     pub ckogcceipni: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Enbnongjcnf {
@@ -9191,12 +10130,14 @@ pub struct Enbnongjcnf {
     #[prost(message, repeated, tag = "14")]
     pub papfcjnehaa: ::prost::alloc::vec::Vec<Hnpnfdmabfj>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mkccjpcmboi {
     #[prost(uint32, repeated, tag = "7")]
     pub fgdeppindhp: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fdgpdngccje {
@@ -9205,6 +10146,7 @@ pub struct Fdgpdngccje {
     #[prost(uint32, tag = "5")]
     pub fjigcihmieb: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bcgoaihenim {
@@ -9213,9 +10155,11 @@ pub struct Bcgoaihenim {
     #[prost(uint32, tag = "9")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct GetMissionEventDataCsReq {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct GetMissionEventDataScRsp {
@@ -9226,6 +10170,7 @@ pub struct GetMissionEventDataScRsp {
     #[prost(message, repeated, tag = "15")]
     pub mission_event_list: ::prost::alloc::vec::Vec<Mission>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct MissionEventRewardScNotify {
@@ -9234,12 +10179,14 @@ pub struct MissionEventRewardScNotify {
     #[prost(message, optional, tag = "8")]
     pub reward: ::core::option::Option<ItemList>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct AcceptMissionEventCsReq {
     #[prost(uint32, tag = "1")]
     pub mission_event_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct AcceptMissionEventScRsp {
@@ -9248,6 +10195,7 @@ pub struct AcceptMissionEventScRsp {
     #[prost(uint32, tag = "3")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct GetMissionStatusCsReq {
@@ -9258,6 +10206,7 @@ pub struct GetMissionStatusCsReq {
     #[prost(uint32, repeated, tag = "12")]
     pub sub_mission_id_list: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct GetMissionStatusScRsp {
@@ -9274,12 +10223,14 @@ pub struct GetMissionStatusScRsp {
     #[prost(uint32, repeated, tag = "10")]
     pub disabled_main_mission_id_list: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct InterruptMissionEventCsReq {
     #[prost(uint32, tag = "11")]
     pub mission_event_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct InterruptMissionEventScRsp {
@@ -9288,6 +10239,7 @@ pub struct InterruptMissionEventScRsp {
     #[prost(uint32, tag = "13")]
     pub mission_event_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct SetMissionEventProgressCsReq {
@@ -9296,15 +10248,18 @@ pub struct SetMissionEventProgressCsReq {
     #[prost(uint32, tag = "12")]
     pub progress: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct SetMissionEventProgressScRsp {
     #[prost(uint32, tag = "8")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lndifcjdnkk {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nfnccpeacfm {
@@ -9315,24 +10270,28 @@ pub struct Nfnccpeacfm {
     #[prost(uint32, tag = "1")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ijofhanankd {
     #[prost(uint32, tag = "2")]
     pub fjigcihmieb: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Khmicibjafp {
     #[prost(uint32, tag = "10")]
     pub gacnpdemljk: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ipphhkfaphd {
     #[prost(uint32, repeated, tag = "2")]
     pub sub_mission_id_list: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cdjpkmddlpa {
@@ -9341,12 +10300,14 @@ pub struct Cdjpkmddlpa {
     #[prost(uint32, tag = "4")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ahcfkngjlnb {
     #[prost(uint32, repeated, tag = "4")]
     pub main_mission_id_list: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pfeeaihpemf {
@@ -9357,6 +10318,7 @@ pub struct Pfeeaihpemf {
     #[prost(uint32, tag = "9")]
     pub ekmonacbdkk: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kipcaamdgii {
@@ -9367,9 +10329,11 @@ pub struct Kipcaamdgii {
     #[prost(uint32, tag = "6")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Oomdghkppfb {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nejkdenglko {
@@ -9386,6 +10350,7 @@ pub struct Nejkdenglko {
     #[prost(bool, tag = "9")]
     pub ellmgneoflj: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Macchhefjai {
@@ -9394,6 +10359,7 @@ pub struct Macchhefjai {
     #[prost(enumeration = "Fnmajoaineo", tag = "2")]
     pub ncficcieheh: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Eanibknoekj {
@@ -9402,6 +10368,7 @@ pub struct Eanibknoekj {
     #[prost(uint32, tag = "15")]
     pub abdlcnhgcgc: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nilmpnjdchp {
@@ -9412,6 +10379,7 @@ pub struct Nilmpnjdchp {
     #[prost(bool, tag = "9")]
     pub dfbldlfjecb: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jiciancdhnl {
@@ -9452,12 +10420,14 @@ pub struct Jiciancdhnl {
     #[prost(message, repeated, tag = "12")]
     pub igdjaoelmkm: ::prost::alloc::vec::Vec<Eanibknoekj>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dkacfeehfmc {
     #[prost(message, repeated, tag = "5")]
     pub poclifonnaa: ::prost::alloc::vec::Vec<Jiciancdhnl>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Onliaplpnne {
@@ -9488,18 +10458,21 @@ pub struct Onliaplpnne {
     #[prost(message, optional, tag = "13")]
     pub gklphpdhcek: ::core::option::Option<Nejkdenglko>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ccnlhiidnkm {
     #[prost(uint32, repeated, tag = "5")]
     pub penlgipfbdi: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Adlnjbhepbf {
     #[prost(message, optional, tag = "11")]
     pub hhneaamfpbl: ::core::option::Option<Ccnlhiidnkm>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pmgjgabgdjb {
@@ -9508,12 +10481,14 @@ pub struct Pmgjgabgdjb {
     #[prost(uint32, repeated, tag = "4")]
     pub jcpngnmoemn: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dfkkfnkmoic {
     #[prost(message, optional, tag = "3")]
     pub stt: ::core::option::Option<Pmgjgabgdjb>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nlalomknegf {
@@ -9526,6 +10501,7 @@ pub struct Nlalomknegf {
     #[prost(uint32, tag = "13")]
     pub pkbdlfomfkh: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Faadfkndlkc {
@@ -9540,6 +10516,7 @@ pub struct Faadfkndlkc {
     #[prost(uint32, tag = "3")]
     pub ofdaclnimjp: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Feheeaelkom {
@@ -9548,18 +10525,21 @@ pub struct Feheeaelkom {
     #[prost(message, repeated, tag = "6")]
     pub emmhjekiejj: ::prost::alloc::vec::Vec<Nlalomknegf>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Odajhheihhn {
     #[prost(uint32, tag = "14")]
     pub event_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Eemgcpeikje {
     #[prost(uint32, tag = "10")]
     pub event_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dohnnkhfgbp {
@@ -9572,6 +10552,7 @@ pub struct Dohnnkhfgbp {
     #[prost(uint32, tag = "1")]
     pub event_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Falmhhapdgo {
@@ -9586,6 +10567,7 @@ pub struct Falmhhapdgo {
     #[prost(uint32, tag = "10")]
     pub event_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Befcmbablll {
@@ -9594,24 +10576,28 @@ pub struct Befcmbablll {
     #[prost(uint32, tag = "15")]
     pub pfknnfkpfjh: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lhobchcjbhl {
     #[prost(uint32, tag = "9")]
     pub ajecdgdmabm: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gckhpbfpemj {
     #[prost(uint32, tag = "8")]
     pub klihmdbpcnc: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ebofbacgckm {
     #[prost(uint32, tag = "7")]
     pub kmofkgdaebi: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bckpfolejai {
@@ -9620,6 +10606,7 @@ pub struct Bckpfolejai {
     #[prost(uint32, tag = "4")]
     pub illafkgpkpe: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nnlnbfacpba {
@@ -9644,27 +10631,32 @@ pub struct Nnlnbfacpba {
     #[prost(message, optional, tag = "5")]
     pub khblhcpefmb: ::core::option::Option<Befcmbablll>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Emkppmiienk {
     #[prost(message, optional, tag = "14")]
     pub bdjckiadnac: ::core::option::Option<Nnlnbfacpba>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pajnglhbcek {
     #[prost(message, optional, tag = "8")]
     pub bdjckiadnac: ::core::option::Option<Nnlnbfacpba>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Oemngpfhoin {
     #[prost(message, optional, tag = "9")]
     pub biajamaombb: ::core::option::Option<Nlalomknegf>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hhliiklfmjd {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ockclchgfpp {
@@ -9673,12 +10665,14 @@ pub struct Ockclchgfpp {
     #[prost(uint32, tag = "8")]
     pub jkcdahipepm: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jhmhdkcaekh {
     #[prost(uint32, tag = "3")]
     pub fnagomfcokk: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bgagbgdpfgh {
@@ -9687,6 +10681,7 @@ pub struct Bgagbgdpfgh {
     #[prost(uint32, tag = "10")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gfdbelcchlp {
@@ -9695,6 +10690,7 @@ pub struct Gfdbelcchlp {
     #[prost(uint32, tag = "15")]
     pub hneilidpecp: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Phneldiepao {
@@ -9705,6 +10701,7 @@ pub struct Phneldiepao {
     #[prost(message, repeated, tag = "12")]
     pub alkegokiagh: ::prost::alloc::vec::Vec<Nlalomknegf>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Oknnkchgofp {
@@ -9713,6 +10710,7 @@ pub struct Oknnkchgofp {
     #[prost(uint32, tag = "9")]
     pub event_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gmpdlobdffj {
@@ -9723,6 +10721,7 @@ pub struct Gmpdlobdffj {
     #[prost(uint32, tag = "13")]
     pub lblodcclnli: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ahfohldfekn {
@@ -9737,12 +10736,14 @@ pub struct Ahfohldfekn {
     #[prost(uint32, tag = "7")]
     pub event_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gkbkhmiphdm {
     #[prost(uint32, tag = "13")]
     pub event_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bpbbjodbdni {
@@ -9753,12 +10754,14 @@ pub struct Bpbbjodbdni {
     #[prost(message, optional, tag = "13")]
     pub pcjokbgoekj: ::core::option::Option<Nnlnbfacpba>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ngcceogeekk {
     #[prost(uint32, tag = "1")]
     pub event_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Keeonknelco {
@@ -9769,12 +10772,14 @@ pub struct Keeonknelco {
     #[prost(message, optional, tag = "8")]
     pub pcjokbgoekj: ::core::option::Option<Nnlnbfacpba>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Aaaoimcdhoo {
     #[prost(uint32, tag = "6")]
     pub event_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jiafjdiabhd {
@@ -9785,6 +10790,7 @@ pub struct Jiafjdiabhd {
     #[prost(uint32, tag = "5")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Anlmhdcpcka {
@@ -9793,6 +10799,7 @@ pub struct Anlmhdcpcka {
     #[prost(uint32, tag = "6")]
     pub ciojdeodepl: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hgcdggdincj {
@@ -9803,12 +10810,14 @@ pub struct Hgcdggdincj {
     #[prost(uint32, tag = "15")]
     pub klihmdbpcnc: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bdpofjflpki {
     #[prost(uint32, tag = "9")]
     pub ajecdgdmabm: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Paphleminap {
@@ -9817,12 +10826,14 @@ pub struct Paphleminap {
     #[prost(uint32, tag = "2")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jceckohfleg {
     #[prost(uint32, tag = "15")]
     pub jponpdnahok: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kjfmdoibhem {
@@ -9831,6 +10842,7 @@ pub struct Kjfmdoibhem {
     #[prost(uint32, tag = "10")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct MonopolyActionResult {
@@ -9849,12 +10861,14 @@ pub struct MonopolyActionResult {
     #[prost(uint32, tag = "12")]
     pub click_map_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Akmgdlbfmhk {
     #[prost(message, repeated, tag = "1")]
     pub cedbdeldefm: ::prost::alloc::vec::Vec<MonopolyActionResult>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Djcbklfagdi {
@@ -9863,6 +10877,7 @@ pub struct Djcbklfagdi {
     #[prost(bool, tag = "10")]
     pub hhmdjnffjbk: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ehakcodgeig {
@@ -9893,12 +10908,14 @@ pub struct Ehakcodgeig {
     #[prost(message, optional, tag = "11")]
     pub idfapcneekn: ::core::option::Option<Kmngacgjejn>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kmngacgjejn {
     #[prost(uint32, tag = "5")]
     pub kkogahlfkbk: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bijeholihoo {
@@ -9909,6 +10926,7 @@ pub struct Bijeholihoo {
     #[prost(uint32, tag = "15")]
     pub ahndcngokaf: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gbecmcghldp {
@@ -9917,6 +10935,7 @@ pub struct Gbecmcghldp {
     #[prost(uint32, tag = "13")]
     pub mebicbefejn: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ddgabplfmjp {
@@ -9929,6 +10948,7 @@ pub struct Ddgabplfmjp {
     #[prost(uint32, tag = "10")]
     pub fbaijnlebeb: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cnmoppanlgc {
@@ -9945,6 +10965,7 @@ pub struct Cnmoppanlgc {
     #[prost(message, optional, tag = "11")]
     pub bobjbgmmoba: ::core::option::Option<Cjbnjeagici>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Acajphpnkae {
@@ -9955,6 +10976,7 @@ pub struct Acajphpnkae {
     #[prost(message, repeated, tag = "14")]
     pub cmdjfbfcedi: ::prost::alloc::vec::Vec<Cnmoppanlgc>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mdkmelobpca {
@@ -9965,6 +10987,7 @@ pub struct Mdkmelobpca {
     #[prost(message, optional, tag = "2")]
     pub item_list: ::core::option::Option<ItemList>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Abaohmipcfk {
@@ -9973,12 +10996,14 @@ pub struct Abaohmipcfk {
     #[prost(message, optional, tag = "4")]
     pub nggjldolbfo: ::core::option::Option<Djcbklfagdi>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ooflmdgpfhj {
     #[prost(uint32, tag = "14")]
     pub ippleljgojk: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct MonopolyGameRaiseRatioScRsp {
@@ -9987,9 +11012,11 @@ pub struct MonopolyGameRaiseRatioScRsp {
     #[prost(uint32, tag = "12")]
     pub ratio: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hhnlcigkekn {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lkhegjgehga {
@@ -10004,12 +11031,14 @@ pub struct Lkhegjgehga {
     #[prost(bool, tag = "10")]
     pub aciahlmopaa: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Khckekglogo {
     #[prost(bool, tag = "5")]
     pub mlecajgjkbf: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bclmpncgcln {
@@ -10028,6 +11057,7 @@ pub struct Bclmpncgcln {
     #[prost(uint32, tag = "7")]
     pub iecaihidlfo: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Diimgejdjeo {
@@ -10042,12 +11072,14 @@ pub struct Diimgejdjeo {
     #[prost(bool, tag = "9")]
     pub hdddmcapaca: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ohicoalaihp {
     #[prost(uint32, tag = "3")]
     pub nnndjgaappg: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cicjfjomhhh {
@@ -10060,9 +11092,11 @@ pub struct Cicjfjomhhh {
     #[prost(uint32, tag = "3")]
     pub jhfikkkokab: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cmejfhhhmjn {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct MonopolyGameGachaScRsp {
@@ -10071,6 +11105,7 @@ pub struct MonopolyGameGachaScRsp {
     #[prost(uint32, tag = "4")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Piegcnbnpdo {
@@ -10079,6 +11114,7 @@ pub struct Piegcnbnpdo {
     #[prost(uint32, tag = "13")]
     pub aaagkehiipo: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cmjcocdkdfl {
@@ -10095,12 +11131,14 @@ pub struct Cmjcocdkdfl {
     #[prost(uint32, tag = "9")]
     pub bgoenbfepnf: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lddnienjcmd {
     #[prost(message, repeated, tag = "6")]
     pub jipildfkhcd: ::prost::alloc::vec::Vec<Piegcnbnpdo>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fepfkjhconm {
@@ -10109,6 +11147,7 @@ pub struct Fepfkjhconm {
     #[prost(uint32, tag = "3")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pnfcciegjbo {
@@ -10119,12 +11158,14 @@ pub struct Pnfcciegjbo {
     #[prost(uint32, tag = "2")]
     pub gfjcokcjbjj: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ojcolfflppm {
     #[prost(message, repeated, tag = "11")]
     pub gmojlkhoang: ::prost::alloc::vec::Vec<Pnfcciegjbo>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cjbnjeagici {
@@ -10135,12 +11176,14 @@ pub struct Cjbnjeagici {
     #[prost(uint32, tag = "6")]
     pub akogolmfdic: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dkhcgjbmbca {
     #[prost(uint32, tag = "2")]
     pub neegojfeifo: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hedicmafcef {
@@ -10149,6 +11192,7 @@ pub struct Hedicmafcef {
     #[prost(uint32, tag = "15")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mbepefpbncb {
@@ -10159,21 +11203,25 @@ pub struct Mbepefpbncb {
     #[prost(uint32, tag = "10")]
     pub akogolmfdic: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dioojdlcdhl {
     #[prost(message, repeated, tag = "9")]
     pub kmglkpdabmd: ::prost::alloc::vec::Vec<Mbepefpbncb>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Noommfnfnog {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dijkfomcign {
     #[prost(uint32, tag = "7")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ildegaonkgb {
@@ -10184,12 +11232,14 @@ pub struct Ildegaonkgb {
     #[prost(uint32, tag = "6")]
     pub jkabfjlnpnp: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Olddddedbik {
     #[prost(message, repeated, tag = "1")]
     pub hfogelplhdd: ::prost::alloc::vec::Vec<Ildegaonkgb>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ebihfhonnno {
@@ -10212,6 +11262,7 @@ pub struct Ebihfhonnno {
     #[prost(uint32, tag = "11")]
     pub aijmglljhob: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fdpjfpjdhba {
@@ -10220,6 +11271,7 @@ pub struct Fdpjfpjdhba {
     #[prost(message, optional, tag = "8")]
     pub jmneheiofck: ::core::option::Option<Ebihfhonnno>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lbchheakobg {
@@ -10230,12 +11282,14 @@ pub struct Lbchheakobg {
     #[prost(uint32, tag = "14")]
     pub fplljljnjje: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hjojdieioia {
     #[prost(message, repeated, tag = "10")]
     pub buff_list: ::prost::alloc::vec::Vec<Lbchheakobg>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lhadafihefe {
@@ -10250,9 +11304,11 @@ pub struct Lhadafihefe {
     #[prost(uint32, tag = "15")]
     pub ahmdolfpjbe: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nbmmfcdinoc {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ndemidckaff {
@@ -10263,12 +11319,14 @@ pub struct Ndemidckaff {
     #[prost(message, repeated, tag = "3")]
     pub mbmipkjfepa: ::prost::alloc::vec::Vec<Lhadafihefe>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dnbnmmpigkf {
     #[prost(uint32, tag = "5")]
     pub hclcfgcogpm: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kehbabelhkd {
@@ -10279,6 +11337,7 @@ pub struct Kehbabelhkd {
     #[prost(uint32, tag = "15")]
     pub hclcfgcogpm: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bdcbgominlm {
@@ -10287,9 +11346,11 @@ pub struct Bdcbgominlm {
     #[prost(uint32, tag = "2")]
     pub ahmdolfpjbe: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Adhadgnompc {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Aciophjikba {
@@ -10298,6 +11359,7 @@ pub struct Aciophjikba {
     #[prost(uint32, tag = "13")]
     pub mlifkagpiie: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cfnhhgahkom {
@@ -10318,6 +11380,7 @@ pub struct Cfnhhgahkom {
     #[prost(message, repeated, tag = "6")]
     pub jaamolookln: ::prost::alloc::vec::Vec<Aciophjikba>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bkakdelniib {
@@ -10326,6 +11389,7 @@ pub struct Bkakdelniib {
     #[prost(bool, tag = "1")]
     pub fmfmpgphmgf: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kcijabfgmfa {
@@ -10338,6 +11402,7 @@ pub struct Kcijabfgmfa {
     #[prost(uint32, tag = "1")]
     pub ajnnnpcggdl: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct SocialEventServerCache {
@@ -10350,15 +11415,18 @@ pub struct SocialEventServerCache {
     #[prost(uint32, tag = "14")]
     pub src_uid: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Aajimanimcj {
     #[prost(message, repeated, tag = "13")]
     pub amkcdkcbgmk: ::prost::alloc::vec::Vec<SocialEventServerCache>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Oihajehkgmb {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hmijgcafdoj {
@@ -10367,12 +11435,14 @@ pub struct Hmijgcafdoj {
     #[prost(message, repeated, tag = "1")]
     pub amkcdkcbgmk: ::prost::alloc::vec::Vec<SocialEventServerCache>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fknanjdaaaj {
     #[prost(uint32, repeated, tag = "9")]
     pub agaannjgefb: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lfhmodnabei {
@@ -10381,12 +11451,14 @@ pub struct Lfhmodnabei {
     #[prost(uint32, repeated, tag = "11")]
     pub ffoajhgbjeo: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lpgaookpcbh {
     #[prost(uint32, tag = "2")]
     pub oojbimbghil: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Demmpgnfila {
@@ -10397,6 +11469,7 @@ pub struct Demmpgnfila {
     #[prost(uint32, tag = "11")]
     pub oojbimbghil: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Eckhmadipdk {
@@ -10405,6 +11478,7 @@ pub struct Eckhmadipdk {
     #[prost(uint64, tag = "9")]
     pub dlgbenjcmia: u64,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nojenocnhaa {
@@ -10417,6 +11491,7 @@ pub struct Nojenocnhaa {
     #[prost(uint32, tag = "15")]
     pub oojbimbghil: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nblfneimldp {
@@ -10425,6 +11500,7 @@ pub struct Nblfneimldp {
     #[prost(uint64, tag = "7")]
     pub dlgbenjcmia: u64,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fhlnpimbpma {
@@ -10435,9 +11511,11 @@ pub struct Fhlnpimbpma {
     #[prost(uint32, tag = "11")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Caclpbkhopn {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fdodgadkhhc {
@@ -10448,9 +11526,11 @@ pub struct Fdodgadkhhc {
     #[prost(uint32, tag = "12")]
     pub bbgpdlfceok: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Moldkmohceg {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Glpemflbhon {
@@ -10459,12 +11539,14 @@ pub struct Glpemflbhon {
     #[prost(uint32, tag = "7")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fjofjjpiila {
     #[prost(uint32, repeated, tag = "5")]
     pub jgddcppkmjk: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hhkckmenbnd {
@@ -10475,9 +11557,11 @@ pub struct Hhkckmenbnd {
     #[prost(uint32, repeated, tag = "11")]
     pub jgddcppkmjk: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jfimgebmbph {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gfifjfdicci {
@@ -10486,9 +11570,11 @@ pub struct Gfifjfdicci {
     #[prost(uint32, tag = "11")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jbfnnbpgonh {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jpnhonifiln {
@@ -10497,6 +11583,7 @@ pub struct Jpnhonifiln {
     #[prost(message, optional, tag = "2")]
     pub jmneheiofck: ::core::option::Option<Ebihfhonnno>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cepgmjimnij {
@@ -10505,6 +11592,7 @@ pub struct Cepgmjimnij {
     #[prost(uint32, tag = "14")]
     pub map_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Njpkohfifka {
@@ -10515,18 +11603,22 @@ pub struct Njpkohfifka {
     #[prost(uint32, tag = "12")]
     pub map_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jlcpedajjbg {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nloiamphhjc {
     #[prost(uint32, tag = "5")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lnjfdkmegpg {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fcncbgpfpkh {
@@ -10535,6 +11627,7 @@ pub struct Fcncbgpfpkh {
     #[prost(uint32, tag = "15")]
     pub id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Linnchnbleb {
@@ -10543,15 +11636,18 @@ pub struct Linnchnbleb {
     #[prost(uint32, tag = "13")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dcbcgmhnpcb {
     #[prost(message, repeated, tag = "12")]
     pub fojbkmhenap: ::prost::alloc::vec::Vec<Fcncbgpfpkh>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ofljbnmhobk {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nnlhjaipcbo {
@@ -10564,6 +11660,7 @@ pub struct Nnlhjaipcbo {
     #[prost(uint32, tag = "4")]
     pub bcnbcoijiao: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bnjhnboggep {
@@ -10572,6 +11669,7 @@ pub struct Bnjhnboggep {
     #[prost(message, optional, tag = "9")]
     pub mhlcgpjfnhi: ::core::option::Option<Nnlhjaipcbo>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nhmdlcaoajh {
@@ -10580,6 +11678,7 @@ pub struct Nhmdlcaoajh {
     #[prost(message, repeated, tag = "12")]
     pub fojbkmhenap: ::prost::alloc::vec::Vec<Fcncbgpfpkh>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ncoipjjanan {
@@ -10588,6 +11687,7 @@ pub struct Ncoipjjanan {
     #[prost(enumeration = "Cihlhpobgai", tag = "4")]
     pub aomilajjmii: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nofjpgmnieo {
@@ -10604,6 +11704,7 @@ pub struct Nofjpgmnieo {
     #[prost(uint32, tag = "4")]
     pub egngiadcnlp: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bemipjcejdf {
@@ -10612,6 +11713,7 @@ pub struct Bemipjcejdf {
     #[prost(bool, tag = "6")]
     pub pcnpbfjaihl: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Blckmhconkp {
@@ -10628,6 +11730,7 @@ pub struct Blckmhconkp {
     #[prost(uint32, tag = "15")]
     pub hkmbeadndpk: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kmhbcdknjkn {
@@ -10636,6 +11739,7 @@ pub struct Kmhbcdknjkn {
     #[prost(uint32, tag = "15")]
     pub diadhpahlgc: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Aggnoopeoka {
@@ -10654,6 +11758,7 @@ pub struct Aggnoopeoka {
     #[prost(uint32, tag = "13")]
     pub godmlebhbia: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dehnhjfdlcd {
@@ -10664,9 +11769,11 @@ pub struct Dehnhjfdlcd {
     #[prost(uint32, repeated, tag = "13")]
     pub dbjefgghgif: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pndbmgmcngg {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Klmeebnmdae {
@@ -10699,12 +11806,14 @@ pub struct Klmeebnmdae {
     #[prost(uint32, tag = "3")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Enbnbjamgcp {
     #[prost(uint32, tag = "2")]
     pub diadhpahlgc: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hbknjheggij {
@@ -10713,6 +11822,7 @@ pub struct Hbknjheggij {
     #[prost(uint32, tag = "7")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dhhjgbelghn {
@@ -10723,6 +11833,7 @@ pub struct Dhhjgbelghn {
     #[prost(uint32, tag = "13")]
     pub mephiippkfd: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hlibkjkjmia {
@@ -10735,12 +11846,14 @@ pub struct Hlibkjkjmia {
     #[prost(enumeration = "Cihlhpobgai", tag = "3")]
     pub aomilajjmii: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cbldendlaga {
     #[prost(uint32, tag = "12")]
     pub diadhpahlgc: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dmmmbagnlag {
@@ -10749,6 +11862,7 @@ pub struct Dmmmbagnlag {
     #[prost(uint32, tag = "13")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Noahmdhnjnn {
@@ -10757,18 +11871,21 @@ pub struct Noahmdhnjnn {
     #[prost(uint32, tag = "4")]
     pub diadhpahlgc: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nmnnnmnkkck {
     #[prost(uint32, tag = "9")]
     pub iomegekjfdb: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hajohhjadpo {
     #[prost(uint32, tag = "12")]
     pub cigeijdoljp: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Eepjacodbme {
@@ -10777,6 +11894,7 @@ pub struct Eepjacodbme {
     #[prost(uint32, tag = "14")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mcilkenkphd {
@@ -10785,6 +11903,7 @@ pub struct Mcilkenkphd {
     #[prost(uint32, tag = "15")]
     pub level: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ppcojiafmhd {
@@ -10795,6 +11914,7 @@ pub struct Ppcojiafmhd {
     #[prost(uint32, tag = "13")]
     pub level: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Icaajdncjfg {
@@ -10805,6 +11925,7 @@ pub struct Icaajdncjfg {
     #[prost(uint32, tag = "14")]
     pub jlekocjhldk: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ibcmcekeopf {
@@ -10817,6 +11938,7 @@ pub struct Ibcmcekeopf {
     #[prost(enumeration = "Pbmdmmpjkio", tag = "7")]
     pub foggljepddd: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mkpbjnhfgab {
@@ -10847,18 +11969,21 @@ pub struct Mkpbjnhfgab {
     #[prost(message, repeated, tag = "2")]
     pub pnnelpinbpf: ::prost::alloc::vec::Vec<Nofjpgmnieo>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jpnphamkkbl {
     #[prost(message, optional, tag = "1")]
     pub napnbdcoafp: ::core::option::Option<Aggnoopeoka>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hfldejblmjd {
     #[prost(int32, tag = "6")]
     pub gfbbpaicgdj: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Imablofgglo {
@@ -10867,6 +11992,7 @@ pub struct Imablofgglo {
     #[prost(message, optional, tag = "14")]
     pub napnbdcoafp: ::core::option::Option<Dehnhjfdlcd>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Klpchcijeod {
@@ -10875,6 +12001,7 @@ pub struct Klpchcijeod {
     #[prost(uint32, tag = "9")]
     pub event_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Plopcjnmpne {
@@ -10885,12 +12012,14 @@ pub struct Plopcjnmpne {
     #[prost(uint32, tag = "15")]
     pub godmlebhbia: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lemikcmhfkh {
     #[prost(uint32, tag = "15")]
     pub jgaomnekgdk: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Plkhmgnpona {
@@ -10903,12 +12032,14 @@ pub struct Plkhmgnpona {
     #[prost(uint32, tag = "4")]
     pub jgaomnekgdk: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Epheeickkig {
     #[prost(uint32, tag = "9")]
     pub hkmbeadndpk: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pllklaikghc {
@@ -10919,6 +12050,7 @@ pub struct Pllklaikghc {
     #[prost(uint32, repeated, tag = "14")]
     pub fdnlfbabaif: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Agfkhheocib {
@@ -10929,12 +12061,14 @@ pub struct Agfkhheocib {
     #[prost(uint32, tag = "1")]
     pub gifbaoolifn: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Khloacgebcc {
     #[prost(uint32, tag = "13")]
     pub gifbaoolifn: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kghanodmjhk {
@@ -10945,6 +12079,7 @@ pub struct Kghanodmjhk {
     #[prost(uint32, tag = "13")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jjnfafhgegh {
@@ -10959,12 +12094,14 @@ pub struct Jjnfafhgegh {
     #[prost(uint32, tag = "14")]
     pub jkdhdmdfgfc: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gfghbddgpap {
     #[prost(uint32, repeated, tag = "1")]
     pub lbepkflgcfh: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dnonkdlgjgp {
@@ -10973,6 +12110,7 @@ pub struct Dnonkdlgjgp {
     #[prost(uint32, tag = "5")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ifajcnfmdhj {
@@ -10981,6 +12119,7 @@ pub struct Ifajcnfmdhj {
     #[prost(uint32, tag = "5")]
     pub jmknpgakkhb: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lbdkmehmopl {
@@ -10989,6 +12128,7 @@ pub struct Lbdkmehmopl {
     #[prost(uint32, tag = "12")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hmgjccobajo {
@@ -10999,6 +12139,7 @@ pub struct Hmgjccobajo {
     #[prost(uint32, repeated, tag = "5")]
     pub flgpoajfdib: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hbmopdhkejd {
@@ -11009,12 +12150,14 @@ pub struct Hbmopdhkejd {
     #[prost(message, optional, tag = "10")]
     pub ahdjbmhpmdl: ::core::option::Option<Jjnfafhgegh>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fibonjppfmj {
     #[prost(uint32, tag = "1")]
     pub gacnpdemljk: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jobghffpaei {
@@ -11023,6 +12166,7 @@ pub struct Jobghffpaei {
     #[prost(uint32, tag = "13")]
     pub gacnpdemljk: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Elojkpkiaig {
@@ -11031,9 +12175,11 @@ pub struct Elojkpkiaig {
     #[prost(uint32, tag = "3")]
     pub gacnpdemljk: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cholnfndcfb {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dbmjmcnohcf {
@@ -11048,12 +12194,14 @@ pub struct Dbmjmcnohcf {
     #[prost(uint32, tag = "15")]
     pub eacdbinnkjg: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jeejmgndnof {
     #[prost(uint32, tag = "14")]
     pub minhcfcflbd: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Injoakjpnam {
@@ -11064,18 +12212,21 @@ pub struct Injoakjpnam {
     #[prost(uint32, tag = "15")]
     pub gcknobhoooa: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Klieoiafmda {
     #[prost(uint32, tag = "5")]
     pub minhcfcflbd: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cnnegfihlcm {
     #[prost(uint32, tag = "1")]
     pub bganhiddedd: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ngpmcbbmmbm {
@@ -11086,12 +12237,14 @@ pub struct Ngpmcbbmmbm {
     #[prost(uint32, tag = "11")]
     pub ccmpnpbeipj: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jfjnjdgikkm {
     #[prost(uint32, tag = "6")]
     pub bganhiddedd: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct PlayerLoginCsReq {
@@ -11144,6 +12297,7 @@ pub struct PlayerLoginCsReq {
     #[prost(enumeration = "LanguageType", tag = "1")]
     pub language: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct PlayerLoginScRsp {
@@ -11168,9 +12322,11 @@ pub struct PlayerLoginScRsp {
     #[prost(uint64, tag = "8")]
     pub server_timestamp_ms: u64,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct PlayerLogoutCsReq {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct PlayerGetTokenCsReq {
@@ -11191,6 +12347,7 @@ pub struct PlayerGetTokenCsReq {
     #[prost(uint32, tag = "10")]
     pub lanekaacplh: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct PlayerGetTokenScRsp {
@@ -11205,12 +12362,14 @@ pub struct PlayerGetTokenScRsp {
     #[prost(uint64, tag = "7")]
     pub secret_key_seed: u64,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct GmTalkScNotify {
     #[prost(string, tag = "1")]
     pub msg: ::prost::alloc::string::String,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct PlayerKickOutScNotify {
@@ -11219,12 +12378,14 @@ pub struct PlayerKickOutScNotify {
     #[prost(enumeration = "KickType", tag = "13")]
     pub kick_type: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct GmTalkCsReq {
     #[prost(string, tag = "12")]
     pub msg: ::prost::alloc::string::String,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct GmTalkScRsp {
@@ -11233,9 +12394,11 @@ pub struct GmTalkScRsp {
     #[prost(uint32, tag = "11")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct GetBasicInfoCsReq {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct PlayerSettingInfo {
@@ -11258,6 +12421,7 @@ pub struct PlayerSettingInfo {
     #[prost(bool, tag = "5")]
     pub ooajonlnokc: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct GetBasicInfoScRsp {
@@ -11278,9 +12442,11 @@ pub struct GetBasicInfoScRsp {
     #[prost(uint32, tag = "2")]
     pub gameplay_birthday: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct ExchangeStaminaCsReq {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct ExchangeStaminaScRsp {
@@ -11295,6 +12461,7 @@ pub struct ExchangeStaminaScRsp {
     #[prost(uint32, tag = "15")]
     pub exchange_times: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct GetAuthkeyCsReq {
@@ -11305,6 +12472,7 @@ pub struct GetAuthkeyCsReq {
     #[prost(string, tag = "9")]
     pub authkey_ver: ::prost::alloc::string::String,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct GetAuthkeyScRsp {
@@ -11319,6 +12487,7 @@ pub struct GetAuthkeyScRsp {
     #[prost(string, tag = "3")]
     pub authkey_ver: ::prost::alloc::string::String,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct RegionStopScNotify {
@@ -11327,6 +12496,7 @@ pub struct RegionStopScNotify {
     #[prost(int64, tag = "10")]
     pub acjdmioijof: i64,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct AntiAddictScNotify {
@@ -11337,6 +12507,7 @@ pub struct AntiAddictScNotify {
     #[prost(string, tag = "11")]
     pub msg: ::prost::alloc::string::String,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct SetNicknameCsReq {
@@ -11345,6 +12516,7 @@ pub struct SetNicknameCsReq {
     #[prost(string, tag = "10")]
     pub nickname: ::prost::alloc::string::String,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct SetNicknameScRsp {
@@ -11355,9 +12527,11 @@ pub struct SetNicknameScRsp {
     #[prost(int64, tag = "10")]
     pub egciplnfhgd: i64,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct GetLevelRewardTakenListCsReq {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct GetLevelRewardTakenListScRsp {
@@ -11366,6 +12540,7 @@ pub struct GetLevelRewardTakenListScRsp {
     #[prost(uint32, repeated, tag = "4")]
     pub taken_level_list: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct GetLevelRewardCsReq {
@@ -11374,6 +12549,7 @@ pub struct GetLevelRewardCsReq {
     #[prost(uint32, tag = "10")]
     pub level: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct GetLevelRewardScRsp {
@@ -11384,12 +12560,14 @@ pub struct GetLevelRewardScRsp {
     #[prost(uint32, tag = "14")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct SetLanguageCsReq {
     #[prost(enumeration = "LanguageType", tag = "1")]
     pub language: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct SetLanguageScRsp {
@@ -11398,6 +12576,7 @@ pub struct SetLanguageScRsp {
     #[prost(uint32, tag = "9")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct AnnounceData {
@@ -11420,12 +12599,14 @@ pub struct AnnounceData {
     #[prost(int64, tag = "14")]
     pub begin_time: i64,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct ServerAnnounceNotify {
     #[prost(message, repeated, tag = "2")]
     pub announce_data_list: ::prost::alloc::vec::Vec<AnnounceData>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gateserver {
@@ -11540,18 +12721,21 @@ pub struct Gateserver {
     #[prost(string, tag = "313")]
     pub dbikhoeemki: ::prost::alloc::string::String,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pncofdjepoa {
     #[prost(string, tag = "6")]
     pub heakgkgdejk: ::prost::alloc::string::String,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct SetHeroBasicTypeCsReq {
     #[prost(enumeration = "HeroBasicType", tag = "11")]
     pub basic_type: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct SetHeroBasicTypeScRsp {
@@ -11560,9 +12744,11 @@ pub struct SetHeroBasicTypeScRsp {
     #[prost(enumeration = "HeroBasicType", tag = "12")]
     pub basic_type: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct GetHeroBasicTypeInfoCsReq {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct HeroBasicTypeInfo {
@@ -11577,6 +12763,7 @@ pub struct HeroBasicTypeInfo {
     #[prost(uint32, tag = "6")]
     pub rank: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct GetHeroBasicTypeInfoScRsp {
@@ -11593,12 +12780,14 @@ pub struct GetHeroBasicTypeInfoScRsp {
     #[prost(bool, tag = "14")]
     pub fglaflhkfen: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct SetGenderCsReq {
     #[prost(enumeration = "Gender", tag = "15")]
     pub gender: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct SetGenderScRsp {
@@ -11607,6 +12796,7 @@ pub struct SetGenderScRsp {
     #[prost(uint32, tag = "12")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct SetPlayerInfoCsReq {
@@ -11617,6 +12807,7 @@ pub struct SetPlayerInfoCsReq {
     #[prost(string, tag = "11")]
     pub nickname: ::prost::alloc::string::String,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct SetPlayerInfoScRsp {
@@ -11629,15 +12820,18 @@ pub struct SetPlayerInfoScRsp {
     #[prost(bool, tag = "7")]
     pub is_modify: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct HeroBasicTypeChangedNotify {
     #[prost(enumeration = "HeroBasicType", tag = "12")]
     pub cur_basic_type: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct QueryProductInfoCsReq {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Product {
@@ -11654,6 +12848,7 @@ pub struct Product {
     #[prost(uint32, tag = "3")]
     pub cmflbahknkk: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct QueryProductInfoScRsp {
@@ -11668,42 +12863,49 @@ pub struct QueryProductInfoScRsp {
     #[prost(message, repeated, tag = "7")]
     pub bnijdioomif: ::prost::alloc::vec::Vec<Product>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Flcldcecndc {
     #[prost(message, optional, tag = "10")]
     pub reward: ::core::option::Option<ItemList>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct ClientDownloadDataScNotify {
     #[prost(message, optional, tag = "7")]
     pub download_data: ::core::option::Option<ClientDownloadData>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Joghpekpian {
     #[prost(message, optional, tag = "13")]
     pub data: ::core::option::Option<Fjecopmfeje>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct UpdateFeatureSwitchScNotify {
     #[prost(message, repeated, tag = "11")]
     pub switch_info_list: ::prost::alloc::vec::Vec<FeatureSwitchInfo>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Baeehhkodlb {
     #[prost(uint32, tag = "12")]
     pub ifcgkkdmjfp: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dbhlkapmhln {
     #[prost(uint32, tag = "3")]
     pub fndfbpejoil: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hgnpbbilcmm {
@@ -11712,6 +12914,7 @@ pub struct Hgnpbbilcmm {
     #[prost(uint32, tag = "4")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fhgmmhaoofd {
@@ -11720,12 +12923,14 @@ pub struct Fhgmmhaoofd {
     #[prost(string, tag = "4")]
     pub bhhbmelelhp: ::prost::alloc::string::String,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pjcekahllho {
     #[prost(uint32, tag = "6")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Foedhkblpgn {
@@ -11734,6 +12939,7 @@ pub struct Foedhkblpgn {
     #[prost(uint32, tag = "2")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct PlayerHeartBeatCsReq {
@@ -11744,6 +12950,7 @@ pub struct PlayerHeartBeatCsReq {
     #[prost(uint64, tag = "8")]
     pub client_time_ms: u64,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct PlayerHeartBeatScRsp {
@@ -11756,12 +12963,14 @@ pub struct PlayerHeartBeatScRsp {
     #[prost(uint64, tag = "15")]
     pub server_time_ms: u64,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cfobnfcbbfj {
     #[prost(enumeration = "FeatureSwitchType", tag = "7")]
     pub igjhjcokjbl: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mfoennnflcm {
@@ -11770,12 +12979,14 @@ pub struct Mfoennnflcm {
     #[prost(string, tag = "14")]
     pub gdedhibnedp: ::prost::alloc::string::String,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ibnkoibfjel {
     #[prost(bytes = "vec", tag = "13")]
     pub bdhfalakckl: ::prost::alloc::vec::Vec<u8>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cbhcalibgde {
@@ -11786,15 +12997,18 @@ pub struct Cbhcalibgde {
     #[prost(bytes = "vec", tag = "11")]
     pub jghfbnmofdp: ::prost::alloc::vec::Vec<u8>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Occpmlmdoge {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mokbccgaeja {
     #[prost(uint32, tag = "3")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pbigaadhbjo {
@@ -11803,9 +13017,11 @@ pub struct Pbigaadhbjo {
     #[prost(uint32, tag = "14")]
     pub id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jijppghphcm {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Iombemeajhl {
@@ -11814,6 +13030,7 @@ pub struct Iombemeajhl {
     #[prost(message, repeated, tag = "10")]
     pub mcgipgaikgn: ::prost::alloc::vec::Vec<Pbigaadhbjo>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pahlfhcbhmi {
@@ -11826,6 +13043,7 @@ pub struct Pahlfhcbhmi {
     #[prost(uint32, tag = "6")]
     pub ikpgaadnhfh: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hecipoheegh {
@@ -11840,12 +13058,14 @@ pub struct Hecipoheegh {
     #[prost(uint32, tag = "2")]
     pub ikpgaadnhfh: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pkgjdbehaah {
     #[prost(uint32, tag = "8")]
     pub num: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct ReserveStaminaExchangeScRsp {
@@ -11854,6 +13074,7 @@ pub struct ReserveStaminaExchangeScRsp {
     #[prost(uint32, tag = "11")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cifanheknel {
@@ -11866,6 +13087,7 @@ pub struct Cifanheknel {
     #[prost(int64, tag = "4")]
     pub bkgmbhljgdk: i64,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Knkfmbjjilk {
@@ -11888,12 +13110,14 @@ pub struct Knkfmbjjilk {
     #[prost(bool, tag = "11")]
     pub dadjoghhede: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pcachjfleoe {
     #[prost(message, optional, tag = "5")]
     pub hknjolbfcfa: ::core::option::Option<Knkfmbjjilk>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ipbnjaikfch {
@@ -11902,6 +13126,7 @@ pub struct Ipbnjaikfch {
     #[prost(uint32, tag = "5")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jifkifohcmp {
@@ -11910,6 +13135,7 @@ pub struct Jifkifohcmp {
     #[prost(uint32, tag = "6")]
     pub ijimaildbje: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nhagdgpcgih {
@@ -11918,12 +13144,14 @@ pub struct Nhagdgpcgih {
     #[prost(message, optional, tag = "1")]
     pub data: ::core::option::Option<Fjecopmfeje>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Penbelfiign {
     #[prost(uint32, tag = "8")]
     pub id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cjblldjdcad {
@@ -11932,6 +13160,7 @@ pub struct Cjblldjdcad {
     #[prost(uint32, tag = "7")]
     pub aomilajjmii: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Iffnohbfdkh {
@@ -11940,9 +13169,11 @@ pub struct Iffnohbfdkh {
     #[prost(bool, tag = "5")]
     pub mlceeoagakd: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Onijbaagonf {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hcdghpkfkad {
@@ -11959,12 +13190,14 @@ pub struct Hcdghpkfkad {
     #[prost(uint32, repeated, tag = "3")]
     pub kcmfppgdaac: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bnigcdiacgp {
     #[prost(uint32, tag = "6")]
     pub id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nnpnpeljdjd {
@@ -11973,12 +13206,14 @@ pub struct Nnpnpeljdjd {
     #[prost(uint32, tag = "15")]
     pub iekoibdkbhj: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bmechddgjmb {
     #[prost(message, repeated, tag = "5")]
     pub ehokfodfapg: ::prost::alloc::vec::Vec<Cjblldjdcad>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gpgbhcjjnjn {
@@ -11987,12 +13222,14 @@ pub struct Gpgbhcjjnjn {
     #[prost(message, repeated, tag = "5")]
     pub ehokfodfapg: ::prost::alloc::vec::Vec<Cjblldjdcad>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lmlcnaclafm {
     #[prost(bool, tag = "6")]
     pub mlceeoagakd: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Odhacchhplp {
@@ -12001,12 +13238,14 @@ pub struct Odhacchhplp {
     #[prost(bool, tag = "12")]
     pub mlceeoagakd: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Eocgeoaecgf {
     #[prost(string, tag = "8")]
     pub mjeebfegeai: ::prost::alloc::string::String,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dnmcjedkgcf {
@@ -12015,6 +13254,7 @@ pub struct Dnmcjedkgcf {
     #[prost(uint32, tag = "15")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lijmoinbcje {
@@ -12023,6 +13263,7 @@ pub struct Lijmoinbcje {
     #[prost(uint32, tag = "1")]
     pub ckondfhadld: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Iokjlkbjkpc {
@@ -12033,12 +13274,14 @@ pub struct Iokjlkbjkpc {
     #[prost(uint32, tag = "10")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kahnonlbbjg {
     #[prost(uint32, tag = "1")]
     pub pobakggjoen: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kkfoddpnomb {
@@ -12047,6 +13290,7 @@ pub struct Kkfoddpnomb {
     #[prost(uint32, tag = "3")]
     pub dkameahihgc: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lmaehdeedgo {
@@ -12059,12 +13303,14 @@ pub struct Lmaehdeedgo {
     #[prost(uint32, tag = "1")]
     pub dkameahihgc: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mhdpbodcghg {
     #[prost(uint32, tag = "8")]
     pub cjpclddiddl: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pafaedfbgnf {
@@ -12073,6 +13319,7 @@ pub struct Pafaedfbgnf {
     #[prost(uint32, tag = "13")]
     pub alhcigchbfj: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cgfbfnlmope {
@@ -12085,24 +13332,28 @@ pub struct Cgfbfnlmope {
     #[prost(uint32, tag = "6")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jedfljomaka {
     #[prost(uint32, tag = "4")]
     pub gfbbpaicgdj: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Iidhidepnjd {
     #[prost(uint32, tag = "11")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kfhomdjhadk {
     #[prost(uint32, tag = "6")]
     pub gfbbpaicgdj: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hkcfkefcgcg {
@@ -12125,6 +13376,7 @@ pub struct Hkcfkefcgcg {
     #[prost(uint32, repeated, tag = "6")]
     pub pakanjhfjee: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Febmembkbod {
@@ -12135,18 +13387,21 @@ pub struct Febmembkbod {
     #[prost(uint32, tag = "11")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jffhhdpbmdl {
     #[prost(message, optional, tag = "6")]
     pub nhgblkgenff: ::core::option::Option<Hkcfkefcgcg>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct FinishPlotCsReq {
     #[prost(uint32, tag = "2")]
     pub plot_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct FinishPlotScRsp {
@@ -12155,6 +13410,7 @@ pub struct FinishPlotScRsp {
     #[prost(uint32, tag = "15")]
     pub plot_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fandghkmbnl {
@@ -12167,9 +13423,11 @@ pub struct Fandghkmbnl {
     #[prost(enumeration = "PunkLordAttackerStatus", tag = "1")]
     pub nbejemiooni: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Klcpdhedkgk {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fahehkcmaok {
@@ -12178,6 +13436,7 @@ pub struct Fahehkcmaok {
     #[prost(message, repeated, tag = "11")]
     pub hoimfegdiim: ::prost::alloc::vec::Vec<Fandghkmbnl>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jjajjnajakk {
@@ -12188,6 +13447,7 @@ pub struct Jjajjnajakk {
     #[prost(uint32, tag = "14")]
     pub uid: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fnaljajpngf {
@@ -12202,6 +13462,7 @@ pub struct Fnaljajpngf {
     #[prost(uint32, tag = "10")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Iohijpcahep {
@@ -12212,6 +13473,7 @@ pub struct Iohijpcahep {
     #[prost(uint32, tag = "14")]
     pub uid: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Eomaklfgieg {
@@ -12224,9 +13486,11 @@ pub struct Eomaklfgieg {
     #[prost(uint32, tag = "9")]
     pub monster_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ofphdeheiah {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nfigjnhicoe {
@@ -12235,6 +13499,7 @@ pub struct Nfigjnhicoe {
     #[prost(uint32, tag = "12")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hkjijnhnkfh {
@@ -12243,6 +13508,7 @@ pub struct Hkjijnhnkfh {
     #[prost(bool, tag = "12")]
     pub akhcgfhmdef: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kefobeljhie {
@@ -12255,6 +13521,7 @@ pub struct Kefobeljhie {
     #[prost(message, optional, tag = "8")]
     pub reward: ::core::option::Option<ItemList>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ingnmgnigfo {
@@ -12267,9 +13534,11 @@ pub struct Ingnmgnigfo {
     #[prost(message, optional, tag = "15")]
     pub basic_info: ::core::option::Option<Cldjmhdelhn>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Emjfjlcjehl {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bcfgdfdahlf {
@@ -12290,12 +13559,14 @@ pub struct Bcfgdfdahlf {
     #[prost(uint32, tag = "3")]
     pub fhbhpfoijkm: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ejacbclkddp {
     #[prost(message, optional, tag = "6")]
     pub jlcbklpmbff: ::core::option::Option<Cldjmhdelhn>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gpglgabgkkk {
@@ -12310,6 +13581,7 @@ pub struct Gpglgabgkkk {
     #[prost(uint32, tag = "9")]
     pub obihiejlima: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kjeaaledkib {
@@ -12326,9 +13598,11 @@ pub struct Kjeaaledkib {
     #[prost(uint32, tag = "1")]
     pub monster_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Aodefhffcla {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mlkmnlleamb {
@@ -12339,12 +13613,14 @@ pub struct Mlkmnlleamb {
     #[prost(uint32, tag = "15")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ckjapiimblb {
     #[prost(message, optional, tag = "1")]
     pub gijakikfeoa: ::core::option::Option<Kjeaaledkib>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fcmibikmeii {
@@ -12353,6 +13629,7 @@ pub struct Fcmibikmeii {
     #[prost(message, optional, tag = "15")]
     pub mdfmcffkbfp: ::core::option::Option<Phmkohmiphm>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Epeaanlgecm {
@@ -12365,6 +13642,7 @@ pub struct Epeaanlgecm {
     #[prost(message, repeated, tag = "9")]
     pub pccigolalng: ::prost::alloc::vec::Vec<Phmkohmiphm>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mfjflpgogef {
@@ -12375,12 +13653,14 @@ pub struct Mfjflpgogef {
     #[prost(uint32, tag = "2")]
     pub enlanglhpii: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hpaflkaooia {
     #[prost(message, optional, tag = "12")]
     pub mdfmcffkbfp: ::core::option::Option<Phmkohmiphm>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fmfbggiebki {
@@ -12393,9 +13673,11 @@ pub struct Fmfbggiebki {
     #[prost(message, repeated, tag = "14")]
     pub mboddeldkip: ::prost::alloc::vec::Vec<PunkLordBattleReplay>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Eijbjfhjddc {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ojemlandahi {
@@ -12410,6 +13692,7 @@ pub struct Ojemlandahi {
     #[prost(uint32, tag = "1")]
     pub progress: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hfeflebnpca {
@@ -12420,12 +13703,14 @@ pub struct Hfeflebnpca {
     #[prost(uint32, tag = "11")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cihbjopehng {
     #[prost(uint32, repeated, tag = "8")]
     pub aoncbhpgcab: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct TakeQuestRewardScRsp {
@@ -12436,6 +13721,7 @@ pub struct TakeQuestRewardScRsp {
     #[prost(uint32, repeated, tag = "8")]
     pub succ_quest_id_list: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Digohdomgmk {
@@ -12444,6 +13730,7 @@ pub struct Digohdomgmk {
     #[prost(uint32, tag = "7")]
     pub pihfebonpbk: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gnhobjgcbdb {
@@ -12454,9 +13741,11 @@ pub struct Gnhobjgcbdb {
     #[prost(uint32, tag = "12")]
     pub pihfebonpbk: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jgpkaobciii {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Olhaepmeddd {
@@ -12465,6 +13754,7 @@ pub struct Olhaepmeddd {
     #[prost(uint32, tag = "1")]
     pub dbcdcobnial: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ojahamffgkd {
@@ -12473,12 +13763,14 @@ pub struct Ojahamffgkd {
     #[prost(message, repeated, tag = "9")]
     pub dclihbhpjkk: ::prost::alloc::vec::Vec<Olhaepmeddd>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kepeepjnaom {
     #[prost(message, optional, tag = "8")]
     pub nfflhfncioe: ::core::option::Option<Olhaepmeddd>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fpilpapbcjp {
@@ -12489,18 +13781,21 @@ pub struct Fpilpapbcjp {
     #[prost(uint32, tag = "5")]
     pub pihfebonpbk: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nalbaidinng {
     #[prost(uint32, tag = "2")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Knkbikhgcmh {
     #[prost(uint32, repeated, tag = "13")]
     pub ghmpdjfdmbl: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Doeiooimhhd {
@@ -12509,6 +13804,7 @@ pub struct Doeiooimhhd {
     #[prost(message, repeated, tag = "12")]
     pub ghmpdjfdmbl: ::prost::alloc::vec::Vec<Ojemlandahi>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gphijahcgbl {
@@ -12523,12 +13819,14 @@ pub struct Gphijahcgbl {
     #[prost(uint32, tag = "1")]
     pub world_level: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kahbigmgbpe {
     #[prost(uint32, tag = "8")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mclpjhhcfhj {
@@ -12537,12 +13835,14 @@ pub struct Mclpjhhcfhj {
     #[prost(bool, tag = "8")]
     pub iijpdkfdakn: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nkjlognmddk {
     #[prost(uint32, tag = "11")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kenppjbalon {
@@ -12553,6 +13853,7 @@ pub struct Kenppjbalon {
     #[prost(uint32, tag = "9")]
     pub bhccbdiaoni: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Finihmgebln {
@@ -12569,6 +13870,7 @@ pub struct Finihmgebln {
     #[prost(message, repeated, tag = "12")]
     pub olifkffbppn: ::prost::alloc::vec::Vec<Kenppjbalon>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Acchkgpkakb {
@@ -12577,6 +13879,7 @@ pub struct Acchkgpkakb {
     #[prost(uint32, tag = "1")]
     pub djghfeokhlk: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Koddlnddgne {
@@ -12587,9 +13890,11 @@ pub struct Koddlnddgne {
     #[prost(uint32, tag = "2")]
     pub world_level: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Copjjgbcdaf {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct GetRaidInfoScRsp {
@@ -12602,9 +13907,11 @@ pub struct GetRaidInfoScRsp {
     #[prost(uint32, tag = "8")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cipjnneilbl {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ijoaedbngfb {
@@ -12615,12 +13922,14 @@ pub struct Ijoaedbngfb {
     #[prost(uint32, repeated, tag = "4")]
     pub ejehaagpein: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bmjdbeaiagb {
     #[prost(uint32, tag = "7")]
     pub iakpofjhkcl: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Epbjgkfbfcb {
@@ -12631,12 +13940,14 @@ pub struct Epbjgkfbfcb {
     #[prost(uint32, tag = "4")]
     pub iakpofjhkcl: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Okcakmfhkpc {
     #[prost(message, optional, tag = "9")]
     pub ieameibkeeo: ::core::option::Option<Acchkgpkakb>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pdfebfjgphm {
@@ -12645,6 +13956,7 @@ pub struct Pdfebfjgphm {
     #[prost(uint32, tag = "9")]
     pub progress: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ldkcienhkgj {
@@ -12655,6 +13967,7 @@ pub struct Ldkcienhkgj {
     #[prost(uint32, tag = "6")]
     pub dhlgllogjlm: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cljljabmcag {
@@ -12663,6 +13976,7 @@ pub struct Cljljabmcag {
     #[prost(uint32, tag = "13")]
     pub djghfeokhlk: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Oflflpjamlb {
@@ -12677,6 +13991,7 @@ pub struct Oflflpjamlb {
     #[prost(bool, tag = "4")]
     pub iijpdkfdakn: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bfeijikbbgf {
@@ -12687,9 +14002,11 @@ pub struct Bfeijikbbgf {
     #[prost(message, repeated, tag = "4")]
     pub olifkffbppn: ::prost::alloc::vec::Vec<Kenppjbalon>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hlcoapioioh {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mednaleneof {
@@ -12698,6 +14015,7 @@ pub struct Mednaleneof {
     #[prost(uint32, tag = "10")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Omibhkfkpja {
@@ -12706,6 +14024,7 @@ pub struct Omibhkfkpja {
     #[prost(uint32, tag = "12")]
     pub djghfeokhlk: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mipgopjanij {
@@ -12720,15 +14039,18 @@ pub struct Mipgopjanij {
     #[prost(message, optional, tag = "9")]
     pub scene: ::core::option::Option<SceneInfo>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lclecmmdfak {
     #[prost(uint32, tag = "3")]
     pub nlbgjbpnfhf: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jpegceodgmb {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kflenlnlbdh {
@@ -12737,18 +14059,21 @@ pub struct Kflenlnlbdh {
     #[prost(message, repeated, tag = "8")]
     pub aaohdgdimml: ::prost::alloc::vec::Vec<Lclecmmdfak>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pdlpeklockl {
     #[prost(message, optional, tag = "9")]
     pub mpbfbikcfjb: ::core::option::Option<Lclecmmdfak>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nebcpniaecd {
     #[prost(uint32, repeated, tag = "3")]
     pub gjfdpgpicaf: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kknioipgaji {
@@ -12759,9 +14084,11 @@ pub struct Kknioipgaji {
     #[prost(uint32, tag = "7")]
     pub bcnbcoijiao: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mnoeaoggidp {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mphcijonhcl {
@@ -12770,6 +14097,7 @@ pub struct Mphcijonhcl {
     #[prost(uint32, tag = "2")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ippcmogmdkh {
@@ -12784,6 +14112,7 @@ pub struct Ippcmogmdkh {
     #[prost(enumeration = "Geeklapjbhm", tag = "13")]
     pub bhhljepgjff: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ibmihbbjkie {
@@ -12796,6 +14125,7 @@ pub struct Ibmihbbjkie {
     #[prost(uint32, tag = "15")]
     pub group_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nogjbnommji {
@@ -12806,6 +14136,7 @@ pub struct Nogjbnommji {
     #[prost(uint32, tag = "7")]
     pub group_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pgmbgmkblfn {
@@ -12820,6 +14151,7 @@ pub struct Pgmbgmkblfn {
     #[prost(uint32, tag = "15")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Aogajiadkep {
@@ -12836,6 +14168,7 @@ pub struct Aogajiadkep {
     #[prost(uint32, tag = "3")]
     pub pkkejjflnoo: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kjhjkaegcni {
@@ -12850,9 +14183,11 @@ pub struct Kjhjkaegcni {
     #[prost(string, tag = "8")]
     pub fkkcflabhoe: ::prost::alloc::string::String,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mbmcmeafamb {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Acaphampnnj {
@@ -12861,12 +14196,14 @@ pub struct Acaphampnnj {
     #[prost(message, repeated, tag = "12")]
     pub llgoekdgmam: ::prost::alloc::vec::Vec<Mlppfodcabi>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fphboibamag {
     #[prost(uint32, tag = "4")]
     pub id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ccbcpbnglpg {
@@ -12875,15 +14212,18 @@ pub struct Ccbcpbnglpg {
     #[prost(uint32, repeated, tag = "14")]
     pub angogolibho: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ijliejepojg {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dfodnlcgghb {
     #[prost(uint32, tag = "7")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Elpaddfdebi {
@@ -12892,12 +14232,14 @@ pub struct Elpaddfdebi {
     #[prost(uint32, tag = "2")]
     pub jfghjfckgcd: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jpfmnhppdlg {
     #[prost(message, repeated, tag = "2")]
     pub buff_list: ::prost::alloc::vec::Vec<Elpaddfdebi>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Imhinieedhc {
@@ -12912,6 +14254,7 @@ pub struct Imhinieedhc {
     #[prost(uint32, tag = "11")]
     pub ajhhkoopjfg: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jjojfbocgcn {
@@ -12926,6 +14269,7 @@ pub struct Jjojfbocgcn {
     #[prost(message, repeated, tag = "3")]
     pub iejfbmbkaai: ::prost::alloc::vec::Vec<Imhinieedhc>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Iiocklliekp {
@@ -12942,6 +14286,7 @@ pub struct Iiocklliekp {
     #[prost(uint32, tag = "14")]
     pub mkojmagcnpk: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ecdbcmmegpb {
@@ -12970,6 +14315,7 @@ pub struct Ecdbcmmegpb {
     #[prost(enumeration = "Mpgalnachlc", tag = "5")]
     pub eoifgpmgfgj: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hcgedplciea {
@@ -12978,6 +14324,7 @@ pub struct Hcgedplciea {
     #[prost(message, repeated, tag = "6")]
     pub kimkmbcbdjb: ::prost::alloc::vec::Vec<Elpaddfdebi>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jicmapggmml {
@@ -12988,6 +14335,7 @@ pub struct Jicmapggmml {
     #[prost(message, repeated, tag = "14")]
     pub jnmfighgpbi: ::prost::alloc::vec::Vec<Elpaddfdebi>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fcgjodgbidd {
@@ -12998,12 +14346,14 @@ pub struct Fcgjodgbidd {
     #[prost(uint32, tag = "7")]
     pub jfghjfckgcd: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Aiikbbfjlfh {
     #[prost(message, repeated, tag = "10")]
     pub ndfbnaahldm: ::prost::alloc::vec::Vec<Fcgjodgbidd>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pgggjoadabd {
@@ -13018,6 +14368,7 @@ pub struct Pgggjoadabd {
     #[prost(uint32, tag = "7")]
     pub hjkhojdemob: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Omcojpfdgil {
@@ -13028,6 +14379,7 @@ pub struct Omcojpfdgil {
     #[prost(uint32, tag = "15")]
     pub khbdikddiib: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ckbokldcjln {
@@ -13038,18 +14390,21 @@ pub struct Ckbokldcjln {
     #[prost(enumeration = "Cmhbbmokjjb", tag = "13")]
     pub eoifgpmgfgj: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Iepkdnfoddj {
     #[prost(uint32, repeated, tag = "5")]
     pub nakfcflciim: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ndbijljnnlj {
     #[prost(uint32, repeated, tag = "15")]
     pub lfdkacnhafi: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lalniaelfbe {
@@ -13060,6 +14415,7 @@ pub struct Lalniaelfbe {
     #[prost(message, optional, tag = "7")]
     pub agmcejbkfaa: ::core::option::Option<Jpfmnhppdlg>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cjabhgcopep {
@@ -13072,12 +14428,14 @@ pub struct Cjabhgcopep {
     #[prost(uint32, tag = "15")]
     pub oecnodlmaci: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dnolbcgobkg {
     #[prost(uint32, tag = "6")]
     pub phmkggkogkl: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Egablpoljhb {
@@ -13090,6 +14448,7 @@ pub struct Egablpoljhb {
     #[prost(uint32, tag = "5")]
     pub jhmofjpkgim: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mbhngnblblj {
@@ -13098,6 +14457,7 @@ pub struct Mbhngnblblj {
     #[prost(message, optional, tag = "806")]
     pub eafohbgekig: ::core::option::Option<Ecpdlcmicok>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ecpdlcmicok {
@@ -13112,6 +14472,7 @@ pub struct Ecpdlcmicok {
     #[prost(message, optional, tag = "3")]
     pub ogipdfmfkke: ::core::option::Option<Aplcbmfcefn>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mldiipclmof {
@@ -13136,6 +14497,7 @@ pub struct Mldiipclmof {
     #[prost(message, optional, tag = "14")]
     pub flbeikgmkga: ::core::option::Option<Padnhjfkbnd>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hjmimgdmgge {
@@ -13146,12 +14508,14 @@ pub struct Hjmimgdmgge {
     #[prost(int64, tag = "14")]
     pub end_time: i64,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Aplcbmfcefn {
     #[prost(message, repeated, tag = "15")]
     pub bcllnpipall: ::prost::alloc::vec::Vec<Iiocklliekp>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Aofkiooneek {
@@ -13164,6 +14528,7 @@ pub struct Aofkiooneek {
     #[prost(uint32, tag = "7")]
     pub dkgeblgdhcj: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jkbocheoboo {
@@ -13172,18 +14537,21 @@ pub struct Jkbocheoboo {
     #[prost(uint32, tag = "1")]
     pub jaaobgnidjl: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Padnhjfkbnd {
     #[prost(message, repeated, tag = "8")]
     pub dhdokjaeicl: ::prost::alloc::vec::Vec<Elpaddfdebi>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gablnokobpb {
     #[prost(message, optional, tag = "10")]
     pub ccdamnhkfoe: ::core::option::Option<Omcojpfdgil>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jpofdehpkap {
@@ -13196,12 +14564,14 @@ pub struct Jpofdehpkap {
     #[prost(message, optional, tag = "13")]
     pub onpfehocppn: ::core::option::Option<Cjabhgcopep>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Igmohlbooli {
     #[prost(message, optional, tag = "11")]
     pub ofecbbaocgi: ::core::option::Option<Ndbijljnnlj>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jeafdiljoga {
@@ -13212,12 +14582,14 @@ pub struct Jeafdiljoga {
     #[prost(uint32, tag = "1")]
     pub ffoomfhaooa: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Engcgjcnfgj {
     #[prost(uint32, repeated, tag = "5")]
     pub kgmngkilkmd: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cfmeoaidkja {
@@ -13232,6 +14604,7 @@ pub struct Cfmeoaidkja {
     #[prost(uint32, tag = "2")]
     pub nlkmlckpnpe: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Boeellkiicm {
@@ -13242,6 +14615,7 @@ pub struct Boeellkiicm {
     #[prost(uint32, tag = "7")]
     pub jfjcjmpbhgk: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lmeeojnnkbj {
@@ -13252,6 +14626,7 @@ pub struct Lmeeojnnkbj {
     #[prost(float, tag = "1")]
     pub pmlhfadiogo: f32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jlijpglihoj {
@@ -13264,6 +14639,7 @@ pub struct Jlijpglihoj {
     #[prost(uint32, tag = "3")]
     pub slot: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fopohfmdcia {
@@ -13274,6 +14650,7 @@ pub struct Fopohfmdcia {
     #[prost(message, repeated, tag = "5")]
     pub avatar_list: ::prost::alloc::vec::Vec<Jlijpglihoj>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Klmfmfanhle {
@@ -13312,6 +14689,7 @@ pub struct Klmfmfanhle {
     #[prost(message, optional, tag = "15")]
     pub bhlocdabfll: ::core::option::Option<ItemList>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hfjjojlbhhj {
@@ -13330,6 +14708,7 @@ pub struct Hfjjojlbhhj {
     #[prost(int64, tag = "9")]
     pub omnfcockhbc: i64,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jjihgopnmdn {
@@ -13342,6 +14721,7 @@ pub struct Jjihgopnmdn {
     #[prost(uint32, tag = "7")]
     pub level: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct RogueDialogueEventParam {
@@ -13356,6 +14736,7 @@ pub struct RogueDialogueEventParam {
     #[prost(int32, tag = "5")]
     pub int_value: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Aklegeppdee {
@@ -13372,6 +14753,7 @@ pub struct Aklegeppdee {
     #[prost(uint32, tag = "5")]
     pub lagacndlgom: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cjcanmdebfc {
@@ -13382,9 +14764,11 @@ pub struct Cjcanmdebfc {
     #[prost(message, optional, tag = "13")]
     pub lbhlmlahhme: ::core::option::Option<ItemList>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jockiplncch {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mjgfpbhildb {
@@ -13393,6 +14777,7 @@ pub struct Mjgfpbhildb {
     #[prost(uint32, tag = "5")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ilhokinfaid {
@@ -13409,6 +14794,7 @@ pub struct Ilhokinfaid {
     #[prost(uint32, repeated, tag = "9")]
     pub ppmpgogolif: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ejbfjlpkhal {
@@ -13423,6 +14809,7 @@ pub struct Ejbfjlpkhal {
     #[prost(message, optional, tag = "5")]
     pub scene: ::core::option::Option<SceneInfo>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ioijlholibb {
@@ -13431,6 +14818,7 @@ pub struct Ioijlholibb {
     #[prost(uint32, tag = "9")]
     pub jlekocjhldk: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ggbbakhicbc {
@@ -13445,9 +14833,11 @@ pub struct Ggbbakhicbc {
     #[prost(uint32, tag = "11")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dlgecfmfdpn {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gdomgbjipcb {
@@ -13462,12 +14852,14 @@ pub struct Gdomgbjipcb {
     #[prost(message, optional, tag = "1")]
     pub mdgjahafkgj: ::core::option::Option<Mbhngnblblj>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ielgncmcjmn {
     #[prost(message, optional, tag = "7")]
     pub ddkkcoofcjh: ::core::option::Option<Klmfmfanhle>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fjipjgphkna {
@@ -13478,6 +14870,7 @@ pub struct Fjipjgphkna {
     #[prost(uint32, tag = "6")]
     pub prop_entity_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ncdmnbhafik {
@@ -13488,6 +14881,7 @@ pub struct Ncdmnbhafik {
     #[prost(uint32, repeated, tag = "7")]
     pub base_avatar_id_list: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mhgfplbcbbd {
@@ -13500,6 +14894,7 @@ pub struct Mhgfplbcbbd {
     #[prost(uint32, tag = "7")]
     pub jmknpgakkhb: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kdanilegbdf {
@@ -13516,15 +14911,18 @@ pub struct Kdanilegbdf {
     #[prost(uint32, tag = "10")]
     pub base_avatar_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kjfdmjogloo {
     #[prost(message, optional, tag = "15")]
     pub onpfehocppn: ::core::option::Option<Cjabhgcopep>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nhhamklimef {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Acocajpjbka {
@@ -13533,12 +14931,14 @@ pub struct Acocajpjbka {
     #[prost(uint32, tag = "10")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dpmopelofgi {
     #[prost(uint32, tag = "12")]
     pub giibaepcgan: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fpinmhneici {
@@ -13549,12 +14949,14 @@ pub struct Fpinmhneici {
     #[prost(uint32, tag = "2")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Iekpdhbebec {
     #[prost(uint32, tag = "11")]
     pub jlekocjhldk: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Abjfpkchejp {
@@ -13565,12 +14967,14 @@ pub struct Abjfpkchejp {
     #[prost(uint32, tag = "3")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Blokbmjlepj {
     #[prost(bool, tag = "7")]
     pub mpldkhlbmmc: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Idnaomnfclc {
@@ -13585,6 +14989,7 @@ pub struct Idnaomnfclc {
     #[prost(message, optional, tag = "7")]
     pub hddbdcijcln: ::core::option::Option<Hfjjojlbhhj>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nfcfbmnaodc {
@@ -13593,6 +14998,7 @@ pub struct Nfcfbmnaodc {
     #[prost(uint32, tag = "7")]
     pub ajhhkoopjfg: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Olbldogdnlo {
@@ -13607,6 +15013,7 @@ pub struct Olbldogdnlo {
     #[prost(message, optional, tag = "6")]
     pub lineup: ::core::option::Option<LineupInfo>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Olhpccdjgme {
@@ -13615,9 +15022,11 @@ pub struct Olhpccdjgme {
     #[prost(uint32, tag = "1")]
     pub map_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fbmmmhdpefa {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ebbdeddmdfg {
@@ -13626,6 +15035,7 @@ pub struct Ebbdeddmdfg {
     #[prost(message, repeated, tag = "3")]
     pub doifnmcckgo: ::prost::alloc::vec::Vec<Aklegeppdee>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jegkfdohioe {
@@ -13634,6 +15044,7 @@ pub struct Jegkfdohioe {
     #[prost(uint32, tag = "6")]
     pub jmknpgakkhb: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Emifnbkpnkg {
@@ -13646,12 +15057,14 @@ pub struct Emifnbkpnkg {
     #[prost(uint32, tag = "2")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bekfajfigdj {
     #[prost(message, repeated, tag = "13")]
     pub doifnmcckgo: ::prost::alloc::vec::Vec<Aklegeppdee>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cinlgdcaghm {
@@ -13660,12 +15073,14 @@ pub struct Cinlgdcaghm {
     #[prost(uint32, tag = "12")]
     pub jmknpgakkhb: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Apnclniflje {
     #[prost(uint32, tag = "4")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ggkhkninbkb {
@@ -13674,6 +15089,7 @@ pub struct Ggkhkninbkb {
     #[prost(uint32, tag = "6")]
     pub jmknpgakkhb: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Immdhnallkl {
@@ -13684,12 +15100,14 @@ pub struct Immdhnallkl {
     #[prost(message, optional, tag = "15")]
     pub reward: ::core::option::Option<ItemList>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gmkkengiepe {
     #[prost(uint32, tag = "8")]
     pub count: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct ExchangeRogueRewardKeyScRsp {
@@ -13698,12 +15116,14 @@ pub struct ExchangeRogueRewardKeyScRsp {
     #[prost(uint32, tag = "15")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hmnlomlclhj {
     #[prost(uint32, tag = "8")]
     pub jlekocjhldk: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fpneanfnino {
@@ -13712,6 +15132,7 @@ pub struct Fpneanfnino {
     #[prost(message, optional, tag = "12")]
     pub pdjobmmbppb: ::core::option::Option<ItemList>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kjlgajphphj {
@@ -13720,6 +15141,7 @@ pub struct Kjlgajphphj {
     #[prost(uint32, tag = "14")]
     pub level: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Likcecokide {
@@ -13732,6 +15154,7 @@ pub struct Likcecokide {
     #[prost(message, optional, tag = "10")]
     pub reward: ::core::option::Option<ItemList>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nifcfabefem {
@@ -13742,9 +15165,11 @@ pub struct Nifcfabefem {
     #[prost(uint32, tag = "3")]
     pub mpkacbpnmpn: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hdjkojkpjme {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pbmlgocaeog {
@@ -13753,6 +15178,7 @@ pub struct Pbmlgocaeog {
     #[prost(message, optional, tag = "7")]
     pub napnbdcoafp: ::core::option::Option<Hfjjojlbhhj>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pnegcdpejad {
@@ -13761,6 +15187,7 @@ pub struct Pnegcdpejad {
     #[prost(uint32, tag = "2")]
     pub oojbimbghil: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hfjminjgajp {
@@ -13773,9 +15200,11 @@ pub struct Hfjminjgajp {
     #[prost(uint32, tag = "3")]
     pub oojbimbghil: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ceagcfipoja {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kiadejbalci {
@@ -13784,9 +15213,11 @@ pub struct Kiadejbalci {
     #[prost(uint32, tag = "11")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hhpiplgoclm {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dlipamoeead {
@@ -13795,12 +15226,14 @@ pub struct Dlipamoeead {
     #[prost(uint32, tag = "5")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Efodmajjdnd {
     #[prost(uint32, tag = "12")]
     pub mpkacbpnmpn: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Djholeakobj {
@@ -13811,9 +15244,11 @@ pub struct Djholeakobj {
     #[prost(message, optional, tag = "4")]
     pub reward: ::core::option::Option<ItemList>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ggdcjcanldk {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cjpflpjldci {
@@ -13822,12 +15257,14 @@ pub struct Cjpflpjldci {
     #[prost(message, optional, tag = "10")]
     pub hgpklojihdi: ::core::option::Option<Jccemojomaf>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jgadohofiac {
     #[prost(uint32, tag = "1")]
     pub nhmachllchm: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ekeaaiaojcj {
@@ -13836,12 +15273,14 @@ pub struct Ekeaaiaojcj {
     #[prost(message, optional, tag = "1")]
     pub hgpklojihdi: ::core::option::Option<Jccemojomaf>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ldaijgfejla {
     #[prost(message, optional, tag = "4")]
     pub maceecbfmfi: ::core::option::Option<Egablpoljhb>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fbhfkijoanj {
@@ -13850,12 +15289,14 @@ pub struct Fbhfkijoanj {
     #[prost(bool, tag = "5")]
     pub anhpncnneig: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Opehkkdoheh {
     #[prost(message, optional, tag = "6")]
     pub hddbdcijcln: ::core::option::Option<Hfjjojlbhhj>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pkiononedmk {
@@ -13864,12 +15305,14 @@ pub struct Pkiononedmk {
     #[prost(uint32, repeated, tag = "5")]
     pub base_avatar_id_list: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nopcgfgjall {
     #[prost(message, optional, tag = "7")]
     pub chpmkadcfji: ::core::option::Option<Cfmeoaidkja>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hcniamjdllp {
@@ -13878,12 +15321,14 @@ pub struct Hcniamjdllp {
     #[prost(uint32, tag = "15")]
     pub jfghjfckgcd: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lnfckhoafhk {
     #[prost(message, repeated, tag = "12")]
     pub buff_list: ::prost::alloc::vec::Vec<Hcniamjdllp>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct RogueCommonBuffSelectInfo {
@@ -13912,24 +15357,29 @@ pub struct RogueCommonBuffSelectInfo {
     #[prost(uint32, repeated, tag = "8")]
     pub handbook_unlock_buff_id_list: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kdoplelcnpa {
     #[prost(uint32, tag = "4")]
     pub ekpodgmfacb: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cfnoailpbhj {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hlcdhikpicl {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nnopcahhonn {
     #[prost(message, optional, tag = "15")]
     pub ekbmknafodg: ::core::option::Option<RogueCommonBuffSelectInfo>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ckckkldngin {
@@ -13938,12 +15388,14 @@ pub struct Ckckkldngin {
     #[prost(message, optional, tag = "11")]
     pub cost_data: ::core::option::Option<ItemCostData>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Njeacjmcbgl {
     #[prost(message, repeated, tag = "14")]
     pub ndfbnaahldm: ::prost::alloc::vec::Vec<Ckckkldngin>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nihpfjoapfe {
@@ -13954,6 +15406,7 @@ pub struct Nihpfjoapfe {
     #[prost(uint32, tag = "8")]
     pub cgkhkjbofgk: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Malmobcfnbc {
@@ -13962,15 +15415,18 @@ pub struct Malmobcfnbc {
     #[prost(message, repeated, tag = "3")]
     pub oefdabbacih: ::prost::alloc::vec::Vec<Hcniamjdllp>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Iidpiilogji {
     #[prost(uint32, tag = "1")]
     pub nomibggldab: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fjdililbfed {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jbdjbndpjfn {
@@ -13979,21 +15435,25 @@ pub struct Jbdjbndpjfn {
     #[prost(uint32, tag = "6")]
     pub cgkhkjbofgk: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kmpojobokop {
     #[prost(uint32, tag = "5")]
     pub ekpodgmfacb: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ejnogiphflb {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Iggepapjffh {
     #[prost(message, optional, tag = "12")]
     pub oolbondemhe: ::core::option::Option<Lnfckhoafhk>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dlieinflclg {
@@ -14006,6 +15466,7 @@ pub struct Dlieinflclg {
     #[prost(uint32, tag = "4")]
     pub mmfonffpnjm: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dpalbemdnlc {
@@ -14016,30 +15477,35 @@ pub struct Dpalbemdnlc {
     #[prost(message, optional, tag = "9")]
     pub pabgnbchedp: ::core::option::Option<Dlieinflclg>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Klpkdkofjoo {
     #[prost(message, optional, tag = "5")]
     pub cccdaeojjnh: ::core::option::Option<Dlieinflclg>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Oloiijkndjl {
     #[prost(uint32, tag = "4")]
     pub hjkhojdemob: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mngecpckmoe {
     #[prost(message, optional, tag = "1")]
     pub cccdaeojjnh: ::core::option::Option<Dlieinflclg>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mbegpdeleli {
     #[prost(message, optional, tag = "9")]
     pub cccdaeojjnh: ::core::option::Option<Dlieinflclg>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ogijdaeonfa {
@@ -14048,18 +15514,21 @@ pub struct Ogijdaeonfa {
     #[prost(uint32, tag = "8")]
     pub omaoajjcdmd: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bphpfkbhiic {
     #[prost(message, optional, tag = "7")]
     pub cccdaeojjnh: ::core::option::Option<Dlieinflclg>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pkgndclahhk {
     #[prost(message, repeated, tag = "11")]
     pub ndjkcdjmbjf: ::prost::alloc::vec::Vec<Dlieinflclg>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jkhgmmneidm {
@@ -14072,21 +15541,25 @@ pub struct Jkhgmmneidm {
     #[prost(uint32, tag = "10")]
     pub cgkhkjbofgk: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ahndopglglf {
     #[prost(uint32, tag = "9")]
     pub ihmodckcnjj: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cebgeenohdi {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mfmckkjaakg {
     #[prost(uint32, repeated, tag = "12")]
     pub nakfcflciim: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Edcoiachpjk {
@@ -14095,15 +15568,18 @@ pub struct Edcoiachpjk {
     #[prost(uint32, tag = "3")]
     pub cgkhkjbofgk: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dkcpgeljmga {
     #[prost(uint32, tag = "3")]
     pub blelaegplel: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nkbidfbkpkj {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mobomdgfoeh {
@@ -14112,15 +15588,18 @@ pub struct Mobomdgfoeh {
     #[prost(uint32, tag = "12")]
     pub cgkhkjbofgk: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kmlffkilchi {
     #[prost(uint32, tag = "11")]
     pub paaaonaggij: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ekfcegpdnog {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fojcnmcnnkp {
@@ -14129,15 +15608,18 @@ pub struct Fojcnmcnnkp {
     #[prost(uint32, repeated, tag = "13")]
     pub mcaomfpolge: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mcaembmjgmj {
     #[prost(uint32, tag = "13")]
     pub kjililkmbba: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fmglpfikegj {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pfilbgogden {
@@ -14146,36 +15628,43 @@ pub struct Pfilbgogden {
     #[prost(uint32, repeated, tag = "15")]
     pub dneefknbhil: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gflcnddiolm {
     #[prost(uint32, tag = "10")]
     pub cfloalchgng: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Aampfleolep {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Anodmonndbe {
     #[prost(uint32, tag = "14")]
     pub lkmmgcbamco: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Idaegnjlpih {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gmmfeddbcfk {
     #[prost(message, optional, tag = "13")]
     pub lgmieboonej: ::core::option::Option<Pkgndclahhk>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cceeilolfmi {
     #[prost(uint32, repeated, tag = "14")]
     pub lfdkacnhafi: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dgnnoddkkfa {
@@ -14188,6 +15677,7 @@ pub struct Dgnnoddkkfa {
     #[prost(uint32, tag = "5")]
     pub gcaglbchocn: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Giiiiedbilm {
@@ -14196,6 +15686,7 @@ pub struct Giiiiedbilm {
     #[prost(uint32, tag = "14")]
     pub hempkbbndjj: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ffioajgcdoi {
@@ -14204,6 +15695,7 @@ pub struct Ffioajgcdoi {
     #[prost(enumeration = "AvatarType", tag = "14")]
     pub avatar_type: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct RogueSyncContextBoardEvent {
@@ -14212,12 +15704,14 @@ pub struct RogueSyncContextBoardEvent {
     #[prost(uint32, tag = "15")]
     pub board_event_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hocpkmiknik {
     #[prost(message, optional, tag = "5")]
     pub item_list: ::core::option::Option<ItemList>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mhfcaolcahc {
@@ -14226,6 +15720,7 @@ pub struct Mhfcaolcahc {
     #[prost(message, optional, tag = "4")]
     pub jbmmknnpdfa: ::core::option::Option<Hocpkmiknik>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gfbhimkamej {
@@ -14240,15 +15735,18 @@ pub struct Gfbhimkamej {
     #[prost(uint32, tag = "15")]
     pub nnimjidjjgi: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bldbkfhlemh {
     #[prost(message, optional, tag = "13")]
     pub ohpalflefki: ::core::option::Option<Gfbhimkamej>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kikmllhfoio {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Oocinkeifjd {
@@ -14257,12 +15755,14 @@ pub struct Oocinkeifjd {
     #[prost(uint32, tag = "3")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ipgcpjmgcid {
     #[prost(uint32, tag = "15")]
     pub cefneajiklj: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jicfbciefol {
@@ -14271,9 +15771,11 @@ pub struct Jicfbciefol {
     #[prost(uint32, tag = "2")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Encpnbnlnfc {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dldoncofdld {
@@ -14282,6 +15784,7 @@ pub struct Dldoncofdld {
     #[prost(message, optional, tag = "10")]
     pub ohpalflefki: ::core::option::Option<Gfbhimkamej>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bikhamaigik {
@@ -14290,6 +15793,7 @@ pub struct Bikhamaigik {
     #[prost(uint32, tag = "15")]
     pub jfjcjmpbhgk: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ocompdegkmk {
@@ -14298,6 +15802,7 @@ pub struct Ocompdegkmk {
     #[prost(message, optional, tag = "5")]
     pub ohpalflefki: ::core::option::Option<Gfbhimkamej>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mfjckbmkpeo {
@@ -14310,6 +15815,7 @@ pub struct Mfjckbmkpeo {
     #[prost(bool, tag = "4")]
     pub hhidnmnpclm: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Niclofehinn {
@@ -14324,18 +15830,21 @@ pub struct Niclofehinn {
     #[prost(uint32, tag = "3")]
     pub jfghjfckgcd: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gfmoddpfjdp {
     #[prost(message, repeated, tag = "4")]
     pub ndjkcdjmbjf: ::prost::alloc::vec::Vec<Mfjckbmkpeo>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ipbjhdcmiko {
     #[prost(message, repeated, tag = "14")]
     pub buff_list: ::prost::alloc::vec::Vec<Niclofehinn>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hgcikpblbja {
@@ -14344,6 +15853,7 @@ pub struct Hgcikpblbja {
     #[prost(uint32, tag = "4")]
     pub jmknpgakkhb: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kaeldmnfeno {
@@ -14356,6 +15866,7 @@ pub struct Kaeldmnfeno {
     #[prost(uint32, tag = "3")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Alpdphdojbj {
@@ -14364,6 +15875,7 @@ pub struct Alpdphdojbj {
     #[prost(uint32, tag = "9")]
     pub jmknpgakkhb: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ofjncbaffgf {
@@ -14376,6 +15888,7 @@ pub struct Ofjncbaffgf {
     #[prost(message, optional, tag = "6")]
     pub knpfhblmpgi: ::core::option::Option<ItemCostData>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kjblbaedhif {
@@ -14384,6 +15897,7 @@ pub struct Kjblbaedhif {
     #[prost(uint32, tag = "3")]
     pub jmknpgakkhb: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gjpkhdghbhg {
@@ -14392,6 +15906,7 @@ pub struct Gjpkhdghbhg {
     #[prost(uint32, tag = "13")]
     pub jmknpgakkhb: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hikoagbmaep {
@@ -14400,6 +15915,7 @@ pub struct Hikoagbmaep {
     #[prost(uint32, tag = "4")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dikjpfnbmln {
@@ -14408,6 +15924,7 @@ pub struct Dikjpfnbmln {
     #[prost(message, optional, tag = "4")]
     pub flbeikgmkga: ::core::option::Option<Ipbjhdcmiko>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Midicpijbpg {
@@ -14416,6 +15933,7 @@ pub struct Midicpijbpg {
     #[prost(uint32, tag = "2")]
     pub jmknpgakkhb: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ceaeeafpbnd {
@@ -14424,18 +15942,21 @@ pub struct Ceaeeafpbnd {
     #[prost(uint32, tag = "6")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dcpjimkapfk {
     #[prost(uint32, tag = "7")]
     pub dccdpalochf: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bjkjefhfboj {
     #[prost(uint32, tag = "3")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nhopcloldkk {
@@ -14444,6 +15965,7 @@ pub struct Nhopcloldkk {
     #[prost(uint32, tag = "11")]
     pub jmknpgakkhb: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Iemmlncmkgm {
@@ -14454,12 +15976,14 @@ pub struct Iemmlncmkgm {
     #[prost(bool, tag = "12")]
     pub bfknlcpgdeh: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ccjgdlanbel {
     #[prost(uint32, tag = "1")]
     pub jmknpgakkhb: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct GetEnhanceCommonRogueBuffInfoScRsp {
@@ -14468,6 +15992,7 @@ pub struct GetEnhanceCommonRogueBuffInfoScRsp {
     #[prost(uint32, tag = "15")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Adbbkepkand {
@@ -14478,6 +16003,7 @@ pub struct Adbbkepkand {
     #[prost(enumeration = "Bpakkdmjink", tag = "11")]
     pub hempkbbndjj: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Alkjdehmeho {
@@ -14486,6 +16012,7 @@ pub struct Alkjdehmeho {
     #[prost(message, optional, tag = "5")]
     pub ciidclkmcpf: ::core::option::Option<Fcfemlgafkh>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fcfemlgafkh {
@@ -14512,6 +16039,7 @@ pub struct Fcfemlgafkh {
     #[prost(message, optional, tag = "2027")]
     pub jappmfhnipd: ::core::option::Option<Ffioajgcdoi>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Eheccodalni {
@@ -14520,6 +16048,7 @@ pub struct Eheccodalni {
     #[prost(uint32, tag = "11")]
     pub maaakbdmpgb: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hahmakeodgg {
@@ -14528,6 +16057,7 @@ pub struct Hahmakeodgg {
     #[prost(message, optional, tag = "6")]
     pub ciidclkmcpf: ::core::option::Option<Oejjohanopl>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Oejjohanopl {
@@ -14552,6 +16082,7 @@ pub struct Oejjohanopl {
     #[prost(message, optional, tag = "515")]
     pub ofecbbaocgi: ::core::option::Option<Cceeilolfmi>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mbbklgplpdg {
@@ -14578,6 +16109,7 @@ pub struct Mbbklgplpdg {
     #[prost(message, optional, tag = "1156")]
     pub knplafpbnnm: ::core::option::Option<Anodmonndbe>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kminollniig {
@@ -14608,12 +16140,14 @@ pub struct Kminollniig {
     #[prost(message, optional, tag = "1779")]
     pub ieocnianlkb: ::core::option::Option<Idaegnjlpih>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cmiehngedeh {
     #[prost(uint32, tag = "5")]
     pub giibaepcgan: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cckejcdolck {
@@ -14622,6 +16156,7 @@ pub struct Cckejcdolck {
     #[prost(uint32, tag = "11")]
     pub jjfehhmibcb: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Abkhjljejbj {
@@ -14632,6 +16167,7 @@ pub struct Abkhjljejbj {
     #[prost(uint32, tag = "11")]
     pub hblihbdmoda: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Camhekjonfo {
@@ -14648,6 +16184,7 @@ pub struct Camhekjonfo {
     #[prost(uint32, repeated, tag = "3")]
     pub ifcnjdjdnbl: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dojhifppfom {
@@ -14660,9 +16197,11 @@ pub struct Dojhifppfom {
     #[prost(message, repeated, tag = "3")]
     pub ndjkcdjmbjf: ::prost::alloc::vec::Vec<Cckejcdolck>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lmahndmfblc {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct GetRogueHandbookDataScRsp {
@@ -14671,6 +16210,7 @@ pub struct GetRogueHandbookDataScRsp {
     #[prost(message, optional, tag = "12")]
     pub handbook_info: ::core::option::Option<Dojhifppfom>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Djlgocfamfm {
@@ -14681,12 +16221,14 @@ pub struct Djlgocfamfm {
     #[prost(message, repeated, tag = "6")]
     pub fhdadakcagb: ::prost::alloc::vec::Vec<Cckejcdolck>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bhkkcaalioe {
     #[prost(uint32, repeated, tag = "15")]
     pub mnlknipjekk: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Phcgpheahde {
@@ -14697,12 +16239,14 @@ pub struct Phcgpheahde {
     #[prost(uint32, tag = "14")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Icfmjhnfhod {
     #[prost(uint32, repeated, tag = "1")]
     pub pbkmcnlijbe: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hladfmhbiii {
@@ -14713,12 +16257,14 @@ pub struct Hladfmhbiii {
     #[prost(uint32, tag = "11")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mdojlocmnkc {
     #[prost(map = "uint32, uint32", tag = "4")]
     pub egnohemenff: ::std::collections::HashMap<u32, u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hmlcjcgoehi {
@@ -14729,12 +16275,14 @@ pub struct Hmlcjcgoehi {
     #[prost(message, optional, tag = "6")]
     pub idmnmapahom: ::core::option::Option<Daneehmkdkn>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mbgnhfbiihj {
     #[prost(uint32, repeated, tag = "1")]
     pub eodnkkeeoga: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mmgmnbonana {
@@ -14749,6 +16297,7 @@ pub struct Mmgmnbonana {
     #[prost(message, optional, tag = "12")]
     pub geoijkdcioi: ::core::option::Option<Mbgnhfbiihj>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct RogueUnlockProgress {
@@ -14759,6 +16308,7 @@ pub struct RogueUnlockProgress {
     #[prost(uint32, tag = "9")]
     pub progress: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Epeedgdbjgg {
@@ -14769,12 +16319,14 @@ pub struct Epeedgdbjgg {
     #[prost(uint32, tag = "12")]
     pub nhmachllchm: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jccemojomaf {
     #[prost(message, repeated, tag = "15")]
     pub jccpeimkhkg: ::prost::alloc::vec::Vec<Epeedgdbjgg>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lckmcmmobcm {
@@ -14783,12 +16335,14 @@ pub struct Lckmcmmobcm {
     #[prost(uint32, tag = "11")]
     pub jfbkcoabigp: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Focnldoiffn {
     #[prost(message, repeated, tag = "14")]
     pub jalbjdlnbhi: ::prost::alloc::vec::Vec<Lckmcmmobcm>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gkeomdjoico {
@@ -14799,12 +16353,14 @@ pub struct Gkeomdjoico {
     #[prost(uint32, tag = "7")]
     pub hclanhjmake: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Eaikkciielm {
     #[prost(enumeration = "Mmeamkolmog", repeated, tag = "15")]
     pub aohlmjmgbmc: ::prost::alloc::vec::Vec<i32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bkoahfihmfa {
@@ -14813,9 +16369,11 @@ pub struct Bkoahfihmfa {
     #[prost(message, optional, tag = "5")]
     pub ogipdfmfkke: ::core::option::Option<Gkeomdjoico>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jdpldlgmkaj {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Maebamaiioj {
@@ -14824,6 +16382,7 @@ pub struct Maebamaiioj {
     #[prost(message, optional, tag = "14")]
     pub eafohbgekig: ::core::option::Option<Bkoahfihmfa>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gkeappffjim {
@@ -14832,6 +16391,7 @@ pub struct Gkeappffjim {
     #[prost(message, optional, tag = "10")]
     pub cchcbliamkk: ::core::option::Option<Eaikkciielm>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bilhokfdmdb {
@@ -14854,6 +16414,7 @@ pub struct Bilhokfdmdb {
     #[prost(uint32, tag = "8")]
     pub iadmghfbjmi: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mcjiifkfeag {
@@ -14874,6 +16435,7 @@ pub struct Mcjiifkfeag {
     #[prost(uint32, tag = "4")]
     pub fcjpmgnohge: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kamoeplhikf {
@@ -14886,9 +16448,11 @@ pub struct Kamoeplhikf {
     #[prost(message, optional, tag = "14")]
     pub ceogmcpddam: ::core::option::Option<Mcjiifkfeag>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dbnkijoigik {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Elgcciokpac {
@@ -14903,6 +16467,7 @@ pub struct Elgcciokpac {
     #[prost(uint32, tag = "10")]
     pub jngddkmoidi: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dbnaoppmgec {
@@ -14911,6 +16476,7 @@ pub struct Dbnaoppmgec {
     #[prost(uint32, tag = "12")]
     pub ckondfhadld: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Agjgenafeia {
@@ -14919,6 +16485,7 @@ pub struct Agjgenafeia {
     #[prost(uint32, tag = "13")]
     pub gdelcmkiebh: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lphgjmgecnh {
@@ -14929,12 +16496,14 @@ pub struct Lphgjmgecnh {
     #[prost(message, optional, tag = "4")]
     pub battle_info: ::core::option::Option<SceneBattleInfo>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lnlfbledkne {
     #[prost(message, optional, tag = "7")]
     pub ceogmcpddam: ::core::option::Option<Mcjiifkfeag>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gpacmdplnfo {
@@ -14943,6 +16512,7 @@ pub struct Gpacmdplnfo {
     #[prost(uint32, tag = "6")]
     pub level: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fmgmiknbicc {
@@ -14959,9 +16529,11 @@ pub struct Fmgmiknbicc {
     #[prost(uint32, tag = "5")]
     pub jngddkmoidi: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jmckoacbbij {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pipdbogmodc {
@@ -14974,6 +16546,7 @@ pub struct Pipdbogmodc {
     #[prost(message, optional, tag = "2")]
     pub reward: ::core::option::Option<ItemList>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cfjbahlobnf {
@@ -14984,6 +16557,7 @@ pub struct Cfjbahlobnf {
     #[prost(uint32, tag = "4")]
     pub nohppiplpjf: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bioiadbdpll {
@@ -14996,6 +16570,7 @@ pub struct Bioiadbdpll {
     #[prost(uint32, tag = "13")]
     pub nohppiplpjf: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ncmpeamcgbl {
@@ -15006,6 +16581,7 @@ pub struct Ncmpeamcgbl {
     #[prost(uint32, tag = "12")]
     pub nohppiplpjf: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Difpidpmhde {
@@ -15018,24 +16594,28 @@ pub struct Difpidpmhde {
     #[prost(uint32, repeated, tag = "10")]
     pub mfgknnhbekg: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jhfoaimdlca {
     #[prost(uint32, tag = "4")]
     pub gfbbpaicgdj: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jcbdmpecgie {
     #[prost(uint32, tag = "10")]
     pub fngfhbjilkj: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Efmfknnhpga {
     #[prost(uint32, tag = "12")]
     pub igknlobmoje: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kageemdbplg {
@@ -15048,6 +16628,7 @@ pub struct Kageemdbplg {
     #[prost(uint32, tag = "4")]
     pub dkifiefpobb: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ndeegedjjej {
@@ -15058,12 +16639,14 @@ pub struct Ndeegedjjej {
     #[prost(uint32, tag = "7")]
     pub cgfgkljhffp: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Glgicnnbfbp {
     #[prost(uint32, tag = "9")]
     pub giibaepcgan: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nkdmehegmhh {
@@ -15072,6 +16655,7 @@ pub struct Nkdmehegmhh {
     #[prost(uint32, tag = "2")]
     pub gifbaoolifn: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gealmfcgokf {
@@ -15082,6 +16666,7 @@ pub struct Gealmfcgokf {
     #[prost(uint32, tag = "5")]
     pub hkplcjdglel: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nmmlhgoiblo {
@@ -15090,18 +16675,21 @@ pub struct Nmmlhgoiblo {
     #[prost(uint32, tag = "6")]
     pub num: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Foinagdobpe {
     #[prost(uint32, tag = "1")]
     pub gfbbpaicgdj: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jagfdfphenk {
     #[prost(uint32, tag = "15")]
     pub gbbefnkhnja: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cmgakdgopda {
@@ -15112,6 +16700,7 @@ pub struct Cmgakdgopda {
     #[prost(uint32, repeated, tag = "15")]
     pub mlocaldcmia: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hnfeifbbofg {
@@ -15120,6 +16709,7 @@ pub struct Hnfeifbbofg {
     #[prost(uint32, tag = "6")]
     pub giibaepcgan: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nlongnddajk {
@@ -15130,6 +16720,7 @@ pub struct Nlongnddajk {
     #[prost(uint32, tag = "5")]
     pub cdhehgjlfko: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hnhfkchepnf {
@@ -15140,18 +16731,21 @@ pub struct Hnhfkchepnf {
     #[prost(bool, tag = "8")]
     pub nehdkecgphp: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lcnafhajfhp {
     #[prost(uint32, tag = "8")]
     pub eepcgafcafe: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hpccleaplmi {
     #[prost(uint32, tag = "13")]
     pub count: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cfgilhckeci {
@@ -15164,24 +16758,28 @@ pub struct Cfgilhckeci {
     #[prost(message, optional, tag = "1033")]
     pub bfhlepabbie: ::core::option::Option<Hnhfkchepnf>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Daneehmkdkn {
     #[prost(message, repeated, tag = "2")]
     pub ajmbppehcnj: ::prost::alloc::vec::Vec<Cfgilhckeci>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ibamndejffe {
     #[prost(message, optional, tag = "12")]
     pub clndegddcec: ::core::option::Option<Cfgilhckeci>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ecgdaghlagn {
     #[prost(uint32, tag = "8")]
     pub pkbdlfomfkh: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pkjdpekkigo {
@@ -15192,30 +16790,35 @@ pub struct Pkjdpekkigo {
     #[prost(uint32, tag = "15")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dmikndodooc {
     #[prost(message, optional, tag = "4")]
     pub clndegddcec: ::core::option::Option<Cfgilhckeci>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Iopnfacdfjd {
     #[prost(uint64, tag = "4")]
     pub npnboejcncd: u64,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hpocfpdoiha {
     #[prost(enumeration = "Lcmlaclkndi", tag = "4")]
     pub eoifgpmgfgj: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ofimpkgfjgb {
     #[prost(uint32, tag = "12")]
     pub iljghkfdaeh: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nljmipjaifk {
@@ -15228,6 +16831,7 @@ pub struct Nljmipjaifk {
     #[prost(uint32, repeated, tag = "8")]
     pub lkanljkibmc: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lifhhkgngph {
@@ -15238,6 +16842,7 @@ pub struct Lifhhkgngph {
     #[prost(uint32, tag = "14")]
     pub gacha_random: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pfjdhfddnoi {
@@ -15252,12 +16857,14 @@ pub struct Pfjdhfddnoi {
     #[prost(uint32, tag = "15")]
     pub iljghkfdaeh: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hmkahnnmapn {
     #[prost(uint32, tag = "13")]
     pub iljghkfdaeh: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct TakeRollShopRewardScRsp {
@@ -15270,6 +16877,7 @@ pub struct TakeRollShopRewardScRsp {
     #[prost(message, optional, tag = "1")]
     pub reward: ::core::option::Option<ItemList>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct SceneActorInfo {
@@ -15282,18 +16890,21 @@ pub struct SceneActorInfo {
     #[prost(uint32, tag = "15")]
     pub uid: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dpohjbfkggl {
     #[prost(uint32, tag = "1")]
     pub nljngppfpbb: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ggmghgagkgi {
     #[prost(message, optional, tag = "3")]
     pub mdgjahafkgj: ::core::option::Option<Dpohjbfkggl>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct SceneNpcMonsterInfo {
@@ -15310,6 +16921,7 @@ pub struct SceneNpcMonsterInfo {
     #[prost(uint32, tag = "12")]
     pub monster_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ffjcmahlcbo {
@@ -15318,6 +16930,7 @@ pub struct Ffjcmahlcbo {
     #[prost(uint32, tag = "4")]
     pub dealffogemo: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mcmgicfegae {
@@ -15340,9 +16953,11 @@ pub struct Mcmgicfegae {
     #[prost(bool, tag = "10")]
     pub kihpmoppfbf: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Podaohipjlk {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fifpcmljmmf {
@@ -15353,6 +16968,7 @@ pub struct Fifpcmljmmf {
     #[prost(uint32, tag = "8")]
     pub adndljgbnga: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Khnaffjkboa {
@@ -15363,6 +16979,7 @@ pub struct Khnaffjkboa {
     #[prost(message, optional, tag = "7")]
     pub pblibbpiaea: ::core::option::Option<Podaohipjlk>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct SceneNpcInfo {
@@ -15371,6 +16988,7 @@ pub struct SceneNpcInfo {
     #[prost(uint32, tag = "13")]
     pub egeneneoadj: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Aoabajeclcd {
@@ -15383,6 +17001,7 @@ pub struct Aoabajeclcd {
     #[prost(uint32, tag = "10")]
     pub fkaejloflbf: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct PropAeonInfo {
@@ -15393,6 +17012,7 @@ pub struct PropAeonInfo {
     #[prost(uint32, tag = "12")]
     pub aeon_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Edennlhkpfh {
@@ -15401,6 +17021,7 @@ pub struct Edennlhkpfh {
     #[prost(bool, tag = "2")]
     pub dfcdbihjlmg: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct PropExtraInfo {
@@ -15411,6 +17032,7 @@ pub struct PropExtraInfo {
     #[prost(message, optional, tag = "4")]
     pub chess_rogue_info: ::core::option::Option<Edennlhkpfh>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct ScenePropInfo {
@@ -15427,6 +17049,7 @@ pub struct ScenePropInfo {
     #[prost(uint32, tag = "10")]
     pub prop_state: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct SceneSummonUnitInfo {
@@ -15443,6 +17066,7 @@ pub struct SceneSummonUnitInfo {
     #[prost(uint64, tag = "12")]
     pub iogkidiccmk: u64,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct SceneEntityInfo {
@@ -15465,6 +17089,7 @@ pub struct SceneEntityInfo {
     #[prost(message, optional, tag = "14")]
     pub summon_unit: ::core::option::Option<SceneSummonUnitInfo>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct BuffInfo {
@@ -15485,6 +17110,7 @@ pub struct BuffInfo {
     #[prost(float, tag = "9")]
     pub life_time: f32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Phjjalinnlh {
@@ -15493,6 +17119,7 @@ pub struct Phjjalinnlh {
     #[prost(uint32, tag = "5")]
     pub entity_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jbehefmdkkb {
@@ -15501,6 +17128,7 @@ pub struct Jbehefmdkkb {
     #[prost(uint32, tag = "2")]
     pub hmdpjenfiok: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hhohdlnmihp {
@@ -15509,6 +17137,7 @@ pub struct Hhohdlnmihp {
     #[prost(uint32, tag = "15")]
     pub group_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dheehbimoac {
@@ -15517,6 +17146,7 @@ pub struct Dheehbimoac {
     #[prost(uint32, tag = "1")]
     pub anjedekbjhh: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dhkacjhaoid {
@@ -15527,6 +17157,7 @@ pub struct Dhkacjhaoid {
     #[prost(uint32, tag = "4")]
     pub group_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pkllmpkdemc {
@@ -15537,6 +17168,7 @@ pub struct Pkllmpkdemc {
     #[prost(uint32, tag = "11")]
     pub group_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jigafidmcgd {
@@ -15549,6 +17181,7 @@ pub struct Jigafidmcgd {
     #[prost(message, repeated, tag = "4")]
     pub ldfaglecejc: ::prost::alloc::vec::Vec<Mission>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct SceneInfo {
@@ -15591,6 +17224,7 @@ pub struct SceneInfo {
     #[prost(map = "string, int32", tag = "1331")]
     pub fklafkkiofm: ::std::collections::HashMap<::prost::alloc::string::String, i32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct EntityMotion {
@@ -15603,6 +17237,7 @@ pub struct EntityMotion {
     #[prost(uint32, tag = "12")]
     pub map_layer: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct SceneEntityMoveCsReq {
@@ -15613,6 +17248,7 @@ pub struct SceneEntityMoveCsReq {
     #[prost(message, repeated, tag = "11")]
     pub entity_motion_list: ::prost::alloc::vec::Vec<EntityMotion>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct SceneEntityMoveScRsp {
@@ -15623,6 +17259,7 @@ pub struct SceneEntityMoveScRsp {
     #[prost(uint32, tag = "11")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct SceneEntityMoveScNotify {
@@ -15635,12 +17272,14 @@ pub struct SceneEntityMoveScNotify {
     #[prost(uint32, tag = "8")]
     pub oeipegeoedk: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Neomapjgokg {
     #[prost(uint32, tag = "4")]
     pub lidodilfpnn: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct InteractPropCsReq {
@@ -15649,6 +17288,7 @@ pub struct InteractPropCsReq {
     #[prost(uint32, tag = "11")]
     pub prop_entity_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct InteractPropScRsp {
@@ -15659,6 +17299,7 @@ pub struct InteractPropScRsp {
     #[prost(uint32, tag = "11")]
     pub prop_entity_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kaijnnbaieb {
@@ -15667,6 +17308,7 @@ pub struct Kaijnnbaieb {
     #[prost(enumeration = "Aggoobcfjlh", tag = "13")]
     pub nadjlhldfbk: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Eeangppmanh {
@@ -15675,12 +17317,14 @@ pub struct Eeangppmanh {
     #[prost(float, tag = "5")]
     pub value: f32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ckjmagdkfjj {
     #[prost(uint32, repeated, tag = "10")]
     pub gohiiohfmfp: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mpemgbdkigg {
@@ -15705,6 +17349,7 @@ pub struct Mpemgbdkigg {
     #[prost(uint32, tag = "4")]
     pub skill_index: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ifiohnjlehh {
@@ -15717,6 +17362,7 @@ pub struct Ifiohnjlehh {
     #[prost(uint32, tag = "3")]
     pub elgjckaejld: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Oepmjfojhci {
@@ -15727,6 +17373,7 @@ pub struct Oepmjfojhci {
     #[prost(uint32, tag = "13")]
     pub skill_index: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gniimeebekc {
@@ -15735,6 +17382,7 @@ pub struct Gniimeebekc {
     #[prost(uint32, tag = "11")]
     pub elgjckaejld: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Caecklccnop {
@@ -15743,6 +17391,7 @@ pub struct Caecklccnop {
     #[prost(uint32, tag = "10")]
     pub njjbfegnhjc: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct SceneEnterStageCsReq {
@@ -15751,6 +17400,7 @@ pub struct SceneEnterStageCsReq {
     #[prost(bool, tag = "6")]
     pub hgnofcljbmb: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct SceneEnterStageScRsp {
@@ -15759,9 +17409,11 @@ pub struct SceneEnterStageScRsp {
     #[prost(message, optional, tag = "6")]
     pub battle_info: ::core::option::Option<SceneBattleInfo>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct GetCurSceneInfoCsReq {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct GetCurSceneInfoScRsp {
@@ -15770,6 +17422,7 @@ pub struct GetCurSceneInfoScRsp {
     #[prost(message, optional, tag = "3")]
     pub scene: ::core::option::Option<SceneInfo>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bhahceadcck {
@@ -15780,12 +17433,14 @@ pub struct Bhahceadcck {
     #[prost(uint32, tag = "2")]
     pub dpfjogmodlh: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kjppbcalhjg {
     #[prost(message, repeated, tag = "3")]
     pub kggcclclkoo: ::prost::alloc::vec::Vec<Bhahceadcck>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct SpringRefreshCsReq {
@@ -15796,21 +17451,25 @@ pub struct SpringRefreshCsReq {
     #[prost(uint32, tag = "13")]
     pub prop_entity_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct SpringRefreshScRsp {
     #[prost(uint32, tag = "3")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct LastSpringRefreshTimeNotify {
     #[prost(int64, tag = "4")]
     pub last_time: i64,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct ReturnLastTownCsReq {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct ReturnLastTownScRsp {
@@ -15819,39 +17478,46 @@ pub struct ReturnLastTownScRsp {
     #[prost(message, optional, tag = "14")]
     pub scene: ::core::option::Option<SceneInfo>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct EnterSectionCsReq {
     #[prost(uint32, tag = "12")]
     pub section_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct EnterSectionScRsp {
     #[prost(uint32, tag = "10")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct SetCurInteractEntityCsReq {
     #[prost(uint32, tag = "9")]
     pub entity_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct SetCurInteractEntityScRsp {
     #[prost(uint32, tag = "8")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct RecoverAllLineupCsReq {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct RecoverAllLineupScRsp {
     #[prost(uint32, tag = "12")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct SavePointsInfoNotify {
@@ -15860,6 +17526,7 @@ pub struct SavePointsInfoNotify {
     #[prost(uint32, tag = "9")]
     pub valid_times: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct StartCocoonStageCsReq {
@@ -15872,6 +17539,7 @@ pub struct StartCocoonStageCsReq {
     #[prost(uint32, tag = "3")]
     pub cocoon_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct StartCocoonStageScRsp {
@@ -15886,6 +17554,7 @@ pub struct StartCocoonStageScRsp {
     #[prost(message, optional, tag = "14")]
     pub battle_info: ::core::option::Option<SceneBattleInfo>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct EntityBindPropCsReq {
@@ -15894,18 +17563,21 @@ pub struct EntityBindPropCsReq {
     #[prost(message, optional, tag = "2")]
     pub motion: ::core::option::Option<MotionInfo>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct EntityBindPropScRsp {
     #[prost(uint32, tag = "12")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct SetClientPausedCsReq {
     #[prost(bool, tag = "7")]
     pub paused: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct SetClientPausedScRsp {
@@ -15914,12 +17586,14 @@ pub struct SetClientPausedScRsp {
     #[prost(bool, tag = "11")]
     pub paused: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fadgemijgbi {
     #[prost(uint32, tag = "10")]
     pub entity_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bodieeedenk {
@@ -15928,6 +17602,7 @@ pub struct Bodieeedenk {
     #[prost(uint32, tag = "3")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Niejalmeaca {
@@ -15936,6 +17611,7 @@ pub struct Niejalmeaca {
     #[prost(uint32, tag = "14")]
     pub entity_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ajkpaakkceo {
@@ -15946,6 +17622,7 @@ pub struct Ajkpaakkceo {
     #[prost(uint32, tag = "3")]
     pub entity_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Acggilenijm {
@@ -15954,6 +17631,7 @@ pub struct Acggilenijm {
     #[prost(uint32, tag = "2")]
     pub iheoffagmba: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hglkmacbmee {
@@ -15964,6 +17642,7 @@ pub struct Hglkmacbmee {
     #[prost(bool, tag = "14")]
     pub kjlophlhdlp: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Naecjbfddke {
@@ -15972,9 +17651,11 @@ pub struct Naecjbfddke {
     #[prost(int64, tag = "10")]
     pub bgfaiibkhie: i64,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ljlgoilpdeb {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Egkkgjolpga {
@@ -15985,12 +17666,14 @@ pub struct Egkkgjolpga {
     #[prost(message, optional, tag = "6")]
     pub plfhoaafkbm: ::core::option::Option<Naecjbfddke>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nihlkeeooji {
     #[prost(message, optional, tag = "12")]
     pub opedhdnagaf: ::core::option::Option<Hglkmacbmee>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Caeonnaajke {
@@ -15999,6 +17682,7 @@ pub struct Caeonnaajke {
     #[prost(uint32, tag = "6")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nkbbidfonnf {
@@ -16009,6 +17693,7 @@ pub struct Nkbbidfonnf {
     #[prost(uint32, tag = "9")]
     pub prop_entity_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct SpringRecoverScRsp {
@@ -16017,12 +17702,14 @@ pub struct SpringRecoverScRsp {
     #[prost(message, optional, tag = "8")]
     pub heal_pool_info: ::core::option::Option<Naecjbfddke>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Afijjhclabo {
     #[prost(message, optional, tag = "12")]
     pub plfhoaafkbm: ::core::option::Option<Naecjbfddke>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bdhfjdbnlpk {
@@ -16039,6 +17726,7 @@ pub struct Bdhfjdbnlpk {
     #[prost(bool, tag = "15")]
     pub egmdfihdacl: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct SpringRecoverSingleAvatarScRsp {
@@ -16051,6 +17739,7 @@ pub struct SpringRecoverSingleAvatarScRsp {
     #[prost(uint32, tag = "5")]
     pub id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kngpiehgcdl {
@@ -16061,6 +17750,7 @@ pub struct Kngpiehgcdl {
     #[prost(uint32, tag = "10")]
     pub floor_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Oemfljiabeo {
@@ -16071,6 +17761,7 @@ pub struct Oemfljiabeo {
     #[prost(string, tag = "6")]
     pub ijddioeikge: ::prost::alloc::string::String,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Chjapoecejl {
@@ -16081,12 +17772,14 @@ pub struct Chjapoecejl {
     #[prost(uint32, tag = "11")]
     pub entry_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pmmeddcpbol {
     #[prost(uint32, tag = "12")]
     pub stage_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gklljfjihko {
@@ -16097,6 +17790,7 @@ pub struct Gklljfjihko {
     #[prost(uint32, tag = "12")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gfckmgmnmnm {
@@ -16105,6 +17799,7 @@ pub struct Gfckmgmnmnm {
     #[prost(uint32, tag = "2")]
     pub entry_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Eogjjcbdadn {
@@ -16115,6 +17810,7 @@ pub struct Eogjjcbdadn {
     #[prost(uint32, tag = "1")]
     pub oeipegeoedk: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lckgkdehclb {
@@ -16127,6 +17823,7 @@ pub struct Lckgkdehclb {
     #[prost(uint32, tag = "1")]
     pub djdbkfnekpf: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ehhfgomdfkd {
@@ -16137,6 +17834,7 @@ pub struct Ehhfgomdfkd {
     #[prost(uint32, tag = "7")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jdokmmikidp {
@@ -16147,6 +17845,7 @@ pub struct Jdokmmikidp {
     #[prost(message, optional, tag = "15")]
     pub scene: ::core::option::Option<SceneInfo>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bkpebkeapjh {
@@ -16157,6 +17856,7 @@ pub struct Bkpebkeapjh {
     #[prost(message, optional, tag = "7")]
     pub jceiakbbjap: ::core::option::Option<ItemList>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fkjoeabiioe {
@@ -16169,6 +17869,7 @@ pub struct Fkjoeabiioe {
     #[prost(uint32, tag = "12")]
     pub jfamojfhhdl: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kangcibfhee {
@@ -16179,6 +17880,7 @@ pub struct Kangcibfhee {
     #[prost(uint32, tag = "12")]
     pub state: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gecjjlmabhp {
@@ -16191,6 +17893,7 @@ pub struct Gecjjlmabhp {
     #[prost(uint32, repeated, tag = "15")]
     pub ilbjebgandn: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gbiimoglajl {
@@ -16201,6 +17904,7 @@ pub struct Gbiimoglajl {
     #[prost(uint32, tag = "2")]
     pub okchdeemhbb: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kbbeoemcdhi {
@@ -16211,6 +17915,7 @@ pub struct Kbbeoemcdhi {
     #[prost(uint32, tag = "1")]
     pub ipnhjoomhdm: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fjniajephmj {
@@ -16235,6 +17940,7 @@ pub struct Fjniajephmj {
     #[prost(uint32, repeated, tag = "10")]
     pub phicefeaigb: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cegeebldbke {
@@ -16261,9 +17967,11 @@ pub struct Cegeebldbke {
     #[prost(uint32, tag = "1")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Glknjjgjgjn {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Onfclaedboj {
@@ -16272,12 +17980,14 @@ pub struct Onfclaedboj {
     #[prost(uint32, tag = "11")]
     pub nkbehfhlpef: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ppjlpfbfbhd {
     #[prost(uint32, tag = "13")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dceecobdeko {
@@ -16288,6 +17998,7 @@ pub struct Dceecobdeko {
     #[prost(uint32, tag = "15")]
     pub anjedekbjhh: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lmkkjhdeaph {
@@ -16296,24 +18007,28 @@ pub struct Lmkkjhdeaph {
     #[prost(uint32, tag = "6")]
     pub baokagnfnab: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ijpkjflgcgn {
     #[prost(uint32, tag = "15")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fhjnibeddad {
     #[prost(map = "string, int32", tag = "6")]
     pub mbpmoihjnfi: ::std::collections::HashMap<::prost::alloc::string::String, i32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nmbdnhoimim {
     #[prost(uint32, repeated, tag = "1")]
     pub dmkkkfnkofh: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pokegknhbga {
@@ -16322,6 +18037,7 @@ pub struct Pokegknhbga {
     #[prost(uint32, repeated, tag = "8")]
     pub ojlnmnehgai: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gffbkjofnad {
@@ -16332,6 +18048,7 @@ pub struct Gffbkjofnad {
     #[prost(uint32, tag = "11")]
     pub fimallpbobk: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jnofbbanolk {
@@ -16344,12 +18061,14 @@ pub struct Jnofbbanolk {
     #[prost(enumeration = "Njdmhcchfdj", tag = "7")]
     pub kppckepfpce: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ljihfeagpcl {
     #[prost(message, repeated, tag = "14")]
     pub kpfomkdmoce: ::prost::alloc::vec::Vec<Jnofbbanolk>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kekgblohgpj {
@@ -16362,12 +18081,14 @@ pub struct Kekgblohgpj {
     #[prost(uint32, tag = "3")]
     pub emfppbjclgp: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kopeponfokj {
     #[prost(message, optional, tag = "8")]
     pub ifhpffolnae: ::core::option::Option<Kekgblohgpj>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bmoicojomde {
@@ -16376,12 +18097,14 @@ pub struct Bmoicojomde {
     #[prost(uint32, tag = "15")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Eonjoanemal {
     #[prost(message, optional, tag = "7")]
     pub ifhpffolnae: ::core::option::Option<Kekgblohgpj>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lpllljogfeh {
@@ -16390,9 +18113,11 @@ pub struct Lpllljogfeh {
     #[prost(uint32, tag = "13")]
     pub floor_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Alookfpihdh {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mkgidalegbd {
@@ -16401,12 +18126,14 @@ pub struct Mkgidalegbd {
     #[prost(message, repeated, tag = "13")]
     pub lejonbbgdnn: ::prost::alloc::vec::Vec<Lpllljogfeh>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pbbimffonja {
     #[prost(message, repeated, tag = "11")]
     pub lejonbbgdnn: ::prost::alloc::vec::Vec<Lpllljogfeh>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hkcacgbemlg {
@@ -16419,6 +18146,7 @@ pub struct Hkcacgbemlg {
     #[prost(uint32, tag = "11")]
     pub epogpfgdalp: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ldbjedelkji {
@@ -16431,6 +18159,7 @@ pub struct Ldbjedelkji {
     #[prost(uint32, tag = "11")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dliachmbbmj {
@@ -16441,12 +18170,14 @@ pub struct Dliachmbbmj {
     #[prost(uint32, tag = "2")]
     pub epogpfgdalp: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bgbncmmbdmi {
     #[prost(uint32, repeated, tag = "15")]
     pub gohiiohfmfp: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Diplgalkehc {
@@ -16455,12 +18186,14 @@ pub struct Diplgalkehc {
     #[prost(uint32, tag = "13")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kkbapmgmmcb {
     #[prost(uint32, repeated, tag = "8")]
     pub dmkkkfnkofh: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Henagdieido {
@@ -16471,6 +18204,7 @@ pub struct Henagdieido {
     #[prost(uint32, tag = "11")]
     pub wave: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pmdmnjabkld {
@@ -16483,6 +18217,7 @@ pub struct Pmdmnjabkld {
     #[prost(message, optional, tag = "5")]
     pub battle_info: ::core::option::Option<SceneBattleInfo>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nljpccbnmhe {
@@ -16491,6 +18226,7 @@ pub struct Nljpccbnmhe {
     #[prost(uint32, tag = "13")]
     pub mghfepanldd: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pklglfclahl {
@@ -16503,6 +18239,7 @@ pub struct Pklglfclahl {
     #[prost(uint32, tag = "5")]
     pub world_level: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cemdfbimlia {
@@ -16511,6 +18248,7 @@ pub struct Cemdfbimlia {
     #[prost(uint32, tag = "7")]
     pub maplanefddc: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Eaioidkgglc {
@@ -16519,9 +18257,11 @@ pub struct Eaioidkgglc {
     #[prost(uint32, tag = "11")]
     pub ckchamcndpp: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jajmoojhabc {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nlhefcjmhgi {
@@ -16530,12 +18270,14 @@ pub struct Nlhefcjmhgi {
     #[prost(message, repeated, tag = "8")]
     pub nijjlceklfm: ::prost::alloc::vec::Vec<Eaioidkgglc>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Elobjfekfid {
     #[prost(uint32, tag = "15")]
     pub ckchamcndpp: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fghnppflahk {
@@ -16544,12 +18286,14 @@ pub struct Fghnppflahk {
     #[prost(uint32, tag = "13")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ikfkpamniml {
     #[prost(message, optional, tag = "8")]
     pub cnkpkjfblgn: ::core::option::Option<Eaioidkgglc>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cckgolmdngk {
@@ -16558,6 +18302,7 @@ pub struct Cckgolmdngk {
     #[prost(uint32, tag = "3")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Shop {
@@ -16576,6 +18321,7 @@ pub struct Shop {
     #[prost(uint32, tag = "6")]
     pub shop_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Goods {
@@ -16590,12 +18336,14 @@ pub struct Goods {
     #[prost(int64, tag = "3")]
     pub end_time: i64,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Iigehmdpadb {
     #[prost(uint32, tag = "5")]
     pub bhbnegpionn: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct GetShopListScRsp {
@@ -16606,6 +18354,7 @@ pub struct GetShopListScRsp {
     #[prost(uint32, tag = "7")]
     pub shop_type: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bhddhkkchjo {
@@ -16620,6 +18369,7 @@ pub struct Bhddhkkchjo {
     #[prost(uint32, tag = "3")]
     pub kafhighfafg: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct BuyGoodsScRsp {
@@ -16634,6 +18384,7 @@ pub struct BuyGoodsScRsp {
     #[prost(message, optional, tag = "2")]
     pub return_item_list: ::core::option::Option<ItemList>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lmdefblhgdj {
@@ -16642,6 +18393,7 @@ pub struct Lmdefblhgdj {
     #[prost(uint32, tag = "2")]
     pub klihmdbpcnc: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct TakeCityShopRewardScRsp {
@@ -16654,6 +18406,7 @@ pub struct TakeCityShopRewardScRsp {
     #[prost(message, optional, tag = "3")]
     pub reward: ::core::option::Option<ItemList>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct CityShopInfoScNotify {
@@ -16666,6 +18419,7 @@ pub struct CityShopInfoScNotify {
     #[prost(uint64, tag = "9")]
     pub taken_level_reward: u64,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mjnbgfihjbn {
@@ -16682,6 +18436,7 @@ pub struct Mjnbgfihjbn {
     #[prost(uint32, tag = "2")]
     pub kabganlppfh: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ccgfcobhocj {
@@ -16690,9 +18445,11 @@ pub struct Ccgfcobhocj {
     #[prost(uint32, tag = "10")]
     pub pabgjpehnah: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pmapmebiclj {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Eibbppkjlpm {
@@ -16715,6 +18472,7 @@ pub struct Eibbppkjlpm {
     #[prost(uint32, repeated, tag = "14")]
     pub hpcdceknfgh: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fihacfhmbmh {
@@ -16723,6 +18481,7 @@ pub struct Fihacfhmbmh {
     #[prost(uint32, tag = "1")]
     pub enaedbkakel: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Piblikanmdl {
@@ -16735,6 +18494,7 @@ pub struct Piblikanmdl {
     #[prost(uint32, tag = "7")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pfcdmcngkmf {
@@ -16743,6 +18503,7 @@ pub struct Pfcdmcngkmf {
     #[prost(uint32, tag = "5")]
     pub unique_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Obdbkahdfne {
@@ -16755,6 +18516,7 @@ pub struct Obdbkahdfne {
     #[prost(bool, tag = "15")]
     pub fmegelgmokj: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cjlgemninmc {
@@ -16765,6 +18527,7 @@ pub struct Cjlgemninmc {
     #[prost(uint32, tag = "14")]
     pub lkloblmmpgj: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fgpdmkoiill {
@@ -16773,12 +18536,14 @@ pub struct Fgpdmkoiill {
     #[prost(uint32, repeated, tag = "6")]
     pub bcnhbigmkaj: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nkdgaddikkm {
     #[prost(uint32, repeated, tag = "6")]
     pub ahpgfbpnbgl: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bbakijkmahj {
@@ -16787,6 +18552,7 @@ pub struct Bbakijkmahj {
     #[prost(uint32, repeated, tag = "12")]
     pub cncmfancfmk: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Klnpnbecajh {
@@ -16797,12 +18563,14 @@ pub struct Klnpnbecajh {
     #[prost(bool, tag = "10")]
     pub fmegelgmokj: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Iffdinmegpp {
     #[prost(uint32, tag = "5")]
     pub gifbaoolifn: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bnkmlnjdakn {
@@ -16811,12 +18579,14 @@ pub struct Bnkmlnjdakn {
     #[prost(uint32, tag = "15")]
     pub gifbaoolifn: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nofeoamheod {
     #[prost(uint32, tag = "5")]
     pub hphkhgkffgk: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bjnlmggkbma {
@@ -16827,9 +18597,11 @@ pub struct Bjnlmggkbma {
     #[prost(uint32, tag = "8")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Glecfdbneol {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ckmbdglnlkg {
@@ -16842,6 +18614,7 @@ pub struct Ckmbdglnlkg {
     #[prost(uint32, tag = "11")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dmekpcgncoj {
@@ -16852,6 +18625,7 @@ pub struct Dmekpcgncoj {
     #[prost(uint32, tag = "12")]
     pub fcmegdkiahj: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cmkadajinma {
@@ -16866,6 +18640,7 @@ pub struct Cmkadajinma {
     #[prost(uint32, tag = "9")]
     pub djdbkfnekpf: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gecepgpopll {
@@ -16876,6 +18651,7 @@ pub struct Gecepgpopll {
     #[prost(uint32, tag = "1")]
     pub fcmegdkiahj: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bmnhgkaoohn {
@@ -16886,6 +18662,7 @@ pub struct Bmnhgkaoohn {
     #[prost(uint32, tag = "14")]
     pub fcmegdkiahj: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nejeeemdabp {
@@ -16894,6 +18671,7 @@ pub struct Nejeeemdabp {
     #[prost(uint32, repeated, tag = "5")]
     pub miofjnbhika: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct StrongChallengeAvatar {
@@ -16902,6 +18680,7 @@ pub struct StrongChallengeAvatar {
     #[prost(uint32, tag = "2")]
     pub avatar_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lplghkcdoem {
@@ -16910,6 +18689,7 @@ pub struct Lplghkcdoem {
     #[prost(message, repeated, tag = "4")]
     pub avatar_list: ::prost::alloc::vec::Vec<StrongChallengeAvatar>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fmmhbfjlgli {
@@ -16924,15 +18704,18 @@ pub struct Fmmhbfjlgli {
     #[prost(uint32, tag = "6")]
     pub stage_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ikgebilalkc {
     #[prost(map = "uint32, message", tag = "6")]
     pub cdmpjddnhfb: ::std::collections::HashMap<u32, Fmmhbfjlgli>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bilelkoefnm {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bpkompjkjga {
@@ -16941,6 +18724,7 @@ pub struct Bpkompjkjga {
     #[prost(message, optional, tag = "1")]
     pub oeaomcmmdhh: ::core::option::Option<Ikgebilalkc>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jjfciebomag {
@@ -16951,6 +18735,7 @@ pub struct Jjfciebomag {
     #[prost(message, repeated, tag = "13")]
     pub avatar_list: ::prost::alloc::vec::Vec<StrongChallengeAvatar>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nmgdmljnjeh {
@@ -16961,6 +18746,7 @@ pub struct Nmgdmljnjeh {
     #[prost(message, optional, tag = "1")]
     pub battle_info: ::core::option::Option<SceneBattleInfo>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bnjpefpcldj {
@@ -16981,6 +18767,7 @@ pub struct Bnjpefpcldj {
     #[prost(uint32, tag = "4")]
     pub imalecdkkbp: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Aakhakgmpbm {
@@ -16989,6 +18776,7 @@ pub struct Aakhakgmpbm {
     #[prost(uint32, tag = "4")]
     pub stamina: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Oefgplblgme {
@@ -16999,12 +18787,14 @@ pub struct Oefgplblgme {
     #[prost(bool, tag = "11")]
     pub clolpffebcn: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Abcekhjbnmp {
     #[prost(message, repeated, tag = "5")]
     pub avatar_list: ::prost::alloc::vec::Vec<Avatar>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kenaodngpog {
@@ -17023,6 +18813,7 @@ pub struct Kenaodngpog {
     #[prost(message, repeated, tag = "8")]
     pub iobflgeajop: ::prost::alloc::vec::Vec<Jbelmplppka>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ffadcphikob {
@@ -17033,6 +18824,7 @@ pub struct Ffadcphikob {
     #[prost(uint32, repeated, tag = "12")]
     pub lkbadoikmco: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Eckkajafean {
@@ -17079,12 +18871,14 @@ pub struct Eckkajafean {
     #[prost(message, optional, tag = "6")]
     pub basic_info: ::core::option::Option<PlayerBasicInfo>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ofepjkfdlaj {
     #[prost(uint32, tag = "5")]
     pub egeneneoadj: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ifemohljpaj {
@@ -17095,6 +18889,7 @@ pub struct Ifemohljpaj {
     #[prost(uint32, repeated, tag = "7")]
     pub bekdcnobfeo: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fnehcecippp {
@@ -17103,6 +18898,7 @@ pub struct Fnehcecippp {
     #[prost(message, optional, tag = "15")]
     pub heajhjpckog: ::core::option::Option<Vector>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hcnkhckajcl {
@@ -17113,12 +18909,14 @@ pub struct Hcnkhckajcl {
     #[prost(uint32, tag = "7")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nnlodkgmaie {
     #[prost(uint32, repeated, tag = "15")]
     pub aammpfgpknj: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Oijcllopbih {
@@ -17127,6 +18925,7 @@ pub struct Oijcllopbih {
     #[prost(uint32, tag = "6")]
     pub ihbalhicnej: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Abojckcendm {
@@ -17135,12 +18934,14 @@ pub struct Abojckcendm {
     #[prost(message, repeated, tag = "12")]
     pub apiaadfldbe: ::prost::alloc::vec::Vec<Oijcllopbih>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Apahjamoadd {
     #[prost(uint32, tag = "2")]
     pub ihbalhicnej: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mackbodenaa {
@@ -17149,12 +18950,14 @@ pub struct Mackbodenaa {
     #[prost(uint32, tag = "4")]
     pub ihbalhicnej: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ffbmaojoldl {
     #[prost(uint32, tag = "11")]
     pub ohjdhelnomf: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ifohcdkobia {
@@ -17163,6 +18966,7 @@ pub struct Ifohcdkobia {
     #[prost(uint32, tag = "14")]
     pub ohjdhelnomf: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hndfedalldc {
@@ -17171,12 +18975,14 @@ pub struct Hndfedalldc {
     #[prost(bool, tag = "12")]
     pub apcaodelfcp: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Emcckdfnfea {
     #[prost(uint32, repeated, tag = "13")]
     pub jomdjjhikbb: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bemeopenkpd {
@@ -17185,12 +18991,14 @@ pub struct Bemeopenkpd {
     #[prost(message, repeated, tag = "15")]
     pub apiaadfldbe: ::prost::alloc::vec::Vec<Hndfedalldc>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Edghdkbegnk {
     #[prost(uint32, tag = "10")]
     pub jmnkdpdjilg: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Egbbdllocpl {
@@ -17201,6 +19009,7 @@ pub struct Egbbdllocpl {
     #[prost(uint32, tag = "15")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Clfkcdeeiio {
@@ -17211,9 +19020,11 @@ pub struct Clfkcdeeiio {
     #[prost(uint32, tag = "4")]
     pub aafnogffiba: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mokkgndnlfa {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jaggafacghc {
@@ -17222,12 +19033,14 @@ pub struct Jaggafacghc {
     #[prost(uint32, tag = "7")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nglpjeiplbh {
     #[prost(message, repeated, tag = "13")]
     pub lcoodibohop: ::prost::alloc::vec::Vec<Clfkcdeeiio>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ddbkblndaii {
@@ -17242,6 +19055,7 @@ pub struct Ddbkblndaii {
     #[prost(uint32, tag = "3")]
     pub nepekoenfcm: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pdejdefpgdn {
@@ -17250,6 +19064,7 @@ pub struct Pdejdefpgdn {
     #[prost(uint32, tag = "14")]
     pub ckondfhadld: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Eeogedcngpc {
@@ -17260,6 +19075,7 @@ pub struct Eeogedcngpc {
     #[prost(message, repeated, tag = "13")]
     pub avatar_list: ::prost::alloc::vec::Vec<Pdejdefpgdn>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mmkdjlmdmim {
@@ -17270,6 +19086,7 @@ pub struct Mmkdjlmdmim {
     #[prost(message, optional, tag = "4")]
     pub battle_info: ::core::option::Option<SceneBattleInfo>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mgoffnkfoie {
@@ -17284,6 +19101,7 @@ pub struct Mgoffnkfoie {
     #[prost(uint32, tag = "7")]
     pub oflndmfejbp: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Aekgneocaam {
@@ -17294,6 +19112,7 @@ pub struct Aekgneocaam {
     #[prost(string, tag = "2")]
     pub okjffcbnfao: ::prost::alloc::string::String,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jfgfkloknop {
@@ -17306,12 +19125,14 @@ pub struct Jfgfkloknop {
     #[prost(uint32, tag = "8")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gdhccnndgoo {
     #[prost(uint32, repeated, tag = "15")]
     pub fklapcbgihi: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mdfmolfodeh {
@@ -17320,12 +19141,14 @@ pub struct Mdfmolfodeh {
     #[prost(uint32, tag = "5")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lolcoeikgie {
     #[prost(message, repeated, tag = "3")]
     pub ejinafnebge: ::prost::alloc::vec::Vec<Mgoffnkfoie>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Haldljodeln {
@@ -17334,6 +19157,7 @@ pub struct Haldljodeln {
     #[prost(uint32, tag = "5")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kbccnkcbcpa {
@@ -17342,12 +19166,14 @@ pub struct Kbccnkcbcpa {
     #[prost(bool, tag = "15")]
     pub apcaodelfcp: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Njejhblbklk {
     #[prost(uint32, tag = "8")]
     pub adndljgbnga: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Algmmncpbfc {
@@ -17358,12 +19184,14 @@ pub struct Algmmncpbfc {
     #[prost(message, optional, tag = "13")]
     pub reward: ::core::option::Option<ItemList>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bciendaonnn {
     #[prost(uint32, repeated, tag = "13")]
     pub khjfgfhhchj: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jgbaeonipdl {
@@ -17372,12 +19200,14 @@ pub struct Jgbaeonipdl {
     #[prost(message, repeated, tag = "6")]
     pub kcjhmlcldag: ::prost::alloc::vec::Vec<Kbccnkcbcpa>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Apghghlchfk {
     #[prost(uint64, tag = "15")]
     pub jkkeinmidcc: u64,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ijpmkjpmlal {
@@ -17388,6 +19218,7 @@ pub struct Ijpmkjpmlal {
     #[prost(enumeration = "Mindihbkmie", tag = "11")]
     pub ipnhjoomhdm: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nonijpgmnpg {
@@ -17402,12 +19233,14 @@ pub struct Nonijpgmnpg {
     #[prost(bool, tag = "9")]
     pub ncagkiglmno: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Llbfpblbpmd {
     #[prost(enumeration = "Pnbikakpngm", tag = "13")]
     pub ipnhjoomhdm: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dfpokpboocb {
@@ -17418,12 +19251,14 @@ pub struct Dfpokpboocb {
     #[prost(message, repeated, tag = "4")]
     pub eoaemcndjoi: ::prost::alloc::vec::Vec<Nonijpgmnpg>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Doikanegkdo {
     #[prost(uint32, tag = "9")]
     pub adndljgbnga: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Edpakkoikhh {
@@ -17434,18 +19269,21 @@ pub struct Edpakkoikhh {
     #[prost(uint32, repeated, tag = "5")]
     pub kimgcnfaanm: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Agbjcfnmemo {
     #[prost(uint32, repeated, tag = "11")]
     pub kcjigcdkedo: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bmpafpalddp {
     #[prost(uint32, tag = "1")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gbofekdfncl {
@@ -17462,6 +19300,7 @@ pub struct Gbofekdfncl {
     #[prost(uint64, tag = "13")]
     pub unique_id: u64,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bbjejalfhen {
@@ -17476,9 +19315,11 @@ pub struct Bbjejalfhen {
     #[prost(message, repeated, tag = "11")]
     pub oockdmpidlg: ::prost::alloc::vec::Vec<Gbofekdfncl>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Phbnokkhgkd {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ipogaccpagm {
@@ -17491,12 +19332,14 @@ pub struct Ipogaccpagm {
     #[prost(map = "uint32, uint32", tag = "7")]
     pub moippddaohm: ::std::collections::HashMap<u32, u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hhljeijccio {
     #[prost(uint32, tag = "2")]
     pub idgckihophm: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gaphfbopepp {
@@ -17505,6 +19348,7 @@ pub struct Gaphfbopepp {
     #[prost(uint32, tag = "6")]
     pub egigfgpjddg: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gfbildoldce {
@@ -17515,6 +19359,7 @@ pub struct Gfbildoldce {
     #[prost(uint32, tag = "8")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Aflbdbnjghe {
@@ -17531,6 +19376,7 @@ pub struct Aflbdbnjghe {
     #[prost(uint32, tag = "1")]
     pub pddanmnadaf: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mfenfcllnnh {
@@ -17539,6 +19385,7 @@ pub struct Mfenfcllnnh {
     #[prost(uint32, tag = "10")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kcgfjfmdlmf {
@@ -17549,6 +19396,7 @@ pub struct Kcgfjfmdlmf {
     #[prost(uint32, tag = "5")]
     pub idgckihophm: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fdkegmhffhm {
@@ -17557,6 +19405,7 @@ pub struct Fdkegmhffhm {
     #[prost(message, optional, tag = "13")]
     pub cdibpkmhdco: ::core::option::Option<Bbjejalfhen>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Afahpbeokko {
@@ -17575,6 +19424,7 @@ pub struct Afahpbeokko {
     #[prost(int32, tag = "9")]
     pub pnaebbacmlm: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ibkfiljhdme {
@@ -17583,6 +19433,7 @@ pub struct Ibkfiljhdme {
     #[prost(uint32, tag = "3")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Faoapaokgpc {
@@ -17591,6 +19442,7 @@ pub struct Faoapaokgpc {
     #[prost(uint32, tag = "13")]
     pub num: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fhhbjljchea {
@@ -17599,18 +19451,21 @@ pub struct Fhhbjljchea {
     #[prost(uint32, tag = "11")]
     pub djhoddohmnb: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ehfclbgacef {
     #[prost(uint32, tag = "12")]
     pub value: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kmngmpmibjj {
     #[prost(uint32, tag = "2")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Oiilieaagmb {
@@ -17619,18 +19474,21 @@ pub struct Oiilieaagmb {
     #[prost(uint32, tag = "7")]
     pub idgckihophm: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cmidhendelk {
     #[prost(uint32, tag = "15")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kagdkbfofnh {
     #[prost(uint32, tag = "15")]
     pub idgckihophm: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fjlhpgohlfc {
@@ -17639,6 +19497,7 @@ pub struct Fjlhpgohlfc {
     #[prost(message, optional, tag = "9")]
     pub cdibpkmhdco: ::core::option::Option<Bbjejalfhen>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kjddmagdfih {
@@ -17653,6 +19512,7 @@ pub struct Kjddmagdfih {
     #[prost(int32, tag = "8")]
     pub pnaebbacmlm: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kamifhceadp {
@@ -17661,6 +19521,7 @@ pub struct Kamifhceadp {
     #[prost(uint32, tag = "5")]
     pub idgckihophm: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jlpminpbmng {
@@ -17669,6 +19530,7 @@ pub struct Jlpminpbmng {
     #[prost(message, optional, tag = "7")]
     pub cdibpkmhdco: ::core::option::Option<Bbjejalfhen>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct TreasureDungeonRecordData {
@@ -17683,12 +19545,14 @@ pub struct TreasureDungeonRecordData {
     #[prost(uint32, tag = "5")]
     pub param2: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jnjelioflfa {
     #[prost(message, optional, tag = "15")]
     pub fecnfebkcdi: ::core::option::Option<Ihbhkelbjfp>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Faldkjlblpa {
@@ -17707,6 +19571,7 @@ pub struct Faldkjlblpa {
     #[prost(map = "uint32, uint32", tag = "12")]
     pub emoijeogicg: ::std::collections::HashMap<u32, u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ihbhkelbjfp {
@@ -17747,6 +19612,7 @@ pub struct Ihbhkelbjfp {
     #[prost(message, repeated, tag = "5")]
     pub klgmehpnapm: ::prost::alloc::vec::Vec<Jgibaplgfee>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Egndeiohpdd {
@@ -17755,6 +19621,7 @@ pub struct Egndeiohpdd {
     #[prost(uint32, tag = "2")]
     pub bmnpahoebpb: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fhfgepcmfca {
@@ -17769,6 +19636,7 @@ pub struct Fhfgepcmfca {
     #[prost(message, optional, tag = "13")]
     pub sp: ::core::option::Option<AmountInfo>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pjdnlibbbac {
@@ -17777,6 +19645,7 @@ pub struct Pjdnlibbbac {
     #[prost(uint32, tag = "2")]
     pub avatar_type: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lkhjdanpapa {
@@ -17785,6 +19654,7 @@ pub struct Lkhjdanpapa {
     #[prost(uint32, tag = "4")]
     pub jfghjfckgcd: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jgibaplgfee {
@@ -17805,6 +19675,7 @@ pub struct Jgibaplgfee {
     #[prost(bool, tag = "14")]
     pub hcllnpjhpil: bool,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hcifeegknpi {
@@ -17819,6 +19690,7 @@ pub struct Hcifeegknpi {
     #[prost(uint32, tag = "13")]
     pub hcnocfjfeph: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ecjmegpafhb {
@@ -17837,9 +19709,11 @@ pub struct Ecjmegpafhb {
     #[prost(uint32, tag = "4")]
     pub aokpaojinnc: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kbjoeocccpk {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gbgfckepbom {
@@ -17848,6 +19722,7 @@ pub struct Gbgfckepbom {
     #[prost(message, repeated, tag = "2")]
     pub pbpbkdnlcao: ::prost::alloc::vec::Vec<Ecjmegpafhb>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Okjknpohkfg {
@@ -17856,6 +19731,7 @@ pub struct Okjknpohkfg {
     #[prost(uint32, tag = "10")]
     pub bpagnpadcde: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Faokfnbiinb {
@@ -17864,6 +19740,7 @@ pub struct Faokfnbiinb {
     #[prost(message, optional, tag = "13")]
     pub fecnfebkcdi: ::core::option::Option<Ihbhkelbjfp>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cgfppobckcc {
@@ -17872,6 +19749,7 @@ pub struct Cgfppobckcc {
     #[prost(uint32, tag = "9")]
     pub fcnkamojgdk: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Enmpcnoegne {
@@ -17880,6 +19758,7 @@ pub struct Enmpcnoegne {
     #[prost(message, optional, tag = "1")]
     pub fecnfebkcdi: ::core::option::Option<Ihbhkelbjfp>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hdomeimdfmk {
@@ -17890,6 +19769,7 @@ pub struct Hdomeimdfmk {
     #[prost(uint32, tag = "9")]
     pub fcnkamojgdk: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hljaljfmgbn {
@@ -17898,6 +19778,7 @@ pub struct Hljaljfmgbn {
     #[prost(uint32, tag = "11")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mefghnfcgaa {
@@ -17908,6 +19789,7 @@ pub struct Mefghnfcgaa {
     #[prost(uint32, tag = "2")]
     pub bpagnpadcde: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ceooloiinmd {
@@ -17916,6 +19798,7 @@ pub struct Ceooloiinmd {
     #[prost(message, optional, tag = "15")]
     pub fecnfebkcdi: ::core::option::Option<Ihbhkelbjfp>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jjmndbdnhif {
@@ -17924,6 +19807,7 @@ pub struct Jjmndbdnhif {
     #[prost(enumeration = "AvatarType", tag = "6")]
     pub avatar_type: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lpkifhdghgl {
@@ -17934,6 +19818,7 @@ pub struct Lpkifhdghgl {
     #[prost(message, repeated, tag = "4")]
     pub avatar_list: ::prost::alloc::vec::Vec<Jjmndbdnhif>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Haaiebnocjd {
@@ -17942,6 +19827,7 @@ pub struct Haaiebnocjd {
     #[prost(uint32, tag = "5")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gckciklcmgh {
@@ -17950,12 +19836,14 @@ pub struct Gckciklcmgh {
     #[prost(uint32, tag = "9")]
     pub bpagnpadcde: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Gmpgngdomif {
     #[prost(uint32, tag = "6")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Tutorial {
@@ -17964,6 +19852,7 @@ pub struct Tutorial {
     #[prost(enumeration = "TutorialStatus", tag = "4")]
     pub status: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct TutorialGuide {
@@ -17972,9 +19861,11 @@ pub struct TutorialGuide {
     #[prost(enumeration = "TutorialStatus", tag = "8")]
     pub status: i32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct GetTutorialCsReq {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct GetTutorialScRsp {
@@ -17983,9 +19874,11 @@ pub struct GetTutorialScRsp {
     #[prost(uint32, tag = "2")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct GetTutorialGuideCsReq {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct GetTutorialGuideScRsp {
@@ -17994,12 +19887,14 @@ pub struct GetTutorialGuideScRsp {
     #[prost(message, repeated, tag = "6")]
     pub tutorial_guide_list: ::prost::alloc::vec::Vec<TutorialGuide>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct UnlockTutorialCsReq {
     #[prost(uint32, tag = "1")]
     pub tutorial_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct UnlockTutorialScRsp {
@@ -18008,12 +19903,14 @@ pub struct UnlockTutorialScRsp {
     #[prost(message, optional, tag = "4")]
     pub tutorial: ::core::option::Option<Tutorial>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct UnlockTutorialGuideCsReq {
     #[prost(uint32, tag = "5")]
     pub group_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct UnlockTutorialGuideScRsp {
@@ -18022,12 +19919,14 @@ pub struct UnlockTutorialGuideScRsp {
     #[prost(message, optional, tag = "4")]
     pub tutorial_guide: ::core::option::Option<TutorialGuide>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hlnapnabgpe {
     #[prost(uint32, tag = "10")]
     pub tutorial_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct FinishTutorialScRsp {
@@ -18036,12 +19935,14 @@ pub struct FinishTutorialScRsp {
     #[prost(message, optional, tag = "1")]
     pub tutorial: ::core::option::Option<Tutorial>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nmjggdmlbaa {
     #[prost(uint32, tag = "3")]
     pub group_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct FinishTutorialGuideScRsp {
@@ -18052,6 +19953,7 @@ pub struct FinishTutorialGuideScRsp {
     #[prost(message, optional, tag = "7")]
     pub tutorial_guide: ::core::option::Option<TutorialGuide>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jdcgebamnln {
@@ -18062,6 +19964,7 @@ pub struct Jdcgebamnln {
     #[prost(uint32, tag = "7")]
     pub dppfmjbkaii: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ikomfelhkko {
@@ -18074,6 +19977,7 @@ pub struct Ikomfelhkko {
     #[prost(uint32, tag = "2")]
     pub id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jimojifkmbe {
@@ -18082,12 +19986,14 @@ pub struct Jimojifkmbe {
     #[prost(message, repeated, tag = "10")]
     pub cgjjpiencmp: ::prost::alloc::vec::Vec<Jdcgebamnln>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cckkdihgpop {
     #[prost(uint32, tag = "6")]
     pub ljpgdphnjpm: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mdaaeacnkec {
@@ -18098,12 +20004,14 @@ pub struct Mdaaeacnkec {
     #[prost(message, optional, tag = "6")]
     pub kcopphmaepk: ::core::option::Option<Jimojifkmbe>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nbffcfpgafk {
     #[prost(uint32, tag = "7")]
     pub kgngekgpakk: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lkhjfpbllcl {
@@ -18112,9 +20020,11 @@ pub struct Lkhjfpbllcl {
     #[prost(uint32, tag = "7")]
     pub mccfblapnlc: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kkdmacfgfln {}
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cdnbnghnfkj {
@@ -18125,6 +20035,7 @@ pub struct Cdnbnghnfkj {
     #[prost(message, repeated, tag = "4")]
     pub bgjldhgbpjb: ::prost::alloc::vec::Vec<Ikomfelhkko>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Bnfpjcahfda {
@@ -18133,6 +20044,7 @@ pub struct Bnfpjcahfda {
     #[prost(uint32, tag = "9")]
     pub ljpgdphnjpm: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ddklecpdgim {
@@ -18141,6 +20053,7 @@ pub struct Ddklecpdgim {
     #[prost(uint32, tag = "8")]
     pub aemihadldnl: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Aobocfgegcn {
@@ -18151,6 +20064,7 @@ pub struct Aobocfgegcn {
     #[prost(uint32, tag = "15")]
     pub aemihadldnl: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Fddblfeeafo {
@@ -18163,6 +20077,7 @@ pub struct Fddblfeeafo {
     #[prost(message, repeated, tag = "4")]
     pub mcjjkbhlajn: ::prost::alloc::vec::Vec<Vector>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ielpkdflndm {
@@ -18179,6 +20094,7 @@ pub struct Ielpkdflndm {
     #[prost(uint32, tag = "15")]
     pub chggjghbnbm: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Embodfebole {
@@ -18191,6 +20107,7 @@ pub struct Embodfebole {
     #[prost(uint32, tag = "11")]
     pub id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ekojamgnhdo {
@@ -18199,6 +20116,7 @@ pub struct Ekojamgnhdo {
     #[prost(message, optional, tag = "5")]
     pub jlpmjglnihm: ::core::option::Option<Ielpkdflndm>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Egjgdoindfi {
@@ -18207,6 +20125,7 @@ pub struct Egjgdoindfi {
     #[prost(message, optional, tag = "10")]
     pub motion: ::core::option::Option<MotionInfo>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Hinldeaajhm {
@@ -18215,12 +20134,14 @@ pub struct Hinldeaajhm {
     #[prost(uint32, tag = "3")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Kblhgkiappc {
     #[prost(uint32, tag = "1")]
     pub id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Cmefjghinmn {
@@ -18229,12 +20150,14 @@ pub struct Cmefjghinmn {
     #[prost(message, optional, tag = "1")]
     pub jlpmjglnihm: ::core::option::Option<Ielpkdflndm>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ddeckmibmjg {
     #[prost(uint32, tag = "15")]
     pub id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Eogpcdalafl {
@@ -18243,12 +20166,14 @@ pub struct Eogpcdalafl {
     #[prost(message, optional, tag = "10")]
     pub jlpmjglnihm: ::core::option::Option<Ielpkdflndm>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Lmcmfnohaii {
     #[prost(uint32, tag = "15")]
     pub id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Ijbfjkgnjoj {
@@ -18257,12 +20182,14 @@ pub struct Ijbfjkgnjoj {
     #[prost(message, optional, tag = "11")]
     pub jlpmjglnihm: ::core::option::Option<Ielpkdflndm>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Pjpeagipddd {
     #[prost(message, optional, tag = "2")]
     pub jlpmjglnihm: ::core::option::Option<Ielpkdflndm>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jbjfnnndkoc {
@@ -18271,6 +20198,7 @@ pub struct Jbjfnnndkoc {
     #[prost(uint32, repeated, tag = "8")]
     pub jpieajikioh: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nkjbegggjpd {
@@ -18279,12 +20207,14 @@ pub struct Nkjbegggjpd {
     #[prost(uint32, tag = "3")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Affambiopbh {
     #[prost(message, optional, tag = "9")]
     pub kkgajffenbl: ::core::option::Option<Vector>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Loldclbcgpd {
@@ -18293,6 +20223,7 @@ pub struct Loldclbcgpd {
     #[prost(message, optional, tag = "9")]
     pub jlpmjglnihm: ::core::option::Option<Ielpkdflndm>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Nihdpcfoidb {
@@ -18301,24 +20232,28 @@ pub struct Nihdpcfoidb {
     #[prost(uint32, tag = "15")]
     pub group_id: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Dmpeoekgieh {
     #[prost(uint32, tag = "4")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Jfgidjkpino {
     #[prost(uint32, repeated, tag = "2")]
     pub jpieajikioh: ::prost::alloc::vec::Vec<u32>,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Mmnkgmcafeh {
     #[prost(uint32, tag = "9")]
     pub retcode: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[allow(clippy::derive_partial_eq_without_eq)]
 #[derive(Clone, PartialEq, ::prost::Message)]
 pub struct Iimdinfnaco {
@@ -18349,6 +20284,7 @@ pub struct Iimdinfnaco {
     #[prost(uint32, tag = "13")]
     pub ncmfakdibdk: u32,
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum KickType {
@@ -18387,6 +20323,7 @@ impl KickType {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum AvatarSlotType {
@@ -18416,6 +20353,7 @@ impl AvatarSlotType {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum ItemType {
@@ -18454,6 +20392,7 @@ impl ItemType {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum VirtualItemType {
@@ -18655,6 +20594,7 @@ impl VirtualItemType {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum GameplayCounterType {
@@ -18685,6 +20625,7 @@ impl GameplayCounterType {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum BlackLimitLevel {
@@ -18708,6 +20649,7 @@ impl BlackLimitLevel {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum AreaType {
@@ -18749,6 +20691,7 @@ impl AreaType {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum EntityType {
@@ -18793,6 +20736,7 @@ impl EntityType {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum LanguageType {
@@ -18855,6 +20799,7 @@ impl LanguageType {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum PlatformType {
@@ -18935,6 +20880,7 @@ impl PlatformType {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum ReloginType {
@@ -18967,6 +20913,7 @@ impl ReloginType {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum AvatarType {
@@ -19005,6 +20952,7 @@ impl AvatarType {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum HeroBasicType {
@@ -19070,6 +21018,7 @@ impl HeroBasicType {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Gender {
@@ -19099,6 +21048,7 @@ impl Gender {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum ProductType {
@@ -19134,6 +21084,7 @@ impl ProductType {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum ProductGiftType {
@@ -19206,6 +21157,7 @@ impl ProductGiftType {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum FeatureSwitchType {
@@ -19431,6 +21383,7 @@ impl FeatureSwitchType {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum SecretKeyType {
@@ -19463,6 +21416,7 @@ impl SecretKeyType {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum ReplayType {
@@ -19489,6 +21443,7 @@ impl ReplayType {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum PunkLordShareType {
@@ -19518,6 +21473,7 @@ impl PunkLordShareType {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum PunkLordAttackerStatus {
@@ -19554,6 +21510,7 @@ impl PunkLordAttackerStatus {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum PunkLordMonsterInfoNotifyReason {
@@ -19594,6 +21551,7 @@ impl PunkLordMonsterInfoNotifyReason {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum ChatType {
@@ -19623,6 +21581,7 @@ impl ChatType {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum MsgType {
@@ -19652,6 +21611,7 @@ impl MsgType {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum ShieldType {
@@ -19681,6 +21641,7 @@ impl ShieldType {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum FuncUnlockId {
@@ -19728,6 +21689,7 @@ impl FuncUnlockId {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum AssistAvatarType {
@@ -19757,6 +21719,7 @@ impl AssistAvatarType {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum DevelopmentType {
@@ -19807,6 +21770,7 @@ impl DevelopmentType {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum PlayingState {
@@ -19845,6 +21809,7 @@ impl PlayingState {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum BattleCheckStrategyType {
@@ -19880,6 +21845,7 @@ impl BattleCheckStrategyType {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum BattleCheckResultType {
@@ -19909,6 +21875,7 @@ impl BattleCheckResultType {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum BattleModuleType {
@@ -19954,6 +21921,7 @@ impl BattleModuleType {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Jnengfifgfm {
@@ -19993,6 +21961,7 @@ impl Jnengfifgfm {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum BattleTargetType {
@@ -20031,6 +22000,7 @@ impl BattleTargetType {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum DeathSource {
@@ -20063,6 +22033,7 @@ impl DeathSource {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum BattleTag {
@@ -20089,6 +22060,7 @@ impl BattleTag {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Febapkbodjg {
@@ -20115,6 +22087,7 @@ impl Febapkbodjg {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum BattleEndReason {
@@ -20144,6 +22117,7 @@ impl BattleEndReason {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum BattleStaticticEventType {
@@ -20204,6 +22178,7 @@ impl BattleStaticticEventType {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum BattleEndStatus {
@@ -20236,6 +22211,7 @@ impl BattleEndStatus {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Retcode {
@@ -23640,6 +25616,7 @@ impl Retcode {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum CmdActivityType {
@@ -23799,6 +25776,7 @@ impl CmdActivityType {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum TrialActivityStatus {
@@ -23825,6 +25803,7 @@ impl TrialActivityStatus {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum CmdAdventureType {
@@ -23864,6 +25843,7 @@ impl CmdAdventureType {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum CmdAetherDivideType {
@@ -24115,6 +26095,7 @@ impl CmdAetherDivideType {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum CmdAlleyType {
@@ -24258,6 +26239,7 @@ impl CmdAlleyType {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Agenkfcbkda {
@@ -24302,6 +26284,7 @@ impl Agenkfcbkda {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Jclkcgihaom {
@@ -24334,6 +26317,7 @@ impl Jclkcgihaom {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Mahbbafefag {
@@ -24366,6 +26350,7 @@ impl Mahbbafefag {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum CmdArchiveType {
@@ -24405,6 +26390,7 @@ impl CmdArchiveType {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Mnekebcnnfb {
@@ -24512,6 +26498,7 @@ impl Mnekebcnnfb {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum AddAvatarSrc {
@@ -24541,6 +26528,7 @@ impl AddAvatarSrc {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum CmdBattleType {
@@ -24611,6 +26599,7 @@ impl CmdBattleType {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Kplagnaccbo {
@@ -24653,6 +26642,7 @@ impl Kplagnaccbo {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Hnfdhilffak {
@@ -24697,6 +26687,7 @@ impl Hnfdhilffak {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Hepghpgngii {
@@ -24729,6 +26720,7 @@ impl Hepghpgngii {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Cplhlmcicgp {
@@ -24768,6 +26760,7 @@ impl Cplhlmcicgp {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Lpegmiilfjm {
@@ -24883,6 +26876,7 @@ impl Lpegmiilfjm {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Pnnbhogkeeh {
@@ -24956,6 +26950,7 @@ impl Pnnbhogkeeh {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum ChallengeStatus {
@@ -24988,6 +26983,7 @@ impl ChallengeStatus {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Galijhmhgcg {
@@ -25063,6 +27059,7 @@ impl Galijhmhgcg {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Hcogapcpbio {
@@ -25564,6 +27561,7 @@ impl Hcogapcpbio {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Kogkmofkdkh {
@@ -25596,6 +27594,7 @@ impl Kogkmofkdkh {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Moogohdmihl {
@@ -25622,6 +27621,7 @@ impl Moogohdmihl {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Finaeombomp {
@@ -25654,6 +27654,7 @@ impl Finaeombomp {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Cakniagnigg {
@@ -25716,6 +27717,7 @@ impl Cakniagnigg {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Leieahhhhmi {
@@ -25754,6 +27756,7 @@ impl Leieahhhhmi {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Bkohkpbgpjh {
@@ -25802,6 +27805,7 @@ impl Bkohkpbgpjh {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Anlgcpekohp {
@@ -25899,6 +27903,7 @@ impl Anlgcpekohp {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Nbbckjdffba {
@@ -26003,6 +28008,7 @@ impl Nbbckjdffba {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Pdgndfeojif {
@@ -26037,6 +28043,7 @@ impl Pdgndfeojif {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Jgjcjhmakka {
@@ -26071,6 +28078,7 @@ impl Jgjcjhmakka {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Gdhjelibnfp {
@@ -26118,6 +28126,7 @@ impl Gdhjelibnfp {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Ngmdjbaanig {
@@ -26166,6 +28175,7 @@ impl Ngmdjbaanig {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Dojieelhjlp {
@@ -26214,6 +28224,7 @@ impl Dojieelhjlp {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Eafeigpfigi {
@@ -26243,6 +28254,7 @@ impl Eafeigpfigi {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Belkbhdlgkg {
@@ -26347,6 +28359,7 @@ impl Belkbhdlgkg {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Mlenmiffjlo {
@@ -26379,6 +28392,7 @@ impl Mlenmiffjlo {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum MissionStatus {
@@ -26411,6 +28425,7 @@ impl MissionStatus {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum MessageSectionStatus {
@@ -26443,6 +28458,7 @@ impl MessageSectionStatus {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum MessageGroupStatus {
@@ -26475,6 +28491,7 @@ impl MessageGroupStatus {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Ijicnomkdkc {
@@ -26504,6 +28521,7 @@ impl Ijicnomkdkc {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Cpbdjpocnai {
@@ -26548,6 +28566,7 @@ impl Cpbdjpocnai {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Ikhbiibiohd {
@@ -26607,6 +28626,7 @@ impl Ikhbiibiohd {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Dfbipgimhej {
@@ -26743,6 +28763,7 @@ impl Dfbipgimhej {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Hnapeaiabna {
@@ -26778,6 +28799,7 @@ impl Hnapeaiabna {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Mndllmpgfgj {
@@ -26821,6 +28843,7 @@ impl Mndllmpgfgj {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Pfokmnnfiap {
@@ -26945,6 +28968,7 @@ impl Pfokmnnfiap {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Hibpjakgljk {
@@ -27010,6 +29034,7 @@ impl Hibpjakgljk {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Ogodifjjdle {
@@ -27068,6 +29093,7 @@ impl Ogodifjjdle {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Mhomligaiji {
@@ -27103,6 +29129,7 @@ impl Mhomligaiji {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Aaihejacdpk {
@@ -27167,6 +29194,7 @@ impl Aaihejacdpk {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Pjmghcfmmge {
@@ -27420,6 +29448,7 @@ impl Pjmghcfmmge {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Oofkgobopdi {
@@ -27446,6 +29475,7 @@ impl Oofkgobopdi {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Lcncckjbfip {
@@ -27495,6 +29525,7 @@ impl Lcncckjbfip {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Hfjpennlffa {
@@ -27542,6 +29573,7 @@ impl Hfjpennlffa {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Ipkfoknigap {
@@ -27610,6 +29642,7 @@ impl Ipkfoknigap {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Iclildeepli {
@@ -27642,6 +29675,7 @@ impl Iclildeepli {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Lnofmmmbfch {
@@ -27680,6 +29714,7 @@ impl Lnofmmmbfch {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Iacaoojfcgh {
@@ -27717,6 +29752,7 @@ impl Iacaoojfcgh {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Icafhanhhao {
@@ -27825,6 +29861,7 @@ impl Icafhanhhao {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum CmdItemType {
@@ -27995,6 +30032,7 @@ impl CmdItemType {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum TurnFoodSwitchType {
@@ -28024,6 +30062,7 @@ impl TurnFoodSwitchType {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Emhbkpkpjpa {
@@ -28071,6 +30110,7 @@ impl Emhbkpkpjpa {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Bnnoennogkb {
@@ -28169,6 +30209,7 @@ impl Bnnoennogkb {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum LineupType {
@@ -28204,6 +30245,7 @@ impl LineupType {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum ExtraLineupType {
@@ -28263,6 +30305,7 @@ impl ExtraLineupType {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum SyncLineupReason {
@@ -28298,6 +30341,7 @@ impl SyncLineupReason {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum CmdMailType {
@@ -28348,6 +30392,7 @@ impl CmdMailType {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum MailType {
@@ -28374,6 +30419,7 @@ impl MailType {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Cjlokggbkba {
@@ -28489,6 +30535,7 @@ impl Cjlokggbkba {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Gdjpnkniijf {
@@ -28550,6 +30597,7 @@ impl Gdjpnkniijf {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Mbnnmfkffbo {
@@ -28639,6 +30687,7 @@ impl Mbnnmfkffbo {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Hgfpcfnibdo {
@@ -28668,6 +30717,7 @@ impl Hgfpcfnibdo {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Pfoklielimf {
@@ -28700,6 +30750,7 @@ impl Pfoklielimf {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Niinikapdpg {
@@ -28873,6 +30924,7 @@ impl Niinikapdpg {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Knommefnljp {
@@ -28959,6 +31011,7 @@ impl Knommefnljp {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Ihaopljgjfj {
@@ -28985,6 +31038,7 @@ impl Ihaopljgjfj {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Pcgkhmfdaei {
@@ -29025,6 +31079,7 @@ impl Pcgkhmfdaei {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Plfdpoekndo {
@@ -29477,6 +31532,7 @@ impl Plfdpoekndo {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Fnmajoaineo {
@@ -29511,6 +31567,7 @@ impl Fnmajoaineo {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Knneiidpdhm {
@@ -29543,6 +31600,7 @@ impl Knneiidpdhm {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Cpkffbbekka {
@@ -29640,6 +31698,7 @@ impl Cpkffbbekka {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Fdkapmfjgjl {
@@ -29689,6 +31748,7 @@ impl Fdkapmfjgjl {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Mkeclbphcol {
@@ -29835,6 +31895,7 @@ impl Mkeclbphcol {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Chhfkgocfgn {
@@ -29875,6 +31936,7 @@ impl Chhfkgocfgn {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Cihlhpobgai {
@@ -29907,6 +31969,7 @@ impl Cihlhpobgai {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Pbmdmmpjkio {
@@ -29939,6 +32002,7 @@ impl Pbmdmmpjkio {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Bhphoniencb {
@@ -29980,6 +32044,7 @@ impl Bhphoniencb {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Njmiomdjolc {
@@ -30021,6 +32086,7 @@ impl Njmiomdjolc {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Albfieindla {
@@ -30050,6 +32116,7 @@ impl Albfieindla {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Mffphpeaajm {
@@ -30094,6 +32161,7 @@ impl Mffphpeaajm {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Ieoildlcdkb {
@@ -30141,6 +32209,7 @@ impl Ieoildlcdkb {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum CmdPlayerType {
@@ -30394,6 +32463,7 @@ impl CmdPlayerType {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum AuthkeySignType {
@@ -30423,6 +32493,7 @@ impl AuthkeySignType {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Achkcddkkkj {
@@ -30493,6 +32564,7 @@ impl Achkcddkkkj {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Bancodieeof {
@@ -30573,6 +32645,7 @@ impl Bancodieeof {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Ipepfhojabf {
@@ -30602,6 +32675,7 @@ impl Ipepfhojabf {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Gddndfadhli {
@@ -30631,6 +32705,7 @@ impl Gddndfadhli {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Bonhjmaglan {
@@ -30779,6 +32854,7 @@ impl Bonhjmaglan {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum PunkLordOperationType {
@@ -30822,6 +32898,7 @@ impl PunkLordOperationType {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Eegmjpcijbc {
@@ -30892,6 +32969,7 @@ impl Eegmjpcijbc {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum QuestStatus {
@@ -30927,6 +33005,7 @@ impl QuestStatus {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Pnjfenbhbhg {
@@ -31026,6 +33105,7 @@ impl Pnjfenbhbhg {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Mdiocbehhbj {
@@ -31058,6 +33138,7 @@ impl Mdiocbehhbj {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Epcjmhhiifd {
@@ -31087,6 +33168,7 @@ impl Epcjmhhiifd {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Mldgocoemih {
@@ -31117,6 +33199,7 @@ impl Mldgocoemih {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Fgjkemenbom {
@@ -31149,6 +33232,7 @@ impl Fgjkemenbom {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Ghipcflcped {
@@ -31198,6 +33282,7 @@ impl Ghipcflcped {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Geeklapjbhm {
@@ -31227,6 +33312,7 @@ impl Geeklapjbhm {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Nnkafcdkmoc {
@@ -31262,6 +33348,7 @@ impl Nnkafcdkmoc {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Hmnbojnkleh {
@@ -31297,6 +33384,7 @@ impl Hmnbojnkleh {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Ddhbjcelmjp {
@@ -31600,6 +33688,7 @@ impl Ddhbjcelmjp {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Mlcdpmiblbk {
@@ -31635,6 +33724,7 @@ impl Mlcdpmiblbk {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Nhcljljbnac {
@@ -31670,6 +33760,7 @@ impl Nhcljljbnac {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Efhdeoklmfi {
@@ -31702,6 +33793,7 @@ impl Efhdeoklmfi {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Gchociecpbp {
@@ -31764,6 +33856,7 @@ impl Gchociecpbp {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Emlajepdgnp {
@@ -31847,6 +33940,7 @@ impl Emlajepdgnp {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Pcpjccgafgb {
@@ -31873,6 +33967,7 @@ impl Pcpjccgafgb {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Kfmpmaojchm {
@@ -32124,6 +34219,7 @@ impl Kfmpmaojchm {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Aaoldjnkkkj {
@@ -32172,6 +34268,7 @@ impl Aaoldjnkkkj {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Mpgalnachlc {
@@ -32227,6 +34324,7 @@ impl Mpgalnachlc {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Mmeamkolmog {
@@ -32268,6 +34366,7 @@ impl Mmeamkolmog {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Cmhbbmokjjb {
@@ -32323,6 +34422,7 @@ impl Cmhbbmokjjb {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Epnljgcjiph {
@@ -32364,6 +34464,7 @@ impl Epnljgcjiph {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Kiopbiapfnm {
@@ -32412,6 +34513,7 @@ impl Kiopbiapfnm {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Lnlneogceaf {
@@ -32453,6 +34555,7 @@ impl Lnlneogceaf {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Bpakkdmjink {
@@ -32494,6 +34597,7 @@ impl Bpakkdmjink {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Mneneelgfmg {
@@ -32598,6 +34702,7 @@ impl Mneneelgfmg {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Jaaajkhfbdh {
@@ -32627,6 +34732,7 @@ impl Jaaajkhfbdh {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Bpdmocjafke {
@@ -32713,6 +34819,7 @@ impl Bpdmocjafke {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Jeoikkecmha {
@@ -32766,6 +34873,7 @@ impl Jeoikkecmha {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Lcmlaclkndi {
@@ -32836,6 +34944,7 @@ impl Lcmlaclkndi {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Gmhccidmemo {
@@ -32864,6 +34973,7 @@ impl Gmhccidmemo {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Apmnfogkhkc {
@@ -32905,6 +35015,7 @@ impl Apmnfogkhkc {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Cmpepmnekko {
@@ -33277,6 +35388,7 @@ impl Cmpepmnekko {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Njjdcpggfma {
@@ -33310,6 +35422,7 @@ impl Njjdcpggfma {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Aggoobcfjlh {
@@ -33357,6 +35470,7 @@ impl Aggoobcfjlh {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Ffnhcbelgpd {
@@ -33401,6 +35515,7 @@ impl Ffnhcbelgpd {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Kihbdaniehp {
@@ -33433,6 +35548,7 @@ impl Kihbdaniehp {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Oigihagkoib {
@@ -33481,6 +35597,7 @@ impl Oigihagkoib {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Njdmhcchfdj {
@@ -33510,6 +35627,7 @@ impl Njdmhcchfdj {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Blhamckfdhj {
@@ -33551,6 +35669,7 @@ impl Blhamckfdhj {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Ijnojppaebg {
@@ -33595,6 +35714,7 @@ impl Ijnojppaebg {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Hohcdddidom {
@@ -33663,6 +35783,7 @@ impl Hohcdddidom {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Clfdalnicmi {
@@ -33715,6 +35836,7 @@ impl Clfdalnicmi {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Dcbpclncjec {
@@ -33753,6 +35875,7 @@ impl Dcbpclncjec {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Hhlllkbgleg {
@@ -33815,6 +35938,7 @@ impl Hhlllkbgleg {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Dgflckcfdme {
@@ -33841,6 +35965,7 @@ impl Dgflckcfdme {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Ojecndgmmji {
@@ -33922,6 +36047,7 @@ impl Ojecndgmmji {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Hpefkjfflap {
@@ -33987,6 +36113,7 @@ impl Hpefkjfflap {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Lopidcokdih {
@@ -34028,6 +36155,7 @@ impl Lopidcokdih {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Oajoflcacce {
@@ -34131,6 +36259,7 @@ impl Oajoflcacce {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Mindihbkmie {
@@ -34168,6 +36297,7 @@ impl Mindihbkmie {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Edognimhmai {
@@ -34200,6 +36330,7 @@ impl Edognimhmai {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Pnbikakpngm {
@@ -34241,6 +36372,7 @@ impl Pnbikakpngm {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Ggcccfoaihl {
@@ -34396,6 +36528,7 @@ impl Ggcccfoaihl {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Nhnehbekhhj {
@@ -34425,6 +36558,7 @@ impl Nhnehbekhhj {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Pefolbeomfh {
@@ -34454,6 +36588,7 @@ impl Pefolbeomfh {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Gaifgoihffa {
@@ -34573,6 +36708,7 @@ impl Gaifgoihffa {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Phpcidgokmb {
@@ -34769,6 +36905,7 @@ impl Phpcidgokmb {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Gepaombhmnm {
@@ -34828,6 +36965,7 @@ impl Gepaombhmnm {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum TutorialStatus {
@@ -34857,6 +36995,7 @@ impl TutorialStatus {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Emghhjhkogo {
@@ -34907,6 +37046,7 @@ impl Emghhjhkogo {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Oihdaljgdan {
@@ -34936,6 +37076,7 @@ impl Oihdaljgdan {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Hogiljncndo {
@@ -34965,6 +37106,7 @@ impl Hogiljncndo {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Baelkbdlpnk {
@@ -35081,6 +37223,7 @@ impl Baelkbdlpnk {
         }
     }
 }
+#[derive(serde::Serialize, serde::Deserialize)]
 #[derive(Clone, Copy, Debug, PartialEq, Eq, Hash, PartialOrd, Ord, ::prost::Enumeration)]
 #[repr(i32)]
 pub enum Djondipanml {
