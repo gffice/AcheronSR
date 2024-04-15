@@ -4,3 +4,7 @@ edition = "2021"
 version.workspace = true
 
 [dependencies]
+tracing.workspace = true
+lazy_static.workspace = true
+serde.workspace = true
+serde_json.workspace = true

@@ -1,12 +1,11 @@
 use anyhow::Result;
 
-mod data;
 mod game;
 mod logging;
 mod net;
 mod util;
 
-use data::init_assets;
+use common::data::init_assets;
 use game::init_config;
 use logging::init_tracing;
 

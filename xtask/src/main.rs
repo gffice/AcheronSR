@@ -23,7 +23,6 @@ fn spawn_servers(release: bool) -> Result<(), Box<dyn std::error::Error>> {
     let tx1 = tx.clone();
     let handle1 = thread::spawn(move || {
         let mut gameserver = Command::new("cargo")
-            .current_dir("gameserver")
             .arg("run")
             .arg("--bin")
             .arg("gameserver")
@@ -39,7 +38,6 @@ fn spawn_servers(release: bool) -> Result<(), Box<dyn std::error::Error>> {
 
     let handle2 = thread::spawn(move || {
         let mut sdkserver = Command::new("cargo")
-            .current_dir("sdkserver")
             .arg("run")
             .arg("--bin")
             .arg("sdkserver")

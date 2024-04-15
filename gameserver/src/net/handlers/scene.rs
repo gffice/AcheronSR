@@ -1,4 +1,4 @@
-use crate::data::EXCEL_COLLECTION;
+use common::data::EXCEL_COLLECTION;
 
 use super::*;
 
