@@ -1,8 +1,12 @@
 use anyhow::Result;
+use axum::extract::Request;
 use axum::routing::{get, post};
-use axum::Router;
+use axum::{Router, ServiceExt};
 use logging::init_tracing;
 use services::{auth, dispatch, errors};
+use tokio::net::TcpListener;
+use tower::Layer;
+use tower_http::normalize_path::NormalizePathLayer;
 use tracing::Level;
 
 mod config;
@@ -18,7 +22,7 @@ async fn main() -> Result<()> {
     let span = tracing::span!(Level::DEBUG, "main");
     let _ = span.enter();
 
-    let router = Router::new()
+    let app = Router::new()
         .route(
             dispatch::QUERY_DISPATCH_ENDPOINT,
             get(dispatch::query_dispatch),
@@ -42,11 +46,13 @@ async fn main() -> Result<()> {
         )
         .fallback(errors::not_found);
 
+    let app = NormalizePathLayer::trim_trailing_slash().layer(app);
+
     let addr = format!("0.0.0.0:{PORT}");
-    let server = axum_server::bind(addr.parse()?);
+    let server = TcpListener::bind(&addr).await?;
 
     tracing::info!("sdkserver is listening at {addr}");
-    server.serve(router.into_make_service()).await?;
+    axum::serve(server, ServiceExt::<Request>::into_make_service(app)).await?;
 
     Ok(())
 }
