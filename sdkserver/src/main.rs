@@ -2,7 +2,6 @@ use anyhow::Result;
 use axum::extract::Request;
 use axum::routing::{get, post};
 use axum::{Router, ServiceExt};
-use logging::init_tracing;
 use services::{auth, dispatch, errors};
 use tokio::net::TcpListener;
 use tower::Layer;
@@ -13,11 +12,15 @@ mod config;
 mod logging;
 mod services;
 
+use config::init_config;
+use logging::init_tracing;
+
 const PORT: u16 = 21000;
 
 #[tokio::main]
 async fn main() -> Result<()> {
     init_tracing();
+    init_config();
 
     let span = tracing::span!(Level::DEBUG, "main");
     let _ = span.enter();
