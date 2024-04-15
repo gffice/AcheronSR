@@ -1,5 +1,5 @@
 [workspace]
-members = ["gameserver", "proto", "sdkserver", "xtask"]
+members = ["common", "gameserver", "proto", "sdkserver", "xtask"]
 resolver = "2"
 
 [workspace.package]
@@ -51,6 +51,7 @@ tracing-subscriber = { version = "0.3.18", features = [
 ] }
 tracing-bunyan-formatter = "0.3.9"
 
+common = { path = "common/" }
 proto = { path = "proto/" }
 
 [profile.release]
