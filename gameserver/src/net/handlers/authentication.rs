@@ -32,7 +32,7 @@ pub async fn on_player_login_cs_req(
                 server_timestamp_ms: util::cur_timestamp_ms(),
                 stamina: 240,
                 basic_info: Some(PlayerBasicInfo {
-                    nickname: String::from("xeondev"),
+                    nickname: String::from("AcheronSR"),
                     level: 5,
                     stamina: 240,
                     ..Default::default()

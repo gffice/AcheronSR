@@ -12,7 +12,7 @@ pub async fn login_with_password() -> Json<serde_json::Value> {
     "data": {
         "account": {
             "area_code": "**",
-            "email": "ReversedRooms",
+            "email": "AcheronSR",
             "country": "RU",
             "is_email_verify": "1",
             "token": "mostsecuretokenever",
@@ -34,7 +34,7 @@ pub async fn login_with_session_token() -> Json<serde_json::Value> {
     "data": {
         "account": {
             "area_code": "**",
-            "email": "ReversedRooms",
+            "email": "AcheronSR",
             "country": "RU",
             "is_email_verify": "1",
             "token": "mostsecuretokenever",

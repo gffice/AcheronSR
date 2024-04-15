@@ -1,7 +1,7 @@
-# RobinSR
+# AcheronSR
 
 A Server emulator for the game [`Honkai: Star Rail`](https://hsr.hoyoverse.com/en-us/)
-![screenshot](https://git.xeondev.com/reversedrooms/RobinSR/raw/branch/master/screenshot.png)
+![screenshot](https://git.xeondev.com/reversedrooms/AcheronSR/raw/branch/master/screenshot.png)
 
 ## Installation
 
@@ -16,8 +16,8 @@ A Server emulator for the game [`Honkai: Star Rail`](https://hsr.hoyoverse.com/e
 ##### Manually
 
 ```sh
-git clone https://git.xeondev.com/reversedrooms/RobinSR.git
-cd RobinSR
+git clone https://git.xeondev.com/reversedrooms/AcheronSR.git
+cd AcheronSR
 cargo install --path gameserver
 cargo install --path sdkserver
 ```
@@ -36,7 +36,7 @@ cargo xtask watch
 
 ### From Pre-built Binaries
 
-Navigate to the [Releases](https://git.xeondev.com/reversedrooms/RobinSR/releases)
+Navigate to the [Releases](https://git.xeondev.com/reversedrooms/AcheronSR/releases)
 page and download the latest release for your platform.
 
 ## Usage
@@ -63,7 +63,7 @@ run the following in a terminal:
 ## Connecting
 
 [Get 2.2 beta client](https://bhrpg-prod.oss-accelerate.aliyuncs.com/client/beta/20240322124944_scfGE0xJXlWtoJ1r/StarRail_2.1.51.zip),
-replace [mhypbase.dll](https://git.xeondev.com/reversedrooms/RobinSR/raw/branch/master/mhypbase.dll)
+replace [mhypbase.dll](https://git.xeondev.com/reversedrooms/AcheronSR/raw/branch/master/mhypbase.dll)
 file in your game folder, it will redirect game traffic (and disable in-game censorship)
 
 ## Contributing
