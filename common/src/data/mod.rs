@@ -26,7 +26,8 @@ impl ExcelCollection {
         }
     }
 
-    pub fn table_count(&self) -> usize {
+    #[must_use]
+    pub const fn table_count(&self) -> usize {
         1
     }
 }

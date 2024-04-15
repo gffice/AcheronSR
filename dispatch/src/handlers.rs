@@ -13,8 +13,8 @@ pub async fn query_dispatch() -> String {
         retcode: 0,
         region_list: CONFIGURATION
             .game_servers
-            .iter()
-            .map(|(_, c)| RegionInfo {
+            .values()
+            .map(|c| RegionInfo {
                 name: c.name.clone(),
                 title: c.title.clone(),
                 env_type: c.env_type.clone(),
@@ -46,7 +46,7 @@ pub async fn query_gateway(
             Gateserver {
                 retcode: 0,
                 ip: server_config.gateserver_ip.clone(),
-                port: server_config.gateserver_port as u32,
+                port: u32::from(server_config.gateserver_port),
                 asset_bundle_url: version_config.asset_bundle_url.clone(),
                 ex_resource_url: version_config.ex_resource_url.clone(),
                 lua_url: version_config.lua_url.clone(),
