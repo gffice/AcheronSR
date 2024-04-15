@@ -1,8 +1,9 @@
 use anyhow::Result;
+use common::log_error;
 use tokio::net::TcpListener;
 use tracing::{info_span, Instrument};
 
-use crate::{log_error, net::PlayerSession};
+use crate::net::PlayerSession;
 
 pub async fn listen(host: &str, port: u16) -> Result<()> {
     let listener = TcpListener::bind(format!("{host}:{port}")).await?;

@@ -1,21 +1,24 @@
 use anyhow::Result;
+use axum::body::Body;
 use axum::extract::Request;
 use axum::routing::{get, post};
 use axum::{Router, ServiceExt};
-use services::{auth, dispatch, errors};
+use hyper_util::{client::legacy::connect::HttpConnector, rt::TokioExecutor};
+use services::{auth, errors};
 use tokio::net::TcpListener;
 use tower::Layer;
 use tower_http::normalize_path::NormalizePathLayer;
 use tracing::Level;
 
+type Client = hyper_util::client::legacy::Client<HttpConnector, Body>;
+
 mod config;
-mod logging;
 mod services;
 
-use config::init_config;
-use logging::init_tracing;
+use common::logging::init_tracing;
 
-const PORT: u16 = 21000;
+use config::{init_config, CONFIGURATION};
+use services::reverse_proxy;
 
 #[tokio::main]
 async fn main() -> Result<()> {
@@ -25,14 +28,16 @@ async fn main() -> Result<()> {
     let span = tracing::span!(Level::DEBUG, "main");
     let _ = span.enter();
 
+    // For dispatch reverse proxy
+    let client: Client =
+        hyper_util::client::legacy::Client::<(), ()>::builder(TokioExecutor::new())
+            .build(HttpConnector::new());
+
     let app = Router::new()
+        .route("/query_dispatch", get(reverse_proxy::forward_to_dispatch))
         .route(
-            dispatch::QUERY_DISPATCH_ENDPOINT,
-            get(dispatch::query_dispatch),
-        )
-        .route(
-            dispatch::QUERY_GATEWAY_ENDPOINT,
-            get(dispatch::query_gateway),
+            "/query_gateway/:region_name",
+            get(reverse_proxy::forward_to_dispatch),
         )
         .route(auth::RISKY_API_CHECK_ENDPOINT, post(auth::risky_api_check))
         .route(
@@ -47,11 +52,12 @@ async fn main() -> Result<()> {
             auth::GRANTER_LOGIN_VERIFICATION_ENDPOINT,
             post(auth::granter_login_verification),
         )
-        .fallback(errors::not_found);
+        .fallback(errors::not_found)
+        .with_state(client);
 
     let app = NormalizePathLayer::trim_trailing_slash().layer(app);
 
-    let addr = format!("0.0.0.0:{PORT}");
+    let addr = format!("0.0.0.0:{}", CONFIGURATION.http_port);
     let server = TcpListener::bind(&addr).await?;
 
     tracing::info!("sdkserver is listening at {addr}");

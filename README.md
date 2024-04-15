@@ -18,8 +18,9 @@ A Server emulator for the game [`Honkai: Star Rail`](https://hsr.hoyoverse.com/e
 ```sh
 git clone https://git.xeondev.com/reversedrooms/AcheronSR.git
 cd AcheronSR
-cargo install --path gameserver
-cargo install --path sdkserver
+cargo build --bin gameserver
+cargo build --bin dispatch
+cargo build --bin sdkserver
 ```
 
 ##### Using xtasks (use this if stupid)
@@ -43,22 +44,17 @@ page and download the latest release for your platform.
 
 To begin using the server, you need to run both the SDK server and the game server.
 
-If you installed from source, Rust's installer should have added .cargo/bin to your
-path, so simply run the following:
-
-```sh
-gameserver
-sdkserver
-```
-
 If you installed from pre-built binaries, navigate to the directory where you downloaded
 the binaries and either a) double-click on the following executable names or b)
 run the following in a terminal:
 
 ```sh
 ./gameserver
+./dispatch
 ./sdkserver
 ```
+
+##### Note: the `assets` folder should be in the same directory with the `gameserver`, otherwise it will panic.
 
 ## Connecting
 

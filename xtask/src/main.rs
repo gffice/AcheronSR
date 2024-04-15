@@ -36,6 +36,7 @@ fn spawn_servers(release: bool) -> Result<(), Box<dyn std::error::Error>> {
         Ok::<(), io::Error>(())
     });
 
+    let tx2 = tx.clone();
     let handle2 = thread::spawn(move || {
         let mut sdkserver = Command::new("cargo")
             .arg("run")
@@ -46,6 +47,21 @@ fn spawn_servers(release: bool) -> Result<(), Box<dyn std::error::Error>> {
             .expect("failed to start sdkserver");
 
         let _ = sdkserver.wait()?;
+        tx2.send(()).expect("failed to send completion signal");
+
+        Ok::<(), io::Error>(())
+    });
+
+    let handle3 = thread::spawn(move || {
+        let mut dispatch = Command::new("cargo")
+            .arg("run")
+            .arg("--bin")
+            .arg("dispatch")
+            .args(if release { vec!["--release"] } else { vec![] })
+            .spawn()
+            .expect("failed to start dispatch");
+
+        let _ = dispatch.wait()?;
         tx.send(()).expect("failed to send completion signal");
 
         Ok::<(), io::Error>(())
@@ -55,6 +71,7 @@ fn spawn_servers(release: bool) -> Result<(), Box<dyn std::error::Error>> {
 
     handle1.join().expect("failed to join gameserver thread")?;
     handle2.join().expect("failed to join sdkserver thread")?;
+    handle3.join().expect("failed to join dispatch thread")?;
 
     Ok(())
 }

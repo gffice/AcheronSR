@@ -1,13 +1,12 @@
 use anyhow::Result;
 
 mod game;
-mod logging;
 mod net;
 mod util;
 
 use common::data::init_assets;
+use common::logging::init_tracing;
 use game::init_config;
-use logging::init_tracing;
 
 #[tokio::main]
 async fn main() -> Result<()> {
